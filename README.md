@@ -261,3 +261,11 @@ MIT © [Gingiris](https://gingiris.com) — Built by [Iris](https://twitter.com/
 <p align="center">
   <b>⭐ Star this repo to keep updated with new tools!</b>
 </p>
+
+---
+
+<p align="center">
+  <a href="https://postmake.io" target="_blank">
+    <img src="https://postmake.io/badge.svg" alt="Featured on Postmake">
+  </a>
+</p>
