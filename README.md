@@ -57,6 +57,14 @@
 
 ## 📤 社媒触达工具 Social Outreach
 
+### 多平台 Multi-Platform
+
+| 工具 | 适用平台 | 描述 | 定价 | 链接 |
+|:-----|:-----|:-----|:-----|:-----|
+| **GeeLark** | Instagram/Facebook/YouTube/TikTok/X/Reddit/Snapchat/Pinterest | AI copilot for social media marketing | Paid | [geelark.com](https://www.geelark.com/?utm_source=Gingiris) |
+
+> 📖 GeeLark 详细教程: [飞书文档](https://geelark42.feishu.cn/docx/EEAZdlszBovZIyxWLXzcToC7nYf)
+
 ### Twitter/X
 
 | 工具 | 描述 | 定价 | 链接 |
