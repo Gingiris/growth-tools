@@ -1,0 +1,95 @@
+name: 🛠️ Submit a Tool | 提交工具
+description: Submit a new growth tool to be added to the collection
+title: "[Tool] "
+labels: ["tool-submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for submitting a tool! Please fill out the form below.
+        感谢提交工具！请填写以下信息。
+
+  - type: input
+    id: tool-name
+    attributes:
+      label: Tool Name | 工具名称
+      placeholder: e.g. GeeLark
+    validations:
+      required: true
+
+  - type: input
+    id: tool-url
+    attributes:
+      label: Tool URL | 工具链接
+      placeholder: https://example.com
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description | 描述
+      description: Brief description of what the tool does (1-2 sentences)
+      placeholder: AI copilot for social media marketing
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category | 分类
+      options:
+        - 社媒监听 Social Listening
+        - KOL管理 Influencer Management
+        - 社媒触达 Social Outreach
+        - Reddit 增长 Reddit Growth
+        - SEO 工具 SEO Tools
+        - 链接追踪 Link Tracking
+        - UGC 管理 UGC Management
+        - 社区发现 Community Discovery
+        - 内容创作 Content Creation
+        - 埋点分析 Analytics
+        - 邮件营销 Email Marketing
+        - 广告投放 Advertising
+        - 其他 Other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: pricing
+    attributes:
+      label: Pricing | 定价
+      options:
+        - Free
+        - Freemium
+        - Paid
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: platforms
+    attributes:
+      label: Platforms | 适用平台 (if applicable)
+      options:
+        - label: Twitter/X
+        - label: Instagram
+        - label: Facebook
+        - label: LinkedIn
+        - label: YouTube
+        - label: TikTok
+        - label: Reddit
+        - label: Snapchat
+        - label: Pinterest
+        - label: Other
+
+  - type: input
+    id: docs
+    attributes:
+      label: Documentation | 文档链接 (optional)
+      placeholder: https://docs.example.com
+
+  - type: textarea
+    id: why
+    attributes:
+      label: Why should we add this? | 为什么推荐这个工具？
+      placeholder: I've been using it for 6 months and it helped me grow my Twitter following by 50%...

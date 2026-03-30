@@ -140,6 +140,16 @@
         }
         
         .header-links a:hover { color: var(--text); }
+        .header-links .submit-btn {
+            background: var(--accent);
+            color: #fff !important;
+            padding: 6px 12px;
+            border-radius: 6px;
+            font-weight: 500;
+        }
+        .header-links .submit-btn:hover {
+            background: #2563eb;
+        }
         
         /* Main Layout */
         .main {
@@ -410,6 +420,7 @@
                 <input type="text" id="searchInput" placeholder="搜索工具... (e.g. KOL, Reddit, SEO)">
             </div>
             <nav class="header-links">
+                <a href="https://github.com/Gingiris/growth-tools/issues/new?template=submit-tool.yml" class="submit-btn">➕ Submit Tool</a>
                 <a href="/growth-tools/blog/">📝 Blog</a>
                 <a href="https://github.com/Gingiris/growth-tools">⭐ GitHub</a>
                 <a href="https://github.com/Gingiris/gingiris-launch">📚 Playbooks</a>
