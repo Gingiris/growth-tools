@@ -1,0 +1,76 @@
+---
+layout: default
+---
+<article class="post">
+    <header class="post-header">
+        <p class="post-meta">
+            <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y年%m月%d日" }}</time>
+            {% if page.tags.size > 0 %}
+            · {% for tag in page.tags %}<span class="tag">{{ tag }}</span>{% unless forloop.last %}, {% endunless %}{% endfor %}
+            {% endif %}
+        </p>
+        <h1 class="post-title">{{ page.title }}</h1>
+        {% if page.description %}
+        <p class="post-desc">{{ page.description }}</p>
+        {% endif %}
+    </header>
+    
+    <div class="post-content">
+        {{ content }}
+    </div>
+    
+    <footer class="post-footer">
+        <p>—</p>
+        <p>作者: <a href="https://twitter.com/Iris_carrot">@Iris</a> · 更多增长工具: <a href="{{ site.baseurl }}/">Growth Tools</a></p>
+    </footer>
+</article>
+
+<style>
+    .post-header { margin-bottom: 40px; }
+    .post-meta { color: var(--text-secondary); font-size: 14px; margin-bottom: 12px; }
+    .post-title { font-size: 32px; line-height: 1.3; margin-bottom: 16px; }
+    .post-desc { font-size: 18px; color: var(--text-secondary); }
+    .tag { background: var(--surface); padding: 2px 8px; border-radius: 4px; font-size: 12px; }
+    
+    .post-content { font-size: 17px; }
+    .post-content h2 { font-size: 24px; margin: 40px 0 16px; }
+    .post-content h3 { font-size: 20px; margin: 32px 0 12px; }
+    .post-content p { margin-bottom: 20px; }
+    .post-content ul, .post-content ol { margin-bottom: 20px; padding-left: 24px; }
+    .post-content li { margin-bottom: 8px; }
+    .post-content blockquote {
+        border-left: 3px solid var(--accent);
+        padding-left: 20px;
+        margin: 24px 0;
+        color: var(--text-secondary);
+    }
+    .post-content code {
+        background: var(--surface);
+        padding: 2px 6px;
+        border-radius: 4px;
+        font-size: 14px;
+    }
+    .post-content pre {
+        background: var(--surface);
+        padding: 16px;
+        border-radius: 8px;
+        overflow-x: auto;
+        margin-bottom: 20px;
+    }
+    .post-content pre code { background: none; padding: 0; }
+    .post-content img { max-width: 100%; border-radius: 8px; margin: 24px 0; }
+    .post-content a { color: var(--accent); }
+    .post-content table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 24px 0;
+    }
+    .post-content th, .post-content td {
+        border: 1px solid var(--border);
+        padding: 12px;
+        text-align: left;
+    }
+    .post-content th { background: var(--surface); }
+    
+    .post-footer { margin-top: 60px; padding-top: 24px; border-top: 1px solid var(--border); color: var(--text-secondary); }
+</style>

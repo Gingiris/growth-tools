@@ -1,0 +1,62 @@
+---
+layout: default
+title: Blog - 出海增长实战
+description: 出海增长经验分享、工具测评、SEO/GEO 策略
+---
+
+<div class="blog-header">
+    <h1>📝 出海增长 Blog</h1>
+    <p>实战经验、工具测评、SEO/GEO 策略分享</p>
+</div>
+
+<div class="post-list">
+    {% for post in site.posts %}
+    <article class="post-card">
+        <a href="{{ post.url | prepend: site.baseurl }}">
+            <time class="post-date">{{ post.date | date: "%Y-%m-%d" }}</time>
+            <h2 class="post-title">{{ post.title }}</h2>
+            {% if post.description %}
+            <p class="post-excerpt">{{ post.description }}</p>
+            {% endif %}
+            {% if post.tags.size > 0 %}
+            <div class="post-tags">
+                {% for tag in post.tags %}<span class="tag">{{ tag }}</span>{% endfor %}
+            </div>
+            {% endif %}
+        </a>
+    </article>
+    {% endfor %}
+    
+    {% if site.posts.size == 0 %}
+    <div class="no-posts">
+        <p>🚧 文章即将上线，敬请期待！</p>
+        <p>关注 <a href="https://twitter.com/Iris_carrot">@Iris</a> 获取更新</p>
+    </div>
+    {% endif %}
+</div>
+
+<style>
+    .blog-header { text-align: center; margin-bottom: 48px; }
+    .blog-header h1 { font-size: 32px; margin-bottom: 12px; }
+    .blog-header p { color: var(--text-secondary); font-size: 18px; }
+    
+    .post-list { display: flex; flex-direction: column; gap: 16px; }
+    
+    .post-card {
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        transition: all 0.2s;
+    }
+    .post-card:hover { border-color: var(--accent); transform: translateY(-2px); }
+    .post-card a { display: block; padding: 24px; color: inherit; text-decoration: none; }
+    
+    .post-date { font-size: 13px; color: var(--text-secondary); }
+    .post-title { font-size: 20px; margin: 8px 0; }
+    .post-excerpt { color: var(--text-secondary); font-size: 15px; margin-bottom: 12px; }
+    .post-tags { display: flex; gap: 8px; flex-wrap: wrap; }
+    .tag { background: var(--bg); padding: 4px 10px; border-radius: 12px; font-size: 12px; color: var(--text-secondary); }
+    
+    .no-posts { text-align: center; padding: 60px 20px; color: var(--text-secondary); }
+    .no-posts p { margin-bottom: 12px; }
+</style>

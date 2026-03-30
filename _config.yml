@@ -1,0 +1,44 @@
+# Site settings
+title: Growth Tools Blog
+description: 出海增长实战经验、工具测评、SEO/GEO 策略分享
+url: "https://gingiris.github.io"
+baseurl: "/growth-tools"
+author: Iris
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /blog/:year/:month/:title/
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+# SEO
+twitter:
+  username: Iris_carrot
+  card: summary_large_image
+
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /blog/:year/:month/:title/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Iris"
+
+# Exclude
+exclude:
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
