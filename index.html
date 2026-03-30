@@ -3,638 +3,685 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>出海增长工具集合 | 100+ Growth Tools for Startups</title>
-    <meta name="description" content="精选100+出海增长工具，涵盖KOL管理、SEO分析、Reddit增长、UGC管理等。基于30x Product Hunt #1经验整理。">
-    <meta name="keywords" content="growth tools, startup tools, marketing tools, SEO tools, KOL management, Reddit marketing, 出海工具, 增长工具">
+    
+    <!-- Primary Meta Tags -->
+    <title>出海增长工具集 | 100+ Growth Tools for Global Launch</title>
+    <meta name="title" content="出海增长工具集 | 100+ Growth Tools for Global Launch">
+    <meta name="description" content="精选100+出海增长工具：社媒监听、KOL管理、Reddit增长、SEO工具、UGC管理。基于AFFiNE 33k stars和30x PH #1的实战经验整理。">
+    <meta name="keywords" content="出海工具, growth tools, 增长工具, KOL工具, Reddit营销, SEO工具, Product Hunt, 社媒监听, UGC管理">
+    <meta name="author" content="Gingiris">
+    <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://gingiris.github.io/growth-tools/">
     
     <!-- Open Graph -->
-    <meta property="og:title" content="出海增长工具集合 | 100+ Growth Tools">
-    <meta property="og:description" content="精选100+出海增长工具，基于30x Product Hunt #1经验整理">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://gingiris.github.io/growth-tools/">
+    <meta property="og:title" content="出海增长工具集 | 100+ Growth Tools">
+    <meta property="og:description" content="精选100+出海增长工具，基于AFFiNE 33k stars和30x PH #1实战经验。">
+    <meta property="og:site_name" content="Gingiris Growth Tools">
     
-    <!-- Twitter Cards -->
+    <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="出海增长工具集合 | 100+ Growth Tools">
-    <meta name="twitter:description" content="精选100+出海增长工具，基于30x Product Hunt #1经验整理">
+    <meta name="twitter:title" content="出海增长工具集 | 100+ Growth Tools">
+    <meta name="twitter:description" content="精选100+出海增长工具，基于实战经验整理。">
     <meta name="twitter:creator" content="@Iris_carrot">
     
+    <!-- JSON-LD -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Gingiris Growth Tools",
+        "description": "出海增长工具目录，精选100+实战验证的增长工具",
+        "url": "https://gingiris.github.io/growth-tools/",
+        "applicationCategory": "BusinessApplication",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+        "author": { "@type": "Person", "name": "Iris", "url": "https://twitter.com/Iris_carrot" }
+    }
+    </script>
+    
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
         
         :root {
-            --primary: #6366f1;
-            --primary-dark: #4f46e5;
             --bg: #0f0f0f;
-            --card-bg: #1a1a1a;
-            --text: #ffffff;
-            --text-muted: #a1a1aa;
-            --border: #27272a;
-            --accent: #22c55e;
+            --surface: #1a1a1a;
+            --surface-hover: #222;
+            --border: #2a2a2a;
+            --text: #fff;
+            --text-secondary: #888;
+            --accent: #6366f1;
+            --accent-hover: #818cf8;
+            --green: #22c55e;
+            --blue: #3b82f6;
+            --orange: #f97316;
+            --pink: #ec4899;
         }
         
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
             background: var(--bg);
             color: var(--text);
-            line-height: 1.6;
+            line-height: 1.5;
         }
         
-        .container {
-            max-width: 1200px;
+        a { color: inherit; text-decoration: none; }
+        
+        /* Header */
+        .header {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: rgba(15, 15, 15, 0.9);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border);
+            padding: 12px 24px;
+        }
+        
+        .header-inner {
+            max-width: 1400px;
             margin: 0 auto;
-            padding: 0 20px;
-        }
-        
-        /* Hero */
-        .hero {
-            padding: 80px 0 60px;
-            text-align: center;
-            background: linear-gradient(180deg, #1a1a2e 0%, var(--bg) 100%);
-        }
-        
-        .hero-badge {
-            display: inline-block;
-            background: var(--primary);
-            color: white;
-            padding: 6px 16px;
-            border-radius: 20px;
-            font-size: 14px;
-            margin-bottom: 20px;
-        }
-        
-        .hero h1 {
-            font-size: 3rem;
-            font-weight: 800;
-            margin-bottom: 16px;
-            background: linear-gradient(135deg, #fff 0%, #a1a1aa 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-        
-        .hero p {
-            font-size: 1.25rem;
-            color: var(--text-muted);
-            max-width: 600px;
-            margin: 0 auto 30px;
-        }
-        
-        .hero-stats {
             display: flex;
-            justify-content: center;
-            gap: 40px;
-            margin-bottom: 30px;
+            align-items: center;
+            gap: 24px;
         }
         
-        .stat {
-            text-align: center;
-        }
-        
-        .stat-value {
-            font-size: 2rem;
+        .logo {
+            font-size: 20px;
             font-weight: 700;
-            color: var(--primary);
-        }
-        
-        .stat-label {
-            font-size: 14px;
-            color: var(--text-muted);
-        }
-        
-        .hero-buttons {
             display: flex;
-            gap: 12px;
-            justify-content: center;
-            flex-wrap: wrap;
-        }
-        
-        .btn {
-            display: inline-flex;
             align-items: center;
             gap: 8px;
-            padding: 12px 24px;
-            border-radius: 8px;
-            font-size: 16px;
-            font-weight: 600;
-            text-decoration: none;
-            transition: all 0.2s;
+            white-space: nowrap;
         }
         
-        .btn-primary {
-            background: var(--primary);
-            color: white;
-        }
+        .logo span { color: var(--accent); }
         
-        .btn-primary:hover {
-            background: var(--primary-dark);
-            transform: translateY(-2px);
-        }
-        
-        .btn-secondary {
-            background: var(--card-bg);
-            color: white;
-            border: 1px solid var(--border);
-        }
-        
-        .btn-secondary:hover {
-            border-color: var(--primary);
-        }
-        
-        /* Search & Filter */
-        .filter-section {
-            padding: 40px 0;
-            border-bottom: 1px solid var(--border);
-        }
-        
+        /* Search */
         .search-box {
-            display: flex;
-            gap: 12px;
-            margin-bottom: 20px;
-        }
-        
-        .search-input {
             flex: 1;
-            padding: 12px 16px;
-            border-radius: 8px;
+            max-width: 500px;
+            position: relative;
+        }
+        
+        .search-box input {
+            width: 100%;
+            padding: 10px 16px 10px 40px;
+            background: var(--surface);
             border: 1px solid var(--border);
-            background: var(--card-bg);
-            color: white;
-            font-size: 16px;
+            border-radius: 8px;
+            color: var(--text);
+            font-size: 14px;
         }
         
-        .search-input:focus {
+        .search-box input:focus {
             outline: none;
-            border-color: var(--primary);
+            border-color: var(--accent);
         }
         
-        .category-filters {
+        .search-box::before {
+            content: "🔍";
+            position: absolute;
+            left: 12px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 14px;
+        }
+        
+        .header-links {
+            display: flex;
+            gap: 16px;
+            font-size: 14px;
+        }
+        
+        .header-links a {
+            color: var(--text-secondary);
+            transition: color 0.2s;
+        }
+        
+        .header-links a:hover { color: var(--text); }
+        
+        /* Main Layout */
+        .main {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            min-height: calc(100vh - 60px);
+        }
+        
+        /* Sidebar */
+        .sidebar {
+            width: 220px;
+            padding: 24px 16px;
+            border-right: 1px solid var(--border);
+            position: sticky;
+            top: 60px;
+            height: calc(100vh - 60px);
+            overflow-y: auto;
+            flex-shrink: 0;
+        }
+        
+        .sidebar h3 {
+            font-size: 12px;
+            text-transform: uppercase;
+            color: var(--text-secondary);
+            margin-bottom: 12px;
+            padding: 0 8px;
+        }
+        
+        .category-list {
+            list-style: none;
+        }
+        
+        .category-item {
+            padding: 8px 12px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            transition: background 0.2s;
+            margin-bottom: 2px;
+        }
+        
+        .category-item:hover { background: var(--surface); }
+        .category-item.active { background: var(--accent); color: #fff; }
+        
+        .category-count {
+            margin-left: auto;
+            font-size: 12px;
+            color: var(--text-secondary);
+            background: var(--surface);
+            padding: 2px 6px;
+            border-radius: 10px;
+        }
+        
+        .category-item.active .category-count {
+            background: rgba(255,255,255,0.2);
+            color: #fff;
+        }
+        
+        /* Content */
+        .content {
+            flex: 1;
+            padding: 24px;
+        }
+        
+        .content-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 24px;
+        }
+        
+        .content-header h1 {
+            font-size: 24px;
+            font-weight: 600;
+        }
+        
+        .tool-count {
+            color: var(--text-secondary);
+            font-size: 14px;
+        }
+        
+        .filters {
             display: flex;
             gap: 8px;
-            flex-wrap: wrap;
         }
         
         .filter-btn {
-            padding: 8px 16px;
-            border-radius: 20px;
+            padding: 6px 12px;
+            background: var(--surface);
             border: 1px solid var(--border);
-            background: transparent;
-            color: var(--text-muted);
+            border-radius: 6px;
+            color: var(--text-secondary);
+            font-size: 13px;
             cursor: pointer;
             transition: all 0.2s;
-            font-size: 14px;
         }
         
-        .filter-btn:hover, .filter-btn.active {
-            background: var(--primary);
-            border-color: var(--primary);
-            color: white;
-        }
+        .filter-btn:hover { border-color: var(--accent); color: var(--text); }
+        .filter-btn.active { background: var(--accent); border-color: var(--accent); color: #fff; }
         
         /* Tools Grid */
-        .tools-section {
-            padding: 40px 0;
-        }
-        
         .tools-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-            gap: 20px;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 16px;
         }
         
         .tool-card {
-            background: var(--card-bg);
+            background: var(--surface);
             border: 1px solid var(--border);
             border-radius: 12px;
-            padding: 24px;
+            padding: 20px;
             transition: all 0.2s;
+            display: flex;
+            flex-direction: column;
         }
         
         .tool-card:hover {
-            border-color: var(--primary);
-            transform: translateY(-4px);
+            border-color: var(--accent);
+            transform: translateY(-2px);
         }
         
         .tool-header {
             display: flex;
-            justify-content: space-between;
             align-items: flex-start;
+            gap: 12px;
             margin-bottom: 12px;
         }
         
+        .tool-icon {
+            width: 44px;
+            height: 44px;
+            background: linear-gradient(135deg, var(--accent), var(--pink));
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            flex-shrink: 0;
+        }
+        
+        .tool-info { flex: 1; min-width: 0; }
+        
         .tool-name {
-            font-size: 1.1rem;
+            font-size: 16px;
             font-weight: 600;
-        }
-        
-        .tool-price {
-            font-size: 12px;
-            padding: 4px 8px;
-            border-radius: 4px;
-            background: var(--border);
-            color: var(--text-muted);
-        }
-        
-        .tool-price.free {
-            background: rgba(34, 197, 94, 0.2);
-            color: var(--accent);
-        }
-        
-        .tool-desc {
-            color: var(--text-muted);
-            font-size: 14px;
-            margin-bottom: 16px;
+            margin-bottom: 4px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
         }
         
         .tool-category {
             font-size: 12px;
-            color: var(--primary);
-            margin-bottom: 12px;
+            color: var(--text-secondary);
         }
         
-        .tool-link {
-            display: inline-flex;
-            align-items: center;
-            gap: 4px;
-            color: var(--primary);
-            text-decoration: none;
+        .tool-desc {
             font-size: 14px;
+            color: var(--text-secondary);
+            line-height: 1.5;
+            margin-bottom: 16px;
+            flex: 1;
+        }
+        
+        .tool-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .price-tag {
+            font-size: 12px;
+            padding: 4px 10px;
+            border-radius: 12px;
             font-weight: 500;
         }
         
-        .tool-link:hover {
-            text-decoration: underline;
+        .price-free { background: rgba(34, 197, 94, 0.15); color: var(--green); }
+        .price-freemium { background: rgba(59, 130, 246, 0.15); color: var(--blue); }
+        .price-paid { background: rgba(249, 115, 22, 0.15); color: var(--orange); }
+        
+        .tool-link {
+            font-size: 13px;
+            color: var(--accent);
+            display: flex;
+            align-items: center;
+            gap: 4px;
         }
         
-        /* CTA Section */
-        .cta-section {
-            padding: 60px 0;
-            text-align: center;
-            background: linear-gradient(180deg, var(--bg) 0%, #1a1a2e 100%);
-        }
+        .tool-link:hover { color: var(--accent-hover); }
         
-        .cta-section h2 {
-            font-size: 2rem;
-            margin-bottom: 16px;
-        }
-        
-        .cta-section p {
-            color: var(--text-muted);
-            margin-bottom: 30px;
-        }
-        
-        .cta-cards {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 20px;
-            max-width: 800px;
-            margin: 0 auto;
-        }
-        
-        .cta-card {
-            background: var(--card-bg);
+        /* Stats Banner */
+        .stats-banner {
+            background: linear-gradient(135deg, rgba(99, 102, 241, 0.1), rgba(236, 72, 153, 0.1));
             border: 1px solid var(--border);
             border-radius: 12px;
-            padding: 24px;
-            text-align: left;
+            padding: 20px 24px;
+            margin-bottom: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 16px;
         }
         
-        .cta-card h3 {
-            font-size: 1.1rem;
-            margin-bottom: 8px;
-        }
-        
-        .cta-card p {
+        .stats-text {
             font-size: 14px;
-            margin-bottom: 16px;
+            color: var(--text-secondary);
         }
         
-        .cta-card .price {
-            font-size: 1.5rem;
-            font-weight: 700;
-            color: var(--accent);
+        .stats-text strong { color: var(--text); }
+        
+        .stats-badges {
+            display: flex;
+            gap: 12px;
+        }
+        
+        .badge {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            padding: 6px 12px;
+            background: var(--surface);
+            border-radius: 20px;
+            font-size: 13px;
         }
         
         /* Footer */
-        footer {
-            padding: 40px 0;
-            text-align: center;
+        .footer {
             border-top: 1px solid var(--border);
-        }
-        
-        footer p {
-            color: var(--text-muted);
+            padding: 24px;
+            text-align: center;
+            color: var(--text-secondary);
             font-size: 14px;
         }
         
-        footer a {
-            color: var(--primary);
-            text-decoration: none;
+        .footer a { color: var(--accent); }
+        
+        /* Mobile */
+        @media (max-width: 768px) {
+            .sidebar { display: none; }
+            .header-links { display: none; }
+            .tools-grid { grid-template-columns: 1fr; }
+            .stats-banner { flex-direction: column; text-align: center; }
         }
         
-        @media (max-width: 768px) {
-            .hero h1 {
-                font-size: 2rem;
-            }
-            
-            .hero-stats {
-                gap: 20px;
-            }
-            
-            .tools-grid {
-                grid-template-columns: 1fr;
-            }
+        /* No results */
+        .no-results {
+            text-align: center;
+            padding: 60px 20px;
+            color: var(--text-secondary);
         }
+        
+        .no-results h3 { font-size: 18px; margin-bottom: 8px; color: var(--text); }
     </style>
-    
-    <!-- JSON-LD Structured Data for SEO/GEO -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "name": "出海增长工具集合 | 100+ Growth Tools",
-        "description": "精选100+出海增长工具，涵盖KOL管理、SEO分析、Reddit增长、UGC管理等",
-        "url": "https://gingiris.github.io/growth-tools/",
-        "author": {
-            "@type": "Person",
-            "name": "Iris",
-            "alternateName": "生姜iris",
-            "url": "https://twitter.com/Iris_carrot"
-        },
-        "publisher": {
-            "@type": "Organization",
-            "name": "Gingiris",
-            "url": "https://gingiris.com"
-        }
-    }
-    </script>
-    
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ItemList",
-        "name": "出海增长工具集合",
-        "description": "100+ 精选出海增长工具，涵盖14个分类",
-        "numberOfItems": 100,
-        "itemListElement": [
-            {"@type": "ListItem", "position": 1, "item": {"@type": "SoftwareApplication", "name": "Phantombuster", "applicationCategory": "Social Media Automation", "description": "LinkedIn DM 自动化", "url": "https://phantombuster.com/"}},
-            {"@type": "ListItem", "position": 2, "item": {"@type": "SoftwareApplication", "name": "PostHog", "applicationCategory": "Analytics", "description": "开源用户行为分析", "url": "https://posthog.com/"}},
-            {"@type": "ListItem", "position": 3, "item": {"@type": "SoftwareApplication", "name": "Semrush", "applicationCategory": "SEO Tool", "description": "全面SEO分析平台", "url": "https://www.semrush.com/"}},
-            {"@type": "ListItem", "position": 4, "item": {"@type": "SoftwareApplication", "name": "Mixpanel", "applicationCategory": "Analytics", "description": "用户行为分析", "url": "https://mixpanel.com/"}},
-            {"@type": "ListItem", "position": 5, "item": {"@type": "SoftwareApplication", "name": "NoxInfluencer", "applicationCategory": "Influencer Marketing", "description": "红人信息数据库", "url": "https://cn.noxinfluencer.com/"}}
-        ]
-    }
-    </script>
-    
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-            {
-                "@type": "Question",
-                "name": "出海增长最好用的工具有哪些？",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "出海增长工具的选择取决于你的阶段和目标。冷启动阶段推荐：Phantombuster(社媒自动化)、Reddit List(社区发现)、AITDK(SEO分析)。增长阶段推荐：PostHog/Mixpanel(用户分析)、Semrush(SEO)、MagicBrief(KOL管理)。本工具集收录100+经过实战验证的工具。"
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "如何用 Reddit 做出海增长？",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Reddit增长关键步骤：1) 使用 Reddit List 找到目标 Subreddit；2) 用 Reddit Marketing Strategist Agent 了解社区规则；3) 用 Reddit Soft-Sell Agent 去掉营销味；4) 北京时间晚上 6-8 点发帖效果最好。避免硬推销，提供真实价值。"
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "KOL 管理用什么工具？",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "KOL/红人管理推荐工具：EEzycollab(KOL匹配+邮件发送一体化)、Nanoinfluencer(KOL匹配/竞品账号调研)、NoxInfluencer(红人信息数据库)、MagicBrief(AI生成KOL/UGC Brief)。根据你的需求选择：寻找KOL用Nanoinfluencer，管理合作用EEzycollab。"
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "SEO 分析用什么工具？",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "SEO分析工具推荐：AITDK(免费AI SEO插件)、Keywords Everywhere(关键词搜索量查询)、Semrush(全面SEO分析，付费)。新手可以从免费的AITDK开始，需要深度分析时升级到Semrush。"
-                }
-            }
-        ]
-    }
-    </script>
-    
-    <!-- JSON-LD Structured Data for GEO -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ItemList",
-        "name": "出海增长工具集合",
-        "description": "100+ 精选出海增长工具，涵盖 KOL 管理、SEO 分析、Reddit 增长、UGC 管理等",
-        "url": "https://gingiris.github.io/growth-tools/",
-        "numberOfItems": 100,
-        "itemListElement": [
-            {"@type": "ListItem", "position": 1, "item": {"@type": "SoftwareApplication", "name": "Phantombuster", "applicationCategory": "Social Media Tool", "url": "https://phantombuster.com/"}},
-            {"@type": "ListItem", "position": 2, "item": {"@type": "SoftwareApplication", "name": "PostHog", "applicationCategory": "Analytics Tool", "url": "https://posthog.com/"}},
-            {"@type": "ListItem", "position": 3, "item": {"@type": "SoftwareApplication", "name": "Semrush", "applicationCategory": "SEO Tool", "url": "https://www.semrush.com/"}},
-            {"@type": "ListItem", "position": 4, "item": {"@type": "SoftwareApplication", "name": "Mixpanel", "applicationCategory": "Analytics Tool", "url": "https://mixpanel.com/"}}
-        ]
-    }
-    </script>
-    
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-            {
-                "@type": "Question",
-                "name": "出海增长最好用的工具是什么？",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "出海增长工具的选择取决于你的阶段和目标。冷启动阶段推荐：Phantombuster(社媒自动化)、Reddit List(社区发现)、AITDK(SEO分析)。增长阶段推荐：PostHog/Mixpanel(用户分析)、Semrush(SEO)、MagicBrief(KOL管理)。"
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "如何用 Reddit 做增长？",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Reddit增长关键：1) 使用 Reddit List 找到目标 Subreddit；2) 先用 Reddit Marketing Strategist Agent 了解社区规则；3) 用 Reddit Soft-Sell Agent 去掉营销味；4) 北京时间晚上 6-8 点发帖效果最好。"
-                }
-            }
-        ]
-    }
-    </script>
 </head>
 <body>
-    <!-- Hero -->
-    <section class="hero">
-        <div class="container">
-            <span class="hero-badge">🚀 100+ 精选工具</span>
-            <h1>出海增长工具集合</h1>
-            <p>从 KOL 管理到 SEO 分析，从 Reddit 增长到 UGC 管理，一站式解决出海增长需求</p>
-            
-            <div class="hero-stats">
-                <div class="stat">
-                    <div class="stat-value">100+</div>
-                    <div class="stat-label">精选工具</div>
-                </div>
-                <div class="stat">
-                    <div class="stat-value">14</div>
-                    <div class="stat-label">分类</div>
-                </div>
-                <div class="stat">
-                    <div class="stat-value">30x</div>
-                    <div class="stat-label">PH #1 经验</div>
-                </div>
-            </div>
-            
-            <div class="hero-buttons">
-            
-            <!-- TL;DR for GEO -->
-            <div style="background: rgba(99, 102, 241, 0.1); border: 1px solid #6366f1; border-radius: 12px; padding: 20px; margin-top: 30px; text-align: left; max-width: 700px; margin-left: auto; margin-right: auto;">
-                <h3 style="color: #6366f1; font-size: 14px; margin-bottom: 12px;">📌 Key Takeaways</h3>
-                <ul style="list-style: none; padding: 0; margin: 0; color: #a1a1aa; font-size: 14px;">
-                    <li style="padding: 6px 0; padding-left: 20px; position: relative;"><span style="position: absolute; left: 0; color: #22c55e;">✓</span><strong>社媒自动化:</strong> Phantombuster, xAutoDM 解决 LinkedIn/Twitter 触达</li>
-                    <li style="padding: 6px 0; padding-left: 20px; position: relative;"><span style="position: absolute; left: 0; color: #22c55e;">✓</span><strong>Reddit 增长:</strong> Reddit List + Leapility Agents 低成本获客</li>
-                    <li style="padding: 6px 0; padding-left: 20px; position: relative;"><span style="position: absolute; left: 0; color: #22c55e;">✓</span><strong>KOL 管理:</strong> NoxInfluencer, MagicBrief 红人发现与合作</li>
-                    <li style="padding: 6px 0; padding-left: 20px; position: relative;"><span style="position: absolute; left: 0; color: #22c55e;">✓</span><strong>SEO 分析:</strong> AITDK(免费), Semrush(专业) 关键词研究</li>
-                    <li style="padding: 6px 0; padding-left: 20px; position: relative;"><span style="position: absolute; left: 0; color: #22c55e;">✓</span><strong>用户分析:</strong> PostHog(开源), Mixpanel 行为追踪</li>
-                </ul>
-            </div>
-                <a href="https://github.com/Gingiris/growth-tools" class="btn btn-primary">
-            
-            <!-- TL;DR for GEO -->
-            <div style="background: rgba(99, 102, 241, 0.1); border: 1px solid #6366f1; border-radius: 12px; padding: 20px; margin-top: 30px; text-align: left; max-width: 700px; margin-left: auto; margin-right: auto;">
-                <h3 style="color: #6366f1; font-size: 14px; margin-bottom: 12px;">📌 Key Takeaways</h3>
-                <ul style="list-style: none; padding: 0; margin: 0; color: #a1a1aa; font-size: 14px;">
-                    <li style="padding: 6px 0; padding-left: 20px; position: relative;"><span style="position: absolute; left: 0; color: #22c55e;">✓</span><strong>社媒自动化:</strong> Phantombuster, xAutoDM 解决 LinkedIn/Twitter 触达</li>
-                    <li style="padding: 6px 0; padding-left: 20px; position: relative;"><span style="position: absolute; left: 0; color: #22c55e;">✓</span><strong>Reddit 增长:</strong> Reddit List + Leapility Agents 低成本获客</li>
-                    <li style="padding: 6px 0; padding-left: 20px; position: relative;"><span style="position: absolute; left: 0; color: #22c55e;">✓</span><strong>KOL 管理:</strong> NoxInfluencer, MagicBrief 红人发现与合作</li>
-                    <li style="padding: 6px 0; padding-left: 20px; position: relative;"><span style="position: absolute; left: 0; color: #22c55e;">✓</span><strong>SEO 分析:</strong> AITDK(免费), Semrush(专业) 关键词研究</li>
-                    <li style="padding: 6px 0; padding-left: 20px; position: relative;"><span style="position: absolute; left: 0; color: #22c55e;">✓</span><strong>用户分析:</strong> PostHog(开源), Mixpanel 行为追踪</li>
-                </ul>
-            </div>
-                    ⭐ Star on GitHub
-            
-            <!-- TL;DR for GEO -->
-            <div style="background: rgba(99, 102, 241, 0.1); border: 1px solid #6366f1; border-radius: 12px; padding: 20px; margin-top: 30px; text-align: left; max-width: 700px; margin-left: auto; margin-right: auto;">
-                <h3 style="color: #6366f1; font-size: 14px; margin-bottom: 12px;">📌 Key Takeaways</h3>
-                <ul style="list-style: none; padding: 0; margin: 0; color: #a1a1aa; font-size: 14px;">
-                    <li style="padding: 6px 0; padding-left: 20px; position: relative;"><span style="position: absolute; left: 0; color: #22c55e;">✓</span><strong>社媒自动化:</strong> Phantombuster, xAutoDM 解决 LinkedIn/Twitter 触达</li>
-                    <li style="padding: 6px 0; padding-left: 20px; position: relative;"><span style="position: absolute; left: 0; color: #22c55e;">✓</span><strong>Reddit 增长:</strong> Reddit List + Leapility Agents 低成本获客</li>
-                    <li style="padding: 6px 0; padding-left: 20px; position: relative;"><span style="position: absolute; left: 0; color: #22c55e;">✓</span><strong>KOL 管理:</strong> NoxInfluencer, MagicBrief 红人发现与合作</li>
-                    <li style="padding: 6px 0; padding-left: 20px; position: relative;"><span style="position: absolute; left: 0; color: #22c55e;">✓</span><strong>SEO 分析:</strong> AITDK(免费), Semrush(专业) 关键词研究</li>
-                    <li style="padding: 6px 0; padding-left: 20px; position: relative;"><span style="position: absolute; left: 0; color: #22c55e;">✓</span><strong>用户分析:</strong> PostHog(开源), Mixpanel 行为追踪</li>
-                </ul>
-            </div>
-                </a>
-            
-            <!-- TL;DR for GEO -->
-            <div style="background: rgba(99, 102, 241, 0.1); border: 1px solid #6366f1; border-radius: 12px; padding: 20px; margin-top: 30px; text-align: left; max-width: 700px; margin-left: auto; margin-right: auto;">
-                <h3 style="color: #6366f1; font-size: 14px; margin-bottom: 12px;">📌 Key Takeaways</h3>
-                <ul style="list-style: none; padding: 0; margin: 0; color: #a1a1aa; font-size: 14px;">
-                    <li style="padding: 6px 0; padding-left: 20px; position: relative;"><span style="position: absolute; left: 0; color: #22c55e;">✓</span><strong>社媒自动化:</strong> Phantombuster, xAutoDM 解决 LinkedIn/Twitter 触达</li>
-                    <li style="padding: 6px 0; padding-left: 20px; position: relative;"><span style="position: absolute; left: 0; color: #22c55e;">✓</span><strong>Reddit 增长:</strong> Reddit List + Leapility Agents 低成本获客</li>
-                    <li style="padding: 6px 0; padding-left: 20px; position: relative;"><span style="position: absolute; left: 0; color: #22c55e;">✓</span><strong>KOL 管理:</strong> NoxInfluencer, MagicBrief 红人发现与合作</li>
-                    <li style="padding: 6px 0; padding-left: 20px; position: relative;"><span style="position: absolute; left: 0; color: #22c55e;">✓</span><strong>SEO 分析:</strong> AITDK(免费), Semrush(专业) 关键词研究</li>
-                    <li style="padding: 6px 0; padding-left: 20px; position: relative;"><span style="position: absolute; left: 0; color: #22c55e;">✓</span><strong>用户分析:</strong> PostHog(开源), Mixpanel 行为追踪</li>
-                </ul>
-            </div>
-                <a href="https://gingiris.gumroad.com/l/gingiris-complete-global-launch-bundle" class="btn btn-secondary">
-            
-            <!-- TL;DR for GEO -->
-            <div style="background: rgba(99, 102, 241, 0.1); border: 1px solid #6366f1; border-radius: 12px; padding: 20px; margin-top: 30px; text-align: left; max-width: 700px; margin-left: auto; margin-right: auto;">
-                <h3 style="color: #6366f1; font-size: 14px; margin-bottom: 12px;">📌 Key Takeaways</h3>
-                <ul style="list-style: none; padding: 0; margin: 0; color: #a1a1aa; font-size: 14px;">
-                    <li style="padding: 6px 0; padding-left: 20px; position: relative;"><span style="position: absolute; left: 0; color: #22c55e;">✓</span><strong>社媒自动化:</strong> Phantombuster, xAutoDM 解决 LinkedIn/Twitter 触达</li>
-                    <li style="padding: 6px 0; padding-left: 20px; position: relative;"><span style="position: absolute; left: 0; color: #22c55e;">✓</span><strong>Reddit 增长:</strong> Reddit List + Leapility Agents 低成本获客</li>
-                    <li style="padding: 6px 0; padding-left: 20px; position: relative;"><span style="position: absolute; left: 0; color: #22c55e;">✓</span><strong>KOL 管理:</strong> NoxInfluencer, MagicBrief 红人发现与合作</li>
-                    <li style="padding: 6px 0; padding-left: 20px; position: relative;"><span style="position: absolute; left: 0; color: #22c55e;">✓</span><strong>SEO 分析:</strong> AITDK(免费), Semrush(专业) 关键词研究</li>
-                    <li style="padding: 6px 0; padding-left: 20px; position: relative;"><span style="position: absolute; left: 0; color: #22c55e;">✓</span><strong>用户分析:</strong> PostHog(开源), Mixpanel 行为追踪</li>
-                </ul>
-            </div>
-                    💎 获取完整 Bundle · $249
-            
-            <!-- TL;DR for GEO -->
-            <div style="background: rgba(99, 102, 241, 0.1); border: 1px solid #6366f1; border-radius: 12px; padding: 20px; margin-top: 30px; text-align: left; max-width: 700px; margin-left: auto; margin-right: auto;">
-                <h3 style="color: #6366f1; font-size: 14px; margin-bottom: 12px;">📌 Key Takeaways</h3>
-                <ul style="list-style: none; padding: 0; margin: 0; color: #a1a1aa; font-size: 14px;">
-                    <li style="padding: 6px 0; padding-left: 20px; position: relative;"><span style="position: absolute; left: 0; color: #22c55e;">✓</span><strong>社媒自动化:</strong> Phantombuster, xAutoDM 解决 LinkedIn/Twitter 触达</li>
-                    <li style="padding: 6px 0; padding-left: 20px; position: relative;"><span style="position: absolute; left: 0; color: #22c55e;">✓</span><strong>Reddit 增长:</strong> Reddit List + Leapility Agents 低成本获客</li>
-                    <li style="padding: 6px 0; padding-left: 20px; position: relative;"><span style="position: absolute; left: 0; color: #22c55e;">✓</span><strong>KOL 管理:</strong> NoxInfluencer, MagicBrief 红人发现与合作</li>
-                    <li style="padding: 6px 0; padding-left: 20px; position: relative;"><span style="position: absolute; left: 0; color: #22c55e;">✓</span><strong>SEO 分析:</strong> AITDK(免费), Semrush(专业) 关键词研究</li>
-                    <li style="padding: 6px 0; padding-left: 20px; position: relative;"><span style="position: absolute; left: 0; color: #22c55e;">✓</span><strong>用户分析:</strong> PostHog(开源), Mixpanel 行为追踪</li>
-                </ul>
-            </div>
-                </a>
-            
-            <!-- TL;DR for GEO -->
-            <div style="background: rgba(99, 102, 241, 0.1); border: 1px solid #6366f1; border-radius: 12px; padding: 20px; margin-top: 30px; text-align: left; max-width: 700px; margin-left: auto; margin-right: auto;">
-                <h3 style="color: #6366f1; font-size: 14px; margin-bottom: 12px;">📌 Key Takeaways</h3>
-                <ul style="list-style: none; padding: 0; margin: 0; color: #a1a1aa; font-size: 14px;">
-                    <li style="padding: 6px 0; padding-left: 20px; position: relative;"><span style="position: absolute; left: 0; color: #22c55e;">✓</span><strong>社媒自动化:</strong> Phantombuster, xAutoDM 解决 LinkedIn/Twitter 触达</li>
-                    <li style="padding: 6px 0; padding-left: 20px; position: relative;"><span style="position: absolute; left: 0; color: #22c55e;">✓</span><strong>Reddit 增长:</strong> Reddit List + Leapility Agents 低成本获客</li>
-                    <li style="padding: 6px 0; padding-left: 20px; position: relative;"><span style="position: absolute; left: 0; color: #22c55e;">✓</span><strong>KOL 管理:</strong> NoxInfluencer, MagicBrief 红人发现与合作</li>
-                    <li style="padding: 6px 0; padding-left: 20px; position: relative;"><span style="position: absolute; left: 0; color: #22c55e;">✓</span><strong>SEO 分析:</strong> AITDK(免费), Semrush(专业) 关键词研究</li>
-                    <li style="padding: 6px 0; padding-left: 20px; position: relative;"><span style="position: absolute; left: 0; color: #22c55e;">✓</span><strong>用户分析:</strong> PostHog(开源), Mixpanel 行为追踪</li>
-                </ul>
-            </div>
-            </div>
-            
-            <!-- TL;DR for GEO -->
-            <div style="background: rgba(99, 102, 241, 0.1); border: 1px solid #6366f1; border-radius: 12px; padding: 20px; margin-top: 30px; text-align: left; max-width: 700px; margin-left: auto; margin-right: auto;">
-                <h3 style="color: #6366f1; font-size: 14px; margin-bottom: 12px;">📌 Key Takeaways</h3>
-                <ul style="list-style: none; padding: 0; margin: 0; color: #a1a1aa; font-size: 14px;">
-                    <li style="padding: 6px 0; padding-left: 20px; position: relative;"><span style="position: absolute; left: 0; color: #22c55e;">✓</span><strong>社媒自动化:</strong> Phantombuster, xAutoDM 解决 LinkedIn/Twitter 触达</li>
-                    <li style="padding: 6px 0; padding-left: 20px; position: relative;"><span style="position: absolute; left: 0; color: #22c55e;">✓</span><strong>Reddit 增长:</strong> Reddit List + Leapility Agents 低成本获客</li>
-                    <li style="padding: 6px 0; padding-left: 20px; position: relative;"><span style="position: absolute; left: 0; color: #22c55e;">✓</span><strong>KOL 管理:</strong> NoxInfluencer, MagicBrief 红人发现与合作</li>
-                    <li style="padding: 6px 0; padding-left: 20px; position: relative;"><span style="position: absolute; left: 0; color: #22c55e;">✓</span><strong>SEO 分析:</strong> AITDK(免费), Semrush(专业) 关键词研究</li>
-                    <li style="padding: 6px 0; padding-left: 20px; position: relative;"><span style="position: absolute; left: 0; color: #22c55e;">✓</span><strong>用户分析:</strong> PostHog(开源), Mixpanel 行为追踪</li>
-                </ul>
-            </div>
-        </div>
-    </section>
-    
-    <!-- Filter -->
-    <section class="filter-section">
-        <div class="container">
+    <!-- Header -->
+    <header class="header">
+        <div class="header-inner">
+            <div class="logo">🚀 <span>Growth</span>Tools</div>
             <div class="search-box">
-                <input type="text" class="search-input" placeholder="搜索工具..." id="searchInput">
+                <input type="text" id="searchInput" placeholder="搜索工具... (e.g. KOL, Reddit, SEO)">
             </div>
-            <div class="category-filters">
-                <button class="filter-btn active" data-category="all">全部</button>
-                <button class="filter-btn" data-category="social">社媒监听</button>
-                <button class="filter-btn" data-category="kol">KOL管理</button>
-                <button class="filter-btn" data-category="outreach">社媒触达</button>
-                <button class="filter-btn" data-category="reddit">Reddit</button>
-                <button class="filter-btn" data-category="seo">SEO</button>
-                <button class="filter-btn" data-category="ugc">UGC</button>
-                <button class="filter-btn" data-category="analytics">分析</button>
-            </div>
+            <nav class="header-links">
+                <a href="https://github.com/Gingiris/growth-tools">⭐ GitHub</a>
+                <a href="https://github.com/Gingiris/gingiris-launch">📚 Playbooks</a>
+                <a href="https://gingiris.gumroad.com">💎 Pro</a>
+            </nav>
         </div>
-    </section>
+    </header>
     
-    <!-- Tools Grid -->
-    <section class="tools-section">
-        <div class="container">
-            <div class="tools-grid" id="toolsGrid">
-                <!-- Tools will be rendered here -->
+    <div class="main">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <h3>分类 Categories</h3>
+            <ul class="category-list" id="categoryList">
+                <!-- Generated by JS -->
+            </ul>
+        </aside>
+        
+        <!-- Content -->
+        <main class="content">
+            <!-- Stats Banner -->
+            <div class="stats-banner">
+                <div class="stats-text">
+                    基于 <strong>AFFiNE 33k+ stars</strong> 和 <strong>30x PH #1</strong> 实战经验整理
+                </div>
+                <div class="stats-badges">
+                    <span class="badge">🛠️ 100+ 工具</span>
+                    <span class="badge">📂 14 分类</span>
+                    <span class="badge">✅ 实战验证</span>
+                </div>
             </div>
-        </div>
-    </section>
-    
-    <!-- CTA -->
-    <section class="cta-section">
-        <div class="container">
-            <h2>想要更系统的方法论？</h2>
-            <p>工具只是起点，完整的增长策略才是关键</p>
             
+            <div class="content-header">
+                <div>
+                    <h1 id="categoryTitle">全部工具</h1>
+                    <span class="tool-count" id="toolCount">100+ 工具</span>
+                </div>
+                <div class="filters">
+                    <button class="filter-btn active" data-price="all">全部</button>
+                    <button class="filter-btn" data-price="free">Free</button>
+                    <button class="filter-btn" data-price="freemium">Freemium</button>
+                    <button class="filter-btn" data-price="paid">Paid</button>
+                </div>
+            </div>
+            
+            <div class="tools-grid" id="toolsGrid">
+                <!-- Generated by JS -->
+            </div>
+            
+            <div class="no-results" id="noResults" style="display: none;">
+                <h3>没有找到匹配的工具</h3>
+                <p>试试其他关键词或分类</p>
+            </div>
+        </main>
+    </div>
+    
+    <footer class="footer">
+        <p>
+            Built by <a href="https://twitter.com/Iris_carrot">@Iris</a> · 
+            <a href="https://github.com/Gingiris/growth-tools">GitHub</a> · 
+            <a href="https://gingiris.com">Gingiris</a>
+        </p>
+    </footer>
+    
+    <script>
+        // Tools Data
+        const tools = [
+            // 社媒监听 & 分析
+            { name: "Toolify Social Listening", desc: "AI 社媒监听，追踪产品相关讨论", category: "社媒监听", price: "freemium", url: "https://www.toolify.ai/social-listening", icon: "📡" },
+            { name: "Vizzylabs", desc: "爆款内容分析，了解社媒趋势", category: "社媒监听", price: "free", url: "https://app.vizzylabs.ai/trending", icon: "📊" },
+            { name: "Tweet Binder", desc: "Twitter 转化率监控工具", category: "社媒监听", price: "paid", url: "https://www.tweetbinder.com/", icon: "🐦" },
+            { name: "PH Deck", desc: "每日 Product Hunt Featured 产品追踪", category: "社媒监听", price: "free", url: "https://www.phdeck.com/", icon: "🎯" },
+            
+            // KOL/红人管理
+            { name: "EEzycollab", desc: "KOL 匹配 + 邮件发送一体化", category: "KOL管理", price: "freemium", url: "https://www.eezycollab.com/", icon: "🤝" },
+            { name: "Nanoinfluencer", desc: "KOL 匹配 / 竞品账号调研", category: "KOL管理", price: "freemium", url: "https://www.nanoinfluencer.ai/", icon: "👥" },
+            { name: "EasyKOL", desc: "KOL 管理平台", category: "KOL管理", price: "paid", url: "https://easykol.com/", icon: "📋" },
+            { name: "NoxInfluencer", desc: "红人信息数据库", category: "KOL管理", price: "freemium", url: "https://cn.noxinfluencer.com/", icon: "🔍" },
+            { name: "Connpass", desc: "日本社群/KOL 资源", category: "KOL管理", price: "free", url: "https://connpass.com/", icon: "🇯🇵" },
+            
+            // 社媒触达工具
+            { name: "xAutoDM", desc: "Twitter 自动 DM 工具", category: "社媒触达", price: "paid", url: "https://xautodm.com/", icon: "✉️" },
+            { name: "Phantombuster", desc: "LinkedIn DM 自动化", category: "社媒触达", price: "paid", url: "https://phantombuster.com/", icon: "👻" },
+            { name: "LinkedHelper", desc: "LinkedIn 浏览器插件", category: "社媒触达", price: "paid", url: "https://www.linkedhelper.com/", icon: "🔗" },
+            
+            // Reddit 增长
+            { name: "Reddit Marketing Strategist", desc: "AI Agent: 找 Subreddit + 读懂规则", category: "Reddit", price: "freemium", url: "https://leapility.com/?agent=i-8poxa0f1xq9q", icon: "🤖" },
+            { name: "Agent Launch Strategy", desc: "AI Agent: 规划长期内容策略", category: "Reddit", price: "freemium", url: "https://leapility.com/?agent=i-1fd6npqlkqsg", icon: "📝" },
+            { name: "Reddit Soft-Sell Agent", desc: "AI Agent: 去掉营销味改写内容", category: "Reddit", price: "freemium", url: "https://leapility.com/?agent=i-c0aezfsqhrdl", icon: "✨" },
+            { name: "Reddit User Pain Points", desc: "AI Agent: 抓取分析用户痛点", category: "Reddit", price: "free", url: "https://leapility.com/share/agent/i-6nto7kumdswl", icon: "🎯" },
+            { name: "Buy Upvotes", desc: "Reddit Upvote 购买 (谨慎使用)", category: "Reddit", price: "paid", url: "https://www.buyupvotes.io/dashboard/", icon: "⬆️" },
+            { name: "Reddit List", desc: "高质量 Reddit 社区目录", category: "Reddit", price: "free", url: "https://www.reddit-list.com/en", icon: "📋" },
+            
+            // SEO 工具
+            { name: "AITDK", desc: "AI SEO 插件，关键词分析", category: "SEO", price: "free", url: "https://aitdk.com/", icon: "🔑" },
+            { name: "Keywords Everywhere", desc: "关键词搜索量查询插件", category: "SEO", price: "freemium", url: "https://keywordseverywhere.com/", icon: "📈" },
+            { name: "Semrush", desc: "全面 SEO 分析平台", category: "SEO", price: "paid", url: "https://www.semrush.com/", icon: "📊" },
+            
+            // 链接追踪
+            { name: "Juicebox", desc: "Short link + UTM 追踪", category: "链接追踪", price: "freemium", url: "https://juicebox.ai/pricing", icon: "🔗" },
+            { name: "Shortpen", desc: "Short link 生成", category: "链接追踪", price: "freemium", url: "https://shortpen.com/pricing/", icon: "✂️" },
+            { name: "Bitly", desc: "短链接生成标杆", category: "链接追踪", price: "freemium", url: "https://bitly.com", icon: "⚡" },
+            
+            // UGC 管理
+            { name: "Growi", desc: "达人管理专用平台", category: "UGC管理", price: "paid", url: "https://www.growi.io/grow", icon: "🌱" },
+            { name: "MagicBrief", desc: "AI 生成 KOL/UGC Brief", category: "UGC管理", price: "freemium", url: "https://magicbrief.com/", icon: "✨" },
+            { name: "Sideshift", desc: "UGC 创作者支付 (美国达人)", category: "UGC管理", price: "paid", url: "https://sideshift.app/", icon: "💰" },
+            { name: "Viral.app", desc: "UGC 流量追踪", category: "UGC管理", price: "paid", url: "https://viral.app/", icon: "📈" },
+            { name: "DansUGC", desc: "UGC 内容生成辅助", category: "UGC管理", price: "paid", url: "https://dansugc.com/", icon: "🎬" },
+            
+            // 社区发现
+            { name: "Discord Hunt", desc: "找 Discord 社区", category: "社区发现", price: "free", url: "https://discordhunt.com/", icon: "🎮" },
+            { name: "DevHunt", desc: "开发者工具打榜平台", category: "社区发现", price: "free", url: "https://devhunt.org/", icon: "🛠️" },
+            
+            // 内容创作
+            { name: "Arcade", desc: "交互式产品 Demo 制作", category: "内容创作", price: "freemium", url: "https://www.arcade.software/", icon: "🎮" },
+            { name: "Imgflip", desc: "梗图生成器", category: "内容创作", price: "free", url: "https://imgflip.com/memetemplates", icon: "😂" },
+            { name: "Daily Dose of DS", desc: "技术框架图制作", category: "内容创作", price: "free", url: "https://www.dailydoseofds.com/", icon: "📊" },
+            
+            // 埋点 & 分析
+            { name: "Mixpanel", desc: "用户行为分析", category: "分析埋点", price: "freemium", url: "https://mixpanel.com/", icon: "📈" },
+            { name: "PostHog", desc: "开源用户行为分析", category: "分析埋点", price: "freemium", url: "https://posthog.com/", icon: "🦔" },
+            
+            // 邮件营销
+            { name: "Loops", desc: "邮件营销自动化", category: "邮件营销", price: "freemium", url: "https://loops.so/", icon: "📧" },
+            
+            // 广告投放
+            { name: "AdQuick", desc: "硅谷广告牌聚合平台", category: "广告投放", price: "paid", url: "https://www.adquick.com", icon: "📢" },
+            { name: "Platon Agent", desc: "投放关联 Agent", category: "广告投放", price: "paid", url: "https://platonagent.ai", icon: "🤖" },
+            
+            // 其他工具
+            { name: "Prolific", desc: "海外用户调研平台", category: "用户调研", price: "paid", url: "https://www.prolific.com/", icon: "🔬" },
+            { name: "Qwoted", desc: "媒体资源平台", category: "媒体PR", price: "freemium", url: "https://www.qwoted.com/", icon: "📰" },
+            { name: "GlueClub", desc: "快速建联 Operation 大佬", category: "网络拓展", price: "paid", url: "https://www.glueclub.com/", icon: "🤝" },
+            { name: "WeAreWisely", desc: "获客增长服务", category: "增长服务", price: "paid", url: "https://wearewisely.com/en/", icon: "🚀" },
+            { name: "RapidAPI", desc: "API 集成市场", category: "开发工具", price: "freemium", url: "https://rapidapi.com/", icon: "⚡" },
+            
+            // Gingiris 免费工具
+            { name: "PH Comment Generator", desc: "Product Hunt 评论生成器", category: "Gingiris", price: "free", url: "https://gingiris.github.io/ph-comment-generator/", icon: "💬" },
+            { name: "GitHub Issue Generator", desc: "开源项目 Issue 生成器", category: "Gingiris", price: "free", url: "https://gingiris.github.io/github-issue-generator/", icon: "📝" },
+            { name: "GitHub README Generator", desc: "README 模板生成器", category: "Gingiris", price: "free", url: "https://gingiris.github.io/github-readme-generator/", icon: "📄" },
+        ];
+        
+        // Get categories
+        const categories = [...new Set(tools.map(t => t.category))];
+        
+        // State
+        let activeCategory = 'all';
+        let activePrice = 'all';
+        let searchQuery = '';
+        
+        // Render categories
+        function renderCategories() {
+            const list = document.getElementById('categoryList');
+            const allCount = tools.length;
+            
+            list.innerHTML = `
+                <li class="category-item active" data-category="all">
+                    📁 全部工具
+                    <span class="category-count">${allCount}</span>
+                </li>
+                ${categories.map(cat => {
+                    const count = tools.filter(t => t.category === cat).length;
+                    const icon = getCategoryIcon(cat);
+                    return `
+                        <li class="category-item" data-category="${cat}">
+                            ${icon} ${cat}
+                            <span class="category-count">${count}</span>
+                        </li>
+                    `;
+                }).join('')}
+            `;
+            
+            // Add click handlers
+            list.querySelectorAll('.category-item').forEach(item => {
+                item.addEventListener('click', () => {
+                    list.querySelectorAll('.category-item').forEach(i => i.classList.remove('active'));
+                    item.classList.add('active');
+                    activeCategory = item.dataset.category;
+                    renderTools();
+                });
+            });
+        }
+        
+        function getCategoryIcon(cat) {
+            const icons = {
+                '社媒监听': '📡', 'KOL管理': '👥', '社媒触达': '✉️', 'Reddit': '🔴',
+                'SEO': '🔍', '链接追踪': '🔗', 'UGC管理': '🎬', '社区发现': '🌐',
+                '内容创作': '🎨', '分析埋点': '📊', '邮件营销': '📧', '广告投放': '📢',
+                '用户调研': '🔬', '媒体PR': '📰', '网络拓展': '🤝', '增长服务': '🚀',
+                '开发工具': '⚡', 'Gingiris': '🫚'
+            };
+            return icons[cat] || '📁';
+        }
+        
+        // Render tools
+        function renderTools() {
+            const grid = document.getElementById('toolsGrid');
+            const noResults = document.getElementById('noResults');
+            const title = document.getElementById('categoryTitle');
+            const count = document.getElementById('toolCount');
+            
+            let filtered = tools;
+            
+            // Filter by category
+            if (activeCategory !== 'all') {
+                filtered = filtered.filter(t => t.category === activeCategory);
+            }
+            
+            // Filter by price
+            if (activePrice !== 'all') {
+                filtered = filtered.filter(t => t.price === activePrice);
+            }
+            
+            // Filter by search
+            if (searchQuery) {
+                const q = searchQuery.toLowerCase();
+                filtered = filtered.filter(t => 
+                    t.name.toLowerCase().includes(q) ||
+                    t.desc.toLowerCase().includes(q) ||
+                    t.category.toLowerCase().includes(q)
+                );
+            }
+            
+            // Update header
+            title.textContent = activeCategory === 'all' ? '全部工具' : activeCategory;
+            count.textContent = `${filtered.length} 工具`;
+            
+            if (filtered.length === 0) {
+                grid.style.display = 'none';
+                noResults.style.display = 'block';
+                return;
+            }
+            
+            grid.style.display = 'grid';
+            noResults.style.display = 'none';
+            
+            grid.innerHTML = filtered.map(tool => `
+                <a href="${tool.url}" target="_blank" class="tool-card">
+                    <div class="tool-header">
+                        <div class="tool-icon">${tool.icon}</div>
+                        <div class="tool-info">
+                            <div class="tool-name">${tool.name}</div>
+                            <div class="tool-category">${tool.category}</div>
+                        </div>
+                    </div>
+                    <div class="tool-desc">${tool.desc}</div>
+                    <div class="tool-footer">
+                        <span class="price-tag price-${tool.price}">${tool.price.charAt(0).toUpperCase() + tool.price.slice(1)}</span>
+                        <span class="tool-link">访问 →</span>
+                    </div>
+                </a>
+            `).join('');
+        }
+        
+        // Search handler
+        document.getElementById('searchInput').addEventListener('input', (e) => {
+            searchQuery = e.target.value;
+            renderTools();
+        });
+        
+        // Price filter handler
+        document.querySelectorAll('.filter-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                activePrice = btn.dataset.price;
+                renderTools();
+            });
+        });
+        
+        // Init
+        renderCategories();
+        renderTools();
+    </script>
+</body>
+</html>
