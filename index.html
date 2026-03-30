@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>出海增长工具集合 | 100+ Growth Tools for Startups</title>
+    <meta name="description" content="精选100+出海增长工具，涵盖KOL管理、SEO分析、Reddit增长、UGC管理等。基于30x Product Hunt #1经验整理。">
+    <meta name="keywords" content="growth tools, startup tools, marketing tools, SEO tools, KOL management, Reddit marketing, 出海工具, 增长工具">
+    <link rel="canonical" href="https://gingiris.github.io/growth-tools/">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="出海增长工具集合 | 100+ Growth Tools">
+    <meta property="og:description" content="精选100+出海增长工具，基于30x Product Hunt #1经验整理">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://gingiris.github.io/growth-tools/">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        :root {
+            --primary: #6366f1;
+            --primary-dark: #4f46e5;
+            --bg: #0f0f0f;
+            --card-bg: #1a1a1a;
+            --text: #ffffff;
+            --text-muted: #a1a1aa;
+            --border: #27272a;
+            --accent: #22c55e;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* Hero */
+        .hero {
+            padding: 80px 0 60px;
+            text-align: center;
+            background: linear-gradient(180deg, #1a1a2e 0%, var(--bg) 100%);
+        }
+        
+        .hero-badge {
+            display: inline-block;
+            background: var(--primary);
+            color: white;
+            padding: 6px 16px;
+            border-radius: 20px;
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+        
+        .hero h1 {
+            font-size: 3rem;
+            font-weight: 800;
+            margin-bottom: 16px;
+            background: linear-gradient(135deg, #fff 0%, #a1a1aa 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        .hero p {
+            font-size: 1.25rem;
+            color: var(--text-muted);
+            max-width: 600px;
+            margin: 0 auto 30px;
+        }
+        
+        .hero-stats {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin-bottom: 30px;
+        }
+        
+        .stat {
+            text-align: center;
+        }
+        
+        .stat-value {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--primary);
+        }
+        
+        .stat-label {
+            font-size: 14px;
+            color: var(--text-muted);
+        }
+        
+        .hero-buttons {
+            display: flex;
+            gap: 12px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 12px 24px;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        
+        .btn-primary {
+            background: var(--primary);
+            color: white;
+        }
+        
+        .btn-primary:hover {
+            background: var(--primary-dark);
+            transform: translateY(-2px);
+        }
+        
+        .btn-secondary {
+            background: var(--card-bg);
+            color: white;
+            border: 1px solid var(--border);
+        }
+        
+        .btn-secondary:hover {
+            border-color: var(--primary);
+        }
+        
+        /* Search & Filter */
+        .filter-section {
+            padding: 40px 0;
+            border-bottom: 1px solid var(--border);
+        }
+        
+        .search-box {
+            display: flex;
+            gap: 12px;
+            margin-bottom: 20px;
+        }
+        
+        .search-input {
+            flex: 1;
+            padding: 12px 16px;
+            border-radius: 8px;
+            border: 1px solid var(--border);
+            background: var(--card-bg);
+            color: white;
+            font-size: 16px;
+        }
+        
+        .search-input:focus {
+            outline: none;
+            border-color: var(--primary);
+        }
+        
+        .category-filters {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+        
+        .filter-btn {
+            padding: 8px 16px;
+            border-radius: 20px;
+            border: 1px solid var(--border);
+            background: transparent;
+            color: var(--text-muted);
+            cursor: pointer;
+            transition: all 0.2s;
+            font-size: 14px;
+        }
+        
+        .filter-btn:hover, .filter-btn.active {
+            background: var(--primary);
+            border-color: var(--primary);
+            color: white;
+        }
+        
+        /* Tools Grid */
+        .tools-section {
+            padding: 40px 0;
+        }
+        
+        .tools-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 20px;
+        }
+        
+        .tool-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 24px;
+            transition: all 0.2s;
+        }
+        
+        .tool-card:hover {
+            border-color: var(--primary);
+            transform: translateY(-4px);
+        }
+        
+        .tool-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 12px;
+        }
+        
+        .tool-name {
+            font-size: 1.1rem;
+            font-weight: 600;
+        }
+        
+        .tool-price {
+            font-size: 12px;
+            padding: 4px 8px;
+            border-radius: 4px;
+            background: var(--border);
+            color: var(--text-muted);
+        }
+        
+        .tool-price.free {
+            background: rgba(34, 197, 94, 0.2);
+            color: var(--accent);
+        }
+        
+        .tool-desc {
+            color: var(--text-muted);
+            font-size: 14px;
+            margin-bottom: 16px;
+        }
+        
+        .tool-category {
+            font-size: 12px;
+            color: var(--primary);
+            margin-bottom: 12px;
+        }
+        
+        .tool-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            color: var(--primary);
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 500;
+        }
+        
+        .tool-link:hover {
+            text-decoration: underline;
+        }
+        
+        /* CTA Section */
+        .cta-section {
+            padding: 60px 0;
+            text-align: center;
+            background: linear-gradient(180deg, var(--bg) 0%, #1a1a2e 100%);
+        }
+        
+        .cta-section h2 {
+            font-size: 2rem;
+            margin-bottom: 16px;
+        }
+        
+        .cta-section p {
+            color: var(--text-muted);
+            margin-bottom: 30px;
+        }
+        
+        .cta-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .cta-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 24px;
+            text-align: left;
+        }
+        
+        .cta-card h3 {
+            font-size: 1.1rem;
+            margin-bottom: 8px;
+        }
+        
+        .cta-card p {
+            font-size: 14px;
+            margin-bottom: 16px;
+        }
+        
+        .cta-card .price {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--accent);
+        }
+        
+        /* Footer */
+        footer {
+            padding: 40px 0;
+            text-align: center;
+            border-top: 1px solid var(--border);
+        }
+        
+        footer p {
+            color: var(--text-muted);
+            font-size: 14px;
+        }
+        
+        footer a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+        
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+            
+            .hero-stats {
+                gap: 20px;
+            }
+            
+            .tools-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero -->
+    <section class="hero">
+        <div class="container">
+            <span class="hero-badge">🚀 100+ 精选工具</span>
+            <h1>出海增长工具集合</h1>
+            <p>从 KOL 管理到 SEO 分析，从 Reddit 增长到 UGC 管理，一站式解决出海增长需求</p>
+            
+            <div class="hero-stats">
+                <div class="stat">
+                    <div class="stat-value">100+</div>
+                    <div class="stat-label">精选工具</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-value">14</div>
+                    <div class="stat-label">分类</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-value">30x</div>
+                    <div class="stat-label">PH #1 经验</div>
+                </div>
+            </div>
+            
+            <div class="hero-buttons">
+                <a href="https://github.com/Gingiris/growth-tools" class="btn btn-primary">
+                    ⭐ Star on GitHub
+                </a>
+                <a href="https://gingiris.gumroad.com/l/gingiris-complete-global-launch-bundle" class="btn btn-secondary">
+                    💎 获取完整 Bundle
+                </a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Filter -->
+    <section class="filter-section">
+        <div class="container">
+            <div class="search-box">
+                <input type="text" class="search-input" placeholder="搜索工具..." id="searchInput">
+            </div>
+            <div class="category-filters">
+                <button class="filter-btn active" data-category="all">全部</button>
+                <button class="filter-btn" data-category="social">社媒监听</button>
+                <button class="filter-btn" data-category="kol">KOL管理</button>
+                <button class="filter-btn" data-category="outreach">社媒触达</button>
+                <button class="filter-btn" data-category="reddit">Reddit</button>
+                <button class="filter-btn" data-category="seo">SEO</button>
+                <button class="filter-btn" data-category="ugc">UGC</button>
+                <button class="filter-btn" data-category="analytics">分析</button>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Tools Grid -->
+    <section class="tools-section">
+        <div class="container">
+            <div class="tools-grid" id="toolsGrid">
+                <!-- Tools will be rendered here -->
+            </div>
+        </div>
+    </section>
+    
+    <!-- CTA -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>想要更系统的方法论？</h2>
+            <p>工具只是起点，完整的增长策略才是关键</p>
+            
+            <div class="cta-cards">
+                <div class="cta-card">
+                    <h3>📚 Product Hunt 打榜指南</h3>
+                    <p>30x 日榜第一的完整打法</p>
+                    <a href="https://gingiris.gumroad.com/l/zxamur" class="btn btn-primary" style="width:100%">
+                        获取 · <span class="price">¥99</span>
+                    </a>
+                </div>
+                <div class="cta-card">
+                    <h3>🌟 开源项目营销指南</h3>
+                    <p>0 到 33k stars 的实战经验</p>
+                    <a href="https://gingiris.gumroad.com/l/vhmkew" class="btn btn-primary" style="width:100%">
+                        获取 · <span class="price">¥99</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>
+                Built by <a href="https://twitter.com/Iris_carrot">Iris</a> · 
+                Ex-AFFiNE COO · 30x PH #1 Winner
+            </p>
+            <p style="margin-top: 8px;">
+                <a href="https://github.com/Gingiris/gingiris-launch">Launch Playbook</a> · 
+                <a href="https://github.com/Gingiris/gingiris-opensource">OSS Marketing</a> · 
+                <a href="https://github.com/Gingiris/gingiris-b2b-growth">B2B Growth</a>
+            </p>
+        </div>
+    </footer>
+    
+    <script>
+        const tools = [
+            { name: "Toolify Social Listening", desc: "AI 社媒监听，追踪产品相关讨论", price: "Freemium", category: "social", url: "https://www.toolify.ai/social-listening" },
+            { name: "Vizzylabs", desc: "爆款内容分析，了解社媒趋势", price: "Free", category: "social", url: "https://app.vizzylabs.ai/trending" },
+            { name: "PH Deck", desc: "每日 Product Hunt Featured 产品追踪", price: "Free", category: "social", url: "https://www.phdeck.com/" },
+            { name: "EEzycollab", desc: "KOL 匹配 + 邮件发送一体化", price: "Freemium", category: "kol", url: "https://www.eezycollab.com/" },
+            { name: "Nanoinfluencer", desc: "KOL 匹配 / 竞品账号调研", price: "Freemium", category: "kol", url: "https://www.nanoinfluencer.ai/" },
+            { name: "NoxInfluencer", desc: "红人信息数据库", price: "Freemium", category: "kol", url: "https://cn.noxinfluencer.com/" },
+            { name: "Phantombuster", desc: "LinkedIn DM 自动化", price: "$59/mo+", category: "outreach", url: "https://phantombuster.com/" },
+            { name: "xAutoDM", desc: "Twitter 自动 DM 工具", price: "Paid", category: "outreach", url: "https://xautodm.com/" },
+            { name: "Reddit Marketing Strategist", desc: "AI Agent: 找 Subreddit + 读懂规则", price: "Free", category: "reddit", url: "https://leapility.com/?agent=i-8poxa0f1xq9q" },
+            { name: "Reddit Soft-Sell Agent", desc: "AI Agent: 去掉营销味改写内容", price: "Free", category: "reddit", url: "https://leapility.com/?agent=i-c0aezfsqhrdl" },
+            { name: "AITDK", desc: "AI SEO 插件，关键词分析", price: "Free", category: "seo", url: "https://aitdk.com/" },
+            { name: "Keywords Everywhere", desc: "关键词搜索量查询插件", price: "$1.25/mo", category: "seo", url: "https://keywordseverywhere.com/" },
+            { name: "Growi", desc: "达人管理专用平台", price: "Paid", category: "ugc", url: "https://www.growi.io/grow" },
+            { name: "MagicBrief", desc: "AI 生成 KOL/UGC Brief", price: "Freemium", category: "ugc", url: "https://magicbrief.com/" },
+            { name: "Mixpanel", desc: "用户行为分析", price: "Freemium", category: "analytics", url: "https://mixpanel.com/" },
+            { name: "PostHog", desc: "开源用户行为分析", price: "Free", category: "analytics", url: "https://posthog.com/" },
+        ];
+        
+        function renderTools(filter = 'all', search = '') {
+            const grid = document.getElementById('toolsGrid');
+            const filtered = tools.filter(t => {
+                const matchCategory = filter === 'all' || t.category === filter;
+                const matchSearch = t.name.toLowerCase().includes(search.toLowerCase()) || 
+                                   t.desc.toLowerCase().includes(search.toLowerCase());
+                return matchCategory && matchSearch;
+            });
+            
+            grid.innerHTML = filtered.map(t => `
+                <div class="tool-card" data-category="${t.category}">
+                    <div class="tool-header">
+                        <span class="tool-name">${t.name}</span>
+                        <span class="tool-price ${t.price === 'Free' ? 'free' : ''}">${t.price}</span>
+                    </div>
+                    <p class="tool-desc">${t.desc}</p>
+                    <a href="${t.url}" target="_blank" class="tool-link">访问 →</a>
+                </div>
+            `).join('');
+        }
+        
+        // Filter buttons
+        document.querySelectorAll('.filter-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                renderTools(btn.dataset.category, document.getElementById('searchInput').value);
+            });
+        });
+        
+        // Search
+        document.getElementById('searchInput').addEventListener('input', (e) => {
+            const activeFilter = document.querySelector('.filter-btn.active').dataset.category;
+            renderTools(activeFilter, e.target.value);
+        });
+        
+        // Initial render
+        renderTools();
+    </script>
+</body>
+</html>
