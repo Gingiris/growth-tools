@@ -1,0 +1,23 @@
+User-agent: *
+Allow: /
+
+# AI Search Bots (GEO 优化)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+Sitemap: https://gingiris.github.io/growth-tools/sitemap.xml
