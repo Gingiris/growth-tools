@@ -6,29 +6,24 @@
     
     <!-- Primary Meta Tags -->
     <title>Growth Tools for Global Launch | 100+ Verified Tools for AI & SaaS</title>
-    <meta name="title" content="Growth Tools for Global Launch | 100+ Verified Tools">
-    <meta name="description" content="100+ growth tools for AI & SaaS: social listening, KOL outreach, Reddit growth, SEO, UGC management. Curated from AFFiNE 33k stars and 30x PH #1 experience.">
+    <meta name="title" content="Growth Tools for Global Launch | 100+ Verified Tools for AI & SaaS">
+    <meta name="description" content="100+ verified growth tools for AI & SaaS: social listening, KOL outreach, Reddit growth, SEO, UGC management. Curated from AFFiNE 33k stars and 30x PH #1 experience.">
     <meta name="keywords" content="growth tools, startup tools, SaaS marketing, KOL tools, Reddit marketing, SEO tools, Product Hunt, social listening, UGC management">
     <meta name="author" content="Gingiris">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://gingiris.github.io/growth-tools/en/">
     
-    <!-- Hreflang -->
-    <link rel="alternate" hreflang="zh" href="https://gingiris.github.io/growth-tools/">
-    <link rel="alternate" hreflang="en" href="https://gingiris.github.io/growth-tools/en/">
-    <link rel="alternate" hreflang="x-default" href="https://gingiris.github.io/growth-tools/">
-    
     <!-- Open Graph -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://gingiris.github.io/growth-tools/en/">
-    <meta property="og:title" content="Growth Tools for Global Launch | 100+ Verified Tools">
-    <meta property="og:description" content="100+ growth tools for AI & SaaS. Curated from AFFiNE 33k stars and 30x PH #1 experience.">
+    <meta property="og:url" content="https://gingiris.github.io/growth-tools/">
+    <meta property="og:title" content="Growth Tools for Global Launch">
+    <meta property="og:description" content="100+ verified growth tools for AI & SaaS, based on AFFiNE 33k stars and 30x PH #1 experience.">
     <meta property="og:site_name" content="Gingiris Growth Tools">
     
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Growth Tools for Global Launch">
-    <meta name="twitter:description" content="100+ growth tools for AI & SaaS.">
+    <meta name="twitter:description" content="精选100+出海增长工具，基于实战经验整理。">
     <meta name="twitter:creator" content="@Iris_carrot">
     
     <!-- JSON-LD -->
@@ -37,8 +32,8 @@
         "@context": "https://schema.org",
         "@type": "WebApplication",
         "name": "Gingiris Growth Tools",
-        "description": "100+ verified growth tools for AI & SaaS global launch",
-        "url": "https://gingiris.github.io/growth-tools/en/",
+        "description": "100+ verified growth tools for AI & SaaS",
+        "url": "https://gingiris.github.io/growth-tools/",
         "applicationCategory": "BusinessApplication",
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
         "author": { "@type": "Person", "name": "Iris", "url": "https://twitter.com/Iris_carrot" }
@@ -57,27 +52,30 @@
             --text-secondary: #888;
             --accent: #6366f1;
             --accent-hover: #818cf8;
-            --accent-secondary: #f97316;
-            --accent-secondary-hover: #fb923c;
+            --green: #22c55e;
+            --blue: #3b82f6;
+            --orange: #f97316;
+            --pink: #ec4899;
         }
         
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
             background: var(--bg);
             color: var(--text);
-            line-height: 1.6;
+            line-height: 1.5;
         }
         
-        a { color: var(--accent); text-decoration: none; }
-        a:hover { color: var(--accent-hover); }
+        a { color: inherit; text-decoration: none; }
         
+        /* Header */
         .header {
-            background: var(--surface);
-            border-bottom: 1px solid var(--border);
-            padding: 12px 24px;
             position: sticky;
             top: 0;
             z-index: 100;
+            background: rgba(15, 15, 15, 0.9);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border);
+            padding: 12px 24px;
         }
         
         .header-inner {
@@ -89,81 +87,87 @@
         }
         
         .logo {
-            font-size: 18px;
-            font-weight: 600;
+            font-size: 20px;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            gap: 8px;
             white-space: nowrap;
         }
         
         .logo span { color: var(--accent); }
         
-        .lang-switch {
-            background: var(--surface-hover);
-            border: 1px solid var(--border);
-            border-radius: 6px;
-            padding: 6px 12px;
-            color: var(--text);
-            font-size: 13px;
-            cursor: pointer;
-            text-decoration: none;
-            transition: all 0.2s;
-        }
-        
-        .lang-switch:hover {
-            background: var(--accent);
-            color: white;
-        }
-        
+        /* Search */
         .search-box {
             flex: 1;
-            max-width: 400px;
+            max-width: 500px;
+            position: relative;
         }
         
         .search-box input {
             width: 100%;
-            padding: 8px 16px;
-            background: var(--bg);
+            padding: 10px 16px 10px 40px;
+            background: var(--surface);
             border: 1px solid var(--border);
             border-radius: 8px;
             color: var(--text);
             font-size: 14px;
         }
         
-        .search-box input::placeholder { color: var(--text-secondary); }
+        .search-box input:focus {
+            outline: none;
+            border-color: var(--accent);
+        }
+        
+        .search-box::before {
+            content: "🔍";
+            position: absolute;
+            left: 12px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 14px;
+        }
         
         .header-links {
             display: flex;
             gap: 16px;
-            align-items: center;
+            font-size: 14px;
         }
         
         .header-links a {
             color: var(--text-secondary);
-            font-size: 14px;
             transition: color 0.2s;
         }
         
         .header-links a:hover { color: var(--text); }
-        
-        .submit-btn {
-            background: var(--accent-secondary) !important;
-            color: white !important;
-            padding: 6px 14px;
+        .header-links .submit-btn {
+            background: var(--accent);
+            color: #fff !important;
+            padding: 6px 12px;
             border-radius: 6px;
             font-weight: 500;
         }
+        .header-links .submit-btn:hover {
+            background: #2563eb;
+        }
         
-        .submit-btn:hover { background: var(--accent-secondary-hover) !important; }
-        
+        /* Main Layout */
         .main {
             max-width: 1400px;
             margin: 0 auto;
-            padding: 24px;
             display: flex;
-            gap: 24px;
+            min-height: calc(100vh - 60px);
         }
         
+        /* Sidebar */
         .sidebar {
             width: 220px;
+            padding: 24px 16px;
+            border-right: 1px solid var(--border);
+            position: sticky;
+            top: 60px;
+            height: calc(100vh - 60px);
+            overflow-y: auto;
             flex-shrink: 0;
         }
         
@@ -172,76 +176,63 @@
             text-transform: uppercase;
             color: var(--text-secondary);
             margin-bottom: 12px;
-            letter-spacing: 0.5px;
+            padding: 0 8px;
         }
         
         .category-list {
             list-style: none;
         }
         
-        .category-list li {
+        .category-item {
             padding: 8px 12px;
             border-radius: 6px;
             cursor: pointer;
             font-size: 14px;
-            color: var(--text-secondary);
-            transition: all 0.2s;
-            margin-bottom: 4px;
-        }
-        
-        .category-list li:hover, .category-list li.active {
-            background: var(--surface);
-            color: var(--text);
-        }
-        
-        .content { flex: 1; }
-        
-        .stats-banner {
-            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
-            border: 1px solid var(--accent);
-            border-radius: 12px;
-            padding: 16px 24px;
-            margin-bottom: 24px;
             display: flex;
-            justify-content: space-between;
             align-items: center;
-            flex-wrap: wrap;
-            gap: 12px;
-        }
-        
-        .stats-text {
-            font-size: 14px;
-        }
-        
-        .stats-text strong { color: var(--accent); }
-        
-        .stats-badges {
-            display: flex;
             gap: 8px;
+            transition: background 0.2s;
+            margin-bottom: 2px;
         }
         
-        .badge {
-            background: var(--surface);
-            padding: 4px 10px;
-            border-radius: 16px;
+        .category-item:hover { background: var(--surface); }
+        .category-item.active { background: var(--accent); color: #fff; }
+        
+        .category-count {
+            margin-left: auto;
             font-size: 12px;
+            color: var(--text-secondary);
+            background: var(--surface);
+            padding: 2px 6px;
+            border-radius: 10px;
+        }
+        
+        .category-item.active .category-count {
+            background: rgba(255,255,255,0.2);
+            color: #fff;
+        }
+        
+        /* Content */
+        .content {
+            flex: 1;
+            padding: 24px;
         }
         
         .content-header {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            margin-bottom: 20px;
+            margin-bottom: 24px;
         }
         
         .content-header h1 {
             font-size: 24px;
+            font-weight: 600;
         }
         
         .tool-count {
             color: var(--text-secondary);
             font-size: 14px;
-            margin-left: 8px;
         }
         
         .filters {
@@ -250,7 +241,7 @@
         }
         
         .filter-btn {
-            padding: 6px 14px;
+            padding: 6px 12px;
             background: var(--surface);
             border: 1px solid var(--border);
             border-radius: 6px;
@@ -260,16 +251,13 @@
             transition: all 0.2s;
         }
         
-        .filter-btn:hover { border-color: var(--accent); }
-        .filter-btn.active {
-            background: var(--accent);
-            border-color: var(--accent);
-            color: white;
-        }
+        .filter-btn:hover { border-color: var(--accent); color: var(--text); }
+        .filter-btn.active { background: var(--accent); border-color: var(--accent); color: #fff; }
         
+        /* Tools Grid */
         .tools-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
             gap: 16px;
         }
         
@@ -277,11 +265,10 @@
             background: var(--surface);
             border: 1px solid var(--border);
             border-radius: 12px;
-            padding: 16px;
+            padding: 20px;
             transition: all 0.2s;
-            text-decoration: none;
-            color: inherit;
-            display: block;
+            display: flex;
+            flex-direction: column;
         }
         
         .tool-card:hover {
@@ -291,47 +278,45 @@
         
         .tool-header {
             display: flex;
-            justify-content: space-between;
             align-items: flex-start;
+            gap: 12px;
             margin-bottom: 12px;
         }
         
         .tool-icon {
-            width: 40px;
-            height: 40px;
-            background: linear-gradient(135deg, var(--accent), var(--accent-secondary));
-            border-radius: 8px;
+            width: 44px;
+            height: 44px;
+            background: linear-gradient(135deg, var(--accent), var(--pink));
+            border-radius: 10px;
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 18px;
+            font-size: 20px;
+            flex-shrink: 0;
         }
         
-        .tool-price {
-            padding: 4px 8px;
-            border-radius: 4px;
-            font-size: 11px;
-            font-weight: 500;
-        }
-        
-        .price-free { background: #065f46; color: #6ee7b7; }
-        .price-freemium { background: #1e40af; color: #93c5fd; }
-        .price-paid { background: #7c2d12; color: #fca5a5; }
+        .tool-info { flex: 1; min-width: 0; }
         
         .tool-name {
             font-size: 16px;
             font-weight: 600;
             margin-bottom: 4px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .tool-category {
+            font-size: 12px;
+            color: var(--text-secondary);
         }
         
         .tool-desc {
-            font-size: 13px;
+            font-size: 14px;
             color: var(--text-secondary);
-            margin-bottom: 12px;
-            display: -webkit-box;
-            -webkit-line-clamp: 2;
-            -webkit-box-orient: vertical;
-            overflow: hidden;
+            line-height: 1.5;
+            margin-bottom: 16px;
+            flex: 1;
         }
         
         .tool-footer {
@@ -340,37 +325,90 @@
             align-items: center;
         }
         
-        .tool-category {
-            font-size: 11px;
-            color: var(--text-secondary);
-            background: var(--bg);
-            padding: 2px 8px;
-            border-radius: 4px;
+        .price-tag {
+            font-size: 12px;
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-weight: 500;
         }
+        
+        .price-free { background: rgba(34, 197, 94, 0.15); color: var(--green); }
+        .price-freemium { background: rgba(59, 130, 246, 0.15); color: var(--blue); }
+        .price-paid { background: rgba(249, 115, 22, 0.15); color: var(--orange); }
         
         .tool-link {
-            font-size: 12px;
+            font-size: 13px;
             color: var(--accent);
+            display: flex;
+            align-items: center;
+            gap: 4px;
         }
         
+        .tool-link:hover { color: var(--accent-hover); }
+        
+        /* Stats Banner */
+        .stats-banner {
+            background: linear-gradient(135deg, rgba(99, 102, 241, 0.1), rgba(236, 72, 153, 0.1));
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 20px 24px;
+            margin-bottom: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 16px;
+        }
+        
+        .stats-text {
+            font-size: 14px;
+            color: var(--text-secondary);
+        }
+        
+        .stats-text strong { color: var(--text); }
+        
+        .stats-badges {
+            display: flex;
+            gap: 12px;
+        }
+        
+        .badge {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            padding: 6px 12px;
+            background: var(--surface);
+            border-radius: 20px;
+            font-size: 13px;
+        }
+        
+        /* Footer */
         .footer {
-            text-align: center;
-            padding: 40px 24px;
             border-top: 1px solid var(--border);
-            margin-top: 40px;
+            padding: 24px;
+            text-align: center;
             color: var(--text-secondary);
             font-size: 14px;
         }
         
         .footer a { color: var(--accent); }
         
+        /* Mobile */
         @media (max-width: 768px) {
             .sidebar { display: none; }
             .header-links { display: none; }
-            .header-inner { flex-wrap: wrap; }
-            .search-box { order: 3; max-width: 100%; }
             .tools-grid { grid-template-columns: 1fr; }
+            .stats-banner { flex-direction: column; text-align: center; }
         }
+        
+        /* No results */
+        .no-results {
+            text-align: center;
+            padding: 60px 20px;
+            color: var(--text-secondary);
+        }
+        
+        .no-results h3 { font-size: 18px; margin-bottom: 8px; color: var(--text); }
     </style>
 </head>
 <body>
@@ -378,13 +416,12 @@
     <header class="header">
         <div class="header-inner">
             <div class="logo">🚀 <span>Growth</span>Tools</div>
-            <a href="https://gingiris.github.io/growth-tools/" class="lang-switch">中文</a>
             <div class="search-box">
                 <input type="text" id="searchInput" placeholder="Search tools... (e.g. KOL, Reddit, SEO)">
             </div>
             <nav class="header-links">
                 <a href="https://github.com/Gingiris/growth-tools/issues/new?template=submit-tool.yml" class="submit-btn">➕ Submit Tool</a>
-                <a href="/growth-tools/blog/en/">📝 Blog</a>
+                <a href="/growth-tools/blog/">📝 Blog</a>
                 <a href="https://github.com/Gingiris/growth-tools">⭐ GitHub</a>
                 <a href="https://github.com/Gingiris/gingiris-launch">📚 Playbooks</a>
                 <a href="https://gingiris.gumroad.com">💎 Pro</a>
@@ -406,7 +443,7 @@
             <!-- Stats Banner -->
             <div class="stats-banner">
                 <div class="stats-text">
-                    Curated from <strong>AFFiNE 33k+ stars</strong> and <strong>30x Product Hunt #1</strong> experience
+                    Curated from <strong>AFFiNE 33k+ stars</strong> and <strong>30x PH #1</strong> experience
                 </div>
                 <div class="stats-badges">
                     <span class="badge">🛠️ 100+ Tools</span>
@@ -434,7 +471,7 @@
             
             <div class="no-results" id="noResults" style="display: none;">
                 <h3>No tools found</h3>
-                <p>Try a different keyword or category</p>
+                <p>Try different keywords or categories</p>
             </div>
         </main>
     </div>
@@ -448,13 +485,216 @@
     </footer>
     
     <script>
-        // Tools data - same as Chinese version
+        // Tools Data
         const tools = [
-            { name: "Notion", icon: "📝", category: "Documentation", price: "freemium", desc: "Documentation and wiki for your project", url: "https://notion.so" },
-            { name: "GitHub", icon: "🐙", category: "Code Hosting", price: "freemium", desc: "Host and review code, manage projects", url: "https://github.com" },
-            { name: "Figma", icon: "🎨", category: "Design", price: "freemium", desc: "Collaborative design tool", url: "https://figma.com" },
-            { name: "Loom", icon: "🎬", category: "Video", price: "freemium", desc: "Record quick videos for demos", url: "https://loom.com" },
-            { name: "Carrd", icon: "🃏", category: "Landing Pages", price: "paid", desc: "Simple one-page sites", url: "https://carrd.co" },
-            { name: "Typeform", icon: "📋", category: "Forms", price: "freemium", desc: "Beautiful forms and surveys", url: "https://typeform.com" },
-            { name: "</body>
+            // 社媒监听 & 分析
+            { name: "Toolify Social Listening", desc: "AI 社媒监听，追踪产品相关讨论", category: "社媒监听", price: "freemium", url: "https://www.toolify.ai/social-listening", icon: "📡" },
+            { name: "Vizzylabs", desc: "爆款内容分析，了解社媒趋势", category: "社媒监听", price: "free", url: "https://app.vizzylabs.ai/trending", icon: "📊" },
+            { name: "Tweet Binder", desc: "Twitter 转化率监控工具", category: "社媒监听", price: "paid", url: "https://www.tweetbinder.com/", icon: "🐦" },
+            { name: "PH Deck", desc: "每日 Product Hunt Featured 产品追踪", category: "社媒监听", price: "free", url: "https://www.phdeck.com/", icon: "🎯" },
+            
+            // KOL/红人管理
+            { name: "EEzycollab", desc: "KOL 匹配 + 邮件发送一体化", category: "KOL管理", price: "freemium", url: "https://www.eezycollab.com/", icon: "🤝" },
+            { name: "Nanoinfluencer", desc: "KOL 匹配 / 竞品账号调研", category: "KOL管理", price: "freemium", url: "https://www.nanoinfluencer.ai/", icon: "👥" },
+            { name: "EasyKOL", desc: "KOL 管理平台", category: "KOL管理", price: "paid", url: "https://easykol.com/", icon: "📋" },
+            { name: "NoxInfluencer", desc: "红人信息数据库", category: "KOL管理", price: "freemium", url: "https://cn.noxinfluencer.com/", icon: "🔍" },
+            { name: "Connpass", desc: "日本社群/KOL 资源", category: "KOL管理", price: "free", url: "https://connpass.com/", icon: "🇯🇵" },
+            
+            // 社媒触达工具
+            { name: "GeeLark", desc: "AI copilot for social media marketing (多平台)", category: "社媒触达", price: "paid", url: "https://www.geelark.com/?utm_source=Gingiris", icon: "🦜" },
+            { name: "xAutoDM", desc: "Twitter 自动 DM 工具", category: "社媒触达", price: "paid", url: "https://xautodm.com/", icon: "✉️" },
+            { name: "Phantombuster", desc: "LinkedIn DM 自动化", category: "社媒触达", price: "paid", url: "https://phantombuster.com/", icon: "👻" },
+            { name: "LinkedHelper", desc: "LinkedIn 浏览器插件", category: "社媒触达", price: "paid", url: "https://www.linkedhelper.com/", icon: "🔗" },
+            
+            // Reddit 增长
+            { name: "Reddit Marketing Strategist", desc: "AI Agent: 找 Subreddit + 读懂规则", category: "Reddit", price: "freemium", url: "https://leapility.com/?agent=i-8poxa0f1xq9q", icon: "🤖" },
+            { name: "Agent Launch Strategy", desc: "AI Agent: 规划长期内容策略", category: "Reddit", price: "freemium", url: "https://leapility.com/?agent=i-1fd6npqlkqsg", icon: "📝" },
+            { name: "Reddit Soft-Sell Agent", desc: "AI Agent: 去掉营销味改写内容", category: "Reddit", price: "freemium", url: "https://leapility.com/?agent=i-c0aezfsqhrdl", icon: "✨" },
+            { name: "Reddit User Pain Points", desc: "AI Agent: 抓取分析用户痛点", category: "Reddit", price: "free", url: "https://leapility.com/share/agent/i-6nto7kumdswl", icon: "🎯" },
+            { name: "Buy Upvotes", desc: "Reddit Upvote 购买 (谨慎使用)", category: "Reddit", price: "paid", url: "https://www.buyupvotes.io/dashboard/", icon: "⬆️" },
+            { name: "Reddit List", desc: "高质量 Reddit 社区目录", category: "Reddit", price: "free", url: "https://www.reddit-list.com/en", icon: "📋" },
+            
+            // SEO 工具
+            { name: "AITDK", desc: "AI SEO 插件，关键词分析", category: "SEO", price: "free", url: "https://aitdk.com/", icon: "🔑" },
+            { name: "Keywords Everywhere", desc: "关键词搜索量查询插件", category: "SEO", price: "freemium", url: "https://keywordseverywhere.com/", icon: "📈" },
+            { name: "Semrush", desc: "全面 SEO 分析平台", category: "SEO", price: "paid", url: "https://www.semrush.com/", icon: "📊" },
+            
+            // 链接追踪
+            { name: "Juicebox", desc: "Short link + UTM 追踪", category: "链接追踪", price: "freemium", url: "https://juicebox.ai/pricing", icon: "🔗" },
+            { name: "Shortpen", desc: "Short link 生成", category: "链接追踪", price: "freemium", url: "https://shortpen.com/pricing/", icon: "✂️" },
+            { name: "Bitly", desc: "短链接生成标杆", category: "链接追踪", price: "freemium", url: "https://bitly.com", icon: "⚡" },
+            
+            // UGC 管理
+            { name: "Growi", desc: "达人管理专用平台", category: "UGC管理", price: "paid", url: "https://www.growi.io/grow", icon: "🌱" },
+            { name: "MagicBrief", desc: "AI 生成 KOL/UGC Brief", category: "UGC管理", price: "freemium", url: "https://magicbrief.com/", icon: "✨" },
+            { name: "Sideshift", desc: "UGC 创作者支付 (美国达人)", category: "UGC管理", price: "paid", url: "https://sideshift.app/", icon: "💰" },
+            { name: "Viral.app", desc: "UGC 流量追踪", category: "UGC管理", price: "paid", url: "https://viral.app/", icon: "📈" },
+            { name: "DansUGC", desc: "UGC 内容生成辅助", category: "UGC管理", price: "paid", url: "https://dansugc.com/", icon: "🎬" },
+            
+            // 社区发现
+            { name: "Discord Hunt", desc: "找 Discord 社区", category: "社区发现", price: "free", url: "https://discordhunt.com/", icon: "🎮" },
+            { name: "DevHunt", desc: "开发者工具打榜平台", category: "社区发现", price: "free", url: "https://devhunt.org/", icon: "🛠️" },
+            
+            // 内容创作
+            { name: "Arcade", desc: "交互式产品 Demo 制作", category: "内容创作", price: "freemium", url: "https://www.arcade.software/", icon: "🎮" },
+            { name: "Imgflip", desc: "梗图生成器", category: "内容创作", price: "free", url: "https://imgflip.com/memetemplates", icon: "😂" },
+            { name: "Daily Dose of DS", desc: "技术框架图制作", category: "内容创作", price: "free", url: "https://www.dailydoseofds.com/", icon: "📊" },
+            
+            // 埋点 & 分析
+            { name: "Mixpanel", desc: "用户行为分析", category: "分析埋点", price: "freemium", url: "https://mixpanel.com/", icon: "📈" },
+            { name: "PostHog", desc: "开源用户行为分析", category: "分析埋点", price: "freemium", url: "https://posthog.com/", icon: "🦔" },
+            
+            // 邮件营销
+            { name: "Loops", desc: "邮件营销自动化", category: "邮件营销", price: "freemium", url: "https://loops.so/", icon: "📧" },
+            
+            // 广告投放
+            { name: "AdQuick", desc: "硅谷广告牌聚合平台", category: "广告投放", price: "paid", url: "https://www.adquick.com", icon: "📢" },
+            { name: "Platon Agent", desc: "投放关联 Agent", category: "广告投放", price: "paid", url: "https://platonagent.ai", icon: "🤖" },
+            
+            // 其他工具
+            { name: "Prolific", desc: "海外用户调研平台", category: "用户调研", price: "paid", url: "https://www.prolific.com/", icon: "🔬" },
+            { name: "Qwoted", desc: "媒体资源平台", category: "媒体PR", price: "freemium", url: "https://www.qwoted.com/", icon: "📰" },
+            { name: "GlueClub", desc: "快速建联 Operation 大佬", category: "网络拓展", price: "paid", url: "https://www.glueclub.com/", icon: "🤝" },
+            { name: "WeAreWisely", desc: "获客增长服务", category: "增长服务", price: "paid", url: "https://wearewisely.com/en/", icon: "🚀" },
+            { name: "RapidAPI", desc: "API 集成市场", category: "开发工具", price: "freemium", url: "https://rapidapi.com/", icon: "⚡" },
+            
+            // Gingiris 免费工具
+            { name: "PH Comment Generator", desc: "Product Hunt 评论生成器", category: "Gingiris", price: "free", url: "https://gingiris.github.io/ph-comment-generator/", icon: "💬" },
+            { name: "GitHub Issue Generator", desc: "开源项目 Issue 生成器", category: "Gingiris", price: "free", url: "https://gingiris.github.io/github-issue-generator/", icon: "📝" },
+            { name: "GitHub README Generator", desc: "README 模板生成器", category: "Gingiris", price: "free", url: "https://gingiris.github.io/github-readme-generator/", icon: "📄" },
+        ];
+        
+        // Get categories
+        const categories = [...new Set(tools.map(t => t.category))];
+        
+        // State
+        let activeCategory = 'all';
+        let activePrice = 'all';
+        let searchQuery = '';
+        
+        // Render categories
+        function renderCategories() {
+            const list = document.getElementById('categoryList');
+            const allCount = tools.length;
+            
+            list.innerHTML = `
+                <li class="category-item active" data-category="all">
+                    📁 全部工具
+                    <span class="category-count">${allCount}</span>
+                </li>
+                ${categories.map(cat => {
+                    const count = tools.filter(t => t.category === cat).length;
+                    const icon = getCategoryIcon(cat);
+                    return `
+                        <li class="category-item" data-category="${cat}">
+                            ${icon} ${cat}
+                            <span class="category-count">${count}</span>
+                        </li>
+                    `;
+                }).join('')}
+            `;
+            
+            // Add click handlers
+            list.querySelectorAll('.category-item').forEach(item => {
+                item.addEventListener('click', () => {
+                    list.querySelectorAll('.category-item').forEach(i => i.classList.remove('active'));
+                    item.classList.add('active');
+                    activeCategory = item.dataset.category;
+                    renderTools();
+                });
+            });
+        }
+        
+        function getCategoryIcon(cat) {
+            const icons = {
+                '社媒监听': '📡', 'KOL管理': '👥', '社媒触达': '✉️', 'Reddit': '🔴',
+                'SEO': '🔍', '链接追踪': '🔗', 'UGC管理': '🎬', '社区发现': '🌐',
+                '内容创作': '🎨', '分析埋点': '📊', '邮件营销': '📧', '广告投放': '📢',
+                '用户调研': '🔬', '媒体PR': '📰', '网络拓展': '🤝', '增长服务': '🚀',
+                '开发工具': '⚡', 'Gingiris': '🫚'
+            };
+            return icons[cat] || '📁';
+        }
+        
+        // Render tools
+        function renderTools() {
+            const grid = document.getElementById('toolsGrid');
+            const noResults = document.getElementById('noResults');
+            const title = document.getElementById('categoryTitle');
+            const count = document.getElementById('toolCount');
+            
+            let filtered = tools;
+            
+            // Filter by category
+            if (activeCategory !== 'all') {
+                filtered = filtered.filter(t => t.category === activeCategory);
+            }
+            
+            // Filter by price
+            if (activePrice !== 'all') {
+                filtered = filtered.filter(t => t.price === activePrice);
+            }
+            
+            // Filter by search
+            if (searchQuery) {
+                const q = searchQuery.toLowerCase();
+                filtered = filtered.filter(t => 
+                    t.name.toLowerCase().includes(q) ||
+                    t.desc.toLowerCase().includes(q) ||
+                    t.category.toLowerCase().includes(q)
+                );
+            }
+            
+            // Update header
+            title.textContent = activeCategory === 'all' ? '全部工具' : activeCategory;
+            count.textContent = `${filtered.length} tools`;
+            
+            if (filtered.length === 0) {
+                grid.style.display = 'none';
+                noResults.style.display = 'block';
+                return;
+            }
+            
+            grid.style.display = 'grid';
+            noResults.style.display = 'none';
+            
+            grid.innerHTML = filtered.map(tool => `
+                <a href="${tool.url}" target="_blank" class="tool-card">
+                    <div class="tool-header">
+                        <div class="tool-icon">${tool.icon}</div>
+                        <div class="tool-info">
+                            <div class="tool-name">${tool.name}</div>
+                            <div class="tool-category">${tool.category}</div>
+                        </div>
+                    </div>
+                    <div class="tool-desc">${tool.desc}</div>
+                    <div class="tool-footer">
+                        <span class="price-tag price-${tool.price}">${tool.price.charAt(0).toUpperCase() + tool.price.slice(1)}</span>
+                        <span class="tool-link">访问 →</span>
+                    </div>
+                </a>
+            `).join('');
+        }
+        
+        // Search handler
+        document.getElementById('searchInput').addEventListener('input', (e) => {
+            searchQuery = e.target.value;
+            renderTools();
+        });
+        
+        // Price filter handler
+        document.querySelectorAll('.filter-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                activePrice = btn.dataset.price;
+                renderTools();
+            });
+        });
+        
+        // Init
+        renderCategories();
+        renderTools();
+    </script>
+</body>
 </html>
