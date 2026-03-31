@@ -22,6 +22,29 @@
     
     {% seo %}
     
+    <!-- Article Schema (GEO/SEO) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": {{ page.title | jsonify }},
+      "description": "{{ page.description | default: site.description }}",
+      "author": {
+        "@type": "Person",
+        "name": "Iris",
+        "url": "https://twitter.com/Iris_carrot"
+      },
+      "datePublished": "{{ page.date | date_to_xmlschema }}",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Gingiris",
+        "url": "https://gingiris.com"
+      },
+      "url": "{{ page.url | absolute_url }}",
+      "mainEntityOfPage": "{{ page.url | absolute_url }}"
+    }
+    </script>
+    
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         :root {
@@ -77,6 +100,7 @@
             <nav class="nav">
                 <a href="{{ site.baseurl }}/">工具库</a>
                 <a href="{{ site.baseurl }}/blog/">Blog</a>
+                <a href="https://gingiris.com">Gingiris</a>
                 <a href="https://github.com/Gingiris">GitHub</a>
             </nav>
         </div>
