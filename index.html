@@ -97,6 +97,23 @@
         
         .logo span { color: var(--accent); }
         
+        .lang-switch {
+            background: var(--surface-hover);
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            padding: 6px 12px;
+            color: var(--text);
+            font-size: 13px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        
+        .lang-switch:hover {
+            background: var(--accent);
+            color: white;
+        }
+        
         /* Search */
         .search-box {
             flex: 1;
@@ -416,6 +433,7 @@
     <header class="header">
         <div class="header-inner">
             <div class="logo">🚀 <span>Growth</span>Tools</div>
+            <a href="/growth-tools/en/" class="lang-switch">English</a>
             <div class="search-box">
                 <input type="text" id="searchInput" placeholder="搜索工具... (e.g. KOL, Reddit, SEO)">
             </div>
