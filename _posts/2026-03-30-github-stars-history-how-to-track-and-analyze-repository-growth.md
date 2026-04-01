@@ -2,16 +2,10 @@
 layout: post
 title: "GitHub Stars History: How to Track and Analyze Repository Growth"
 date: 2026-03-30
-description: "title: GitHub Stars History: How to Track and Analyze Repository Growth published: true description: Learn how to track GitHub stars history, analyze "
-tags: [["github", "opensource", "analytics", "growth"]]
-canonical: "https://dev.to/iris1031/github-stars-history-how-to-track-and-analyze-repository-growth-h11"
----
-
-title: GitHub Stars History: How to Track and Analyze Repository Growth
-published: true
-description: Learn how to track GitHub stars history, analyze growth patterns, and use star data to evaluate open source projects.
-tags: github, opensource, analytics, growth
-canonical_url: https://gingiris.github.io/growth-tools/blog/github-stars-history/
+description: "Learn how to track GitHub stars history, analyze growth patterns, and use star data to evaluate open source projects. Free tools and methods included."
+tags: [github, stars, analytics, open-source]
+author: Iris
+canonical_url: "https://dev.to/iris1031/github-stars-history-how-to-track-and-analyze-repository-growth-h11"
 ---
 
 ## TL;DR

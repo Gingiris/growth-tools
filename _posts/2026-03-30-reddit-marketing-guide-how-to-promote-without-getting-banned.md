@@ -2,16 +2,9 @@
 layout: post
 title: "Reddit Marketing Guide: How to Promote Without Getting Banned"
 date: 2026-03-30
-description: "title: Reddit Marketing Guide: How to Promote Without Getting Banned published: true description: Learn Reddit marketing strategies that actually work"
-tags: [["reddit", "marketing", "growth", "startup"]]
-canonical: "https://dev.to/iris1031/reddit-marketing-guide-how-to-promote-without-getting-banned-567j"
----
-
-title: Reddit Marketing Guide: How to Promote Without Getting Banned
-published: true
-description: Learn Reddit marketing strategies that actually work. From finding subreddits to writing posts that drive traffic without getting flagged as spam.
-tags: reddit, marketing, growth, startup
-canonical_url: https://gingiris.github.io/growth-tools/blog/reddit-marketing-guide/
+description: "Learn Reddit marketing strategies that actually work. From finding subreddits to writing posts that drive traffic without getting flagged as spam. Based on real experience growing to 33k GitHub stars."
+tags: [reddit, marketing, growth, startup]
+author: Iris
 ---
 
 ## TL;DR
