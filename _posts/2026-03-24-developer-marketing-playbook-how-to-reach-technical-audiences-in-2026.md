@@ -176,3 +176,15 @@ Be that friend.
 ---
 
 *This playbook is part of the [Gingiris Growth Series](https://github.com/Gingiris/gingiris-b2b-growth) - battle-tested strategies for technical products.*
+
+---
+
+## 📚 Related Reading
+
+| Category | Article |
+|----------|---------|
+| 📖 | [Developer Marketing 101](https://gingiris.github.io/growth-tools/blog/2026/03/25/developer-marketing-101-how-to-grow-your-open-source-project/) |
+| 📖 | [How to Get GitHub Stars](https://gingiris.github.io/growth-tools/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/) |
+
+*More tools → [Growth Tools Directory](https://gingiris.github.io/growth-tools/)*
+

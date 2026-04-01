@@ -152,3 +152,15 @@ The goal isn't to "market" on Reddit. It's to become a valuable community member
 - [Full Growth Tools Directory](https://gingiris.github.io/growth-tools/) — 100+ tools for startup growth
 - [Product Hunt Launch Guide](https://github.com/Gingiris/gingiris-launch) — 30x #1 winner's playbook
 - [Open Source Marketing](https://github.com/Gingiris/gingiris-opensource) — 0 to 33k stars strategy
+
+---
+
+## 📚 Related Reading
+
+| Category | Article |
+|----------|---------|
+| 📖 | [Product Hunt Launch: 30x #1 Winner's Guide](https://gingiris.github.io/growth-tools/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/) |
+| 📖 | [SaaS Go-to-Market Strategy](https://gingiris.github.io/growth-tools/blog/2026/03/27/saas-gotomarket-strategy-the-complete-framework-from-0-to-10m-arr/) |
+
+*More tools → [Growth Tools Directory](https://gingiris.github.io/growth-tools/)*
+

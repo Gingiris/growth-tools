@@ -88,3 +88,15 @@ More GitHub tools → [Growth Tools Directory](https://gingiris.github.io/growth
 
 - [Growth Tools Directory](https://gingiris.github.io/growth-tools/) — 100+ tools for startup growth
 - [Open Source Marketing Guide](https://github.com/Gingiris/gingiris-opensource) — 0 to 33k stars strategy
+
+---
+
+## 📚 Related Reading
+
+| Category | Article |
+|----------|---------|
+| 📖 | [Star Growth Tactics](https://gingiris.github.io/growth-tools/blog/2026/03/27/github-star-growth-10-proven-tactics-that-got-us-33k-stars/) |
+| 📖 | [How to Get GitHub Stars](https://gingiris.github.io/growth-tools/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/) |
+
+*More tools → [Growth Tools Directory](https://gingiris.github.io/growth-tools/)*
+

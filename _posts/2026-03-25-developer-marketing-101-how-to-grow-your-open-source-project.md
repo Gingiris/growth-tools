@@ -291,3 +291,15 @@ More playbooks at [github.com/Gingiris](https://github.com/Gingiris)
 ---
 
 **Want the full playbook?** Get the complete, open-source [Open Source Marketing Playbook](https://github.com/Gingiris/gingiris-opensource) on GitHub — with step-by-step frameworks, templates, and real case studies. Star it to bookmark for later.
+
+---
+
+## 📚 Related Reading
+
+| Category | Article |
+|----------|---------|
+| 📖 | [Developer Marketing Playbook](https://gingiris.github.io/growth-tools/blog/2026/03/24/developer-marketing-playbook-how-to-reach-technical-audiences-in-2026/) |
+| 📖 | [GitHub README Best Practices](https://gingiris.github.io/growth-tools/blog/2026/03/29/github-readme-best-practices-how-to-write-a-readme-that-gets-stars/) |
+
+*More tools → [Growth Tools Directory](https://gingiris.github.io/growth-tools/)*
+

@@ -346,3 +346,15 @@ If you don't ask for stars, you won't get them.
 ---
 
 *Got questions? Drop a comment or find me on Twitter [@iris_carrot](https://twitter.com/iris_carrot).*
+
+---
+
+## 📚 Related Reading
+
+| Category | Article |
+|----------|---------|
+| 📖 | [Star Growth Tactics: 10 Proven Ways](https://gingiris.github.io/growth-tools/blog/2026/03/27/github-star-growth-10-proven-tactics-that-got-us-33k-stars/) |
+| 📖 | [GitHub Stars History](https://gingiris.github.io/growth-tools/blog/2026/03/30/github-stars-history-how-to-track-and-analyze-repository-growth/) |
+
+*More tools → [Growth Tools Directory](https://gingiris.github.io/growth-tools/)*
+

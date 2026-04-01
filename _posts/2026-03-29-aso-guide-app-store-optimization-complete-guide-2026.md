@@ -168,3 +168,15 @@ ASO success requires:
 **Questions?** Drop a comment or reach out on [Twitter @WeiYipei](https://x.com/WeiYipei).
 
 *This guide is part of the [Gingiris ASO Growth Playbook](https://github.com/Gingiris/gingiris-aso-growth) — battle-tested strategies for mobile app growth.*
+
+---
+
+## 📚 Related Reading
+
+| Category | Article |
+|----------|---------|
+| 📖 | [ASO Playbook](https://gingiris.github.io/growth-tools/blog/2026/03/15/aso-app-store-optimization-complete-2026-playbook/) |
+| 📖 | [SaaS Growth Strategy](https://gingiris.github.io/growth-tools/blog/2026/03/29/saas-growth-strategy-complete-framework-from-0-to-10m-arr/) |
+
+*More tools → [Growth Tools Directory](https://gingiris.github.io/growth-tools/)*
+

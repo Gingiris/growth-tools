@@ -292,3 +292,15 @@ I'm **Iris**, former cofounder & COO of AFFiNE (60K+ GitHub stars). Now helping 
 ---
 
 **Want the full playbook?** Get the complete, open-source [B2B SaaS Growth Playbook](https://github.com/Gingiris/gingiris-b2b-growth) on GitHub — with step-by-step frameworks, templates, and real case studies. Star it to bookmark for later.
+
+---
+
+## 📚 Related Reading
+
+| Category | Article |
+|----------|---------|
+| 📖 | [Startup Marketing Strategy](https://gingiris.github.io/growth-tools/blog/2026/04/01/startup-marketing-strategy-from-zero-to-first-1000-users/) |
+| 📖 | [SaaS Growth Strategy](https://gingiris.github.io/growth-tools/blog/2026/03/29/saas-growth-strategy-complete-framework-from-0-to-10m-arr/) |
+
+*More tools → [Growth Tools Directory](https://gingiris.github.io/growth-tools/)*
+

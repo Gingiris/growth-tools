@@ -134,3 +134,15 @@ For a deep-dive into launch tactics with real case studies, check out these reso
 ---
 
 **Want the full playbook?** Get the complete, open-source [Product Hunt Launch Playbook](https://github.com/Gingiris/gingiris-launch) on GitHub — with step-by-step frameworks, templates, and real case studies. Star it to bookmark for later.
+
+---
+
+## 📚 Related Reading
+
+| Category | Article |
+|----------|---------|
+| 📖 | [PH Launch Checklist](https://gingiris.github.io/growth-tools/blog/2026/03/31/product-hunt-launch-checklist-30time-1-winners-playbook/) |
+| 📖 | [Startup Marketing](https://gingiris.github.io/growth-tools/blog/2026/04/01/startup-marketing-strategy-from-zero-to-first-1000-users/) |
+
+*More tools → [Growth Tools Directory](https://gingiris.github.io/growth-tools/)*
+

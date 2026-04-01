@@ -269,3 +269,15 @@ A great README doesn't just document — it sells.
 **Questions?** Drop a comment or reach out on [Twitter @WeiYipei](https://x.com/WeiYipei).
 
 *This guide is part of the [Gingiris Open Source Playbook](https://github.com/Gingiris/gingiris-opensource) — battle-tested strategies from 60k+ GitHub stars.*
+
+---
+
+## 📚 Related Reading
+
+| Category | Article |
+|----------|---------|
+| 📖 | [How to Get GitHub Stars](https://gingiris.github.io/growth-tools/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/) |
+| 📖 | [Developer Marketing Playbook](https://gingiris.github.io/growth-tools/blog/2026/03/24/developer-marketing-playbook-how-to-reach-technical-audiences-in-2026/) |
+
+*More tools → [Growth Tools Directory](https://gingiris.github.io/growth-tools/)*
+

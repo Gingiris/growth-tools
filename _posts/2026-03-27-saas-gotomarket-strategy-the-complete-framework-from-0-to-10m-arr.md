@@ -226,3 +226,15 @@ If you're building a SaaS product, check out these comprehensive playbooks:
 ---
 
 *What's your biggest GTM challenge? Drop a comment below—I read and respond to every one.*
+
+---
+
+## 📚 Related Reading
+
+| Category | Article |
+|----------|---------|
+| 📖 | [SaaS Growth Strategy](https://gingiris.github.io/growth-tools/blog/2026/03/29/saas-growth-strategy-complete-framework-from-0-to-10m-arr/) |
+| 📖 | [Startup Marketing Strategy](https://gingiris.github.io/growth-tools/blog/2026/04/01/startup-marketing-strategy-from-zero-to-first-1000-users/) |
+
+*More tools → [Growth Tools Directory](https://gingiris.github.io/growth-tools/)*
+

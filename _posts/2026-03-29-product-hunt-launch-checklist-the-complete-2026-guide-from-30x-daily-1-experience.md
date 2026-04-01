@@ -91,3 +91,15 @@ What feature would you try first? 👇
 *This guide is based on 30x daily #1 experience. Star the [GitHub repo](https://github.com/Gingiris/gingiris-launch) for more tactics!*
 
 What's your biggest Product Hunt launch challenge? Let me know in the comments! 👇
+
+---
+
+## 📚 Related Reading
+
+| Category | Article |
+|----------|---------|
+| 📖 | [PH Playbook](https://gingiris.github.io/growth-tools/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/) |
+| 📖 | [How to Launch](https://gingiris.github.io/growth-tools/blog/2026/03/29/how-to-launch-on-product-hunt-stepbystep-guide-30x-1-winner/) |
+
+*More tools → [Growth Tools Directory](https://gingiris.github.io/growth-tools/)*
+

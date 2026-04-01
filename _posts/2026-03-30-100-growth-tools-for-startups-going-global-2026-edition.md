@@ -63,3 +63,15 @@ Plus companion playbooks:
 What tools am I missing? Drop them in the comments!
 
 *Built by [Iris](https://twitter.com/Iris_carrot) - Ex-AFFiNE COO, 30x Product Hunt #1 winner*
+
+---
+
+## 📚 Related Reading
+
+| Category | Article |
+|----------|---------|
+| 📖 | [Startup Marketing Strategy](https://gingiris.github.io/growth-tools/blog/2026/04/01/startup-marketing-strategy-from-zero-to-first-1000-users/) |
+| 📖 | [Reddit Marketing Guide](https://gingiris.github.io/growth-tools/blog/2026/03/30/reddit-marketing-guide-how-to-promote-without-getting-banned/) |
+
+*More tools → [Growth Tools Directory](https://gingiris.github.io/growth-tools/)*
+
