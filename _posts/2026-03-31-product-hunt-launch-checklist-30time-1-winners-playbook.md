@@ -152,3 +152,15 @@ For a complete step-by-step playbook including exact scripts, templates, and the
 ---
 
 *This article is part of the [Gingiris Growth Tools](https://gingiris.github.io/growth-tools/) series — practical growth resources for startups and open source projects.*
+
+---
+
+## 📚 Related Reading
+
+| Category | Article |
+|----------|---------|
+| 📖 | [How to Launch on Product Hunt](https://gingiris.github.io/growth-tools/blog/2026/03/29/how-to-launch-on-product-hunt-stepbystep-guide-30x-1-winner/) |
+| 📖 | [Reddit Marketing Guide](https://gingiris.github.io/growth-tools/blog/2026/03/30/reddit-marketing-guide-how-to-promote-without-getting-banned/) |
+
+*More tools → [Growth Tools Directory](https://gingiris.github.io/growth-tools/)*
+

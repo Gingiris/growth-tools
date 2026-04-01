@@ -157,3 +157,15 @@ GitHub star growth isn't magic. It's consistent execution of proven tactics. Sta
 ---
 
 *What tactics have worked for your projects? Share in the comments!*
+
+---
+
+## 📚 Related Reading
+
+| Category | Article |
+|----------|---------|
+| 📖 | [How to Get More GitHub Stars](https://gingiris.github.io/growth-tools/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/) |
+| 📖 | [Developer Marketing 101](https://gingiris.github.io/growth-tools/blog/2026/03/25/developer-marketing-101-how-to-grow-your-open-source-project/) |
+
+*More tools → [Growth Tools Directory](https://gingiris.github.io/growth-tools/)*
+

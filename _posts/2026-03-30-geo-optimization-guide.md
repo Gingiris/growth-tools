@@ -107,3 +107,15 @@ SEO 和 GEO 都重要，创建**既能排名又能被引用**的内容：
 4. 结构化数据标记
 
 更多 SEO/GEO 工具 → [Growth Tools 工具库](../)
+
+---
+
+## 📚 Related Reading
+
+| Category | Article |
+|----------|---------|
+| 📖 | [Startup Marketing Strategy](https://gingiris.github.io/growth-tools/blog/2026/04/01/startup-marketing-strategy-from-zero-to-first-1000-users/) |
+| 📖 | [100+ Growth Tools for Startups](https://gingiris.github.io/growth-tools/blog/2026/03/30/100-growth-tools-for-startups-going-global-2026-edition/) |
+
+*More tools → [Growth Tools Directory](https://gingiris.github.io/growth-tools/)*
+

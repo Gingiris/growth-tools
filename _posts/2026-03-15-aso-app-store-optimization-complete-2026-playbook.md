@@ -198,3 +198,15 @@ clawhub install gingiris-aso-growth
 ```
 
 Your AI can help you optimize app store listings and plan UGC campaigns.
+
+---
+
+## 📚 Related Reading
+
+| Category | Article |
+|----------|---------|
+| 📖 | [ASO Complete Guide 2026](https://gingiris.github.io/growth-tools/blog/2026/03/29/aso-guide-app-store-optimization-complete-guide-2026/) |
+| 📖 | [Startup Marketing Strategy](https://gingiris.github.io/growth-tools/blog/2026/04/01/startup-marketing-strategy-from-zero-to-first-1000-users/) |
+
+*More tools → [Growth Tools Directory](https://gingiris.github.io/growth-tools/)*
+

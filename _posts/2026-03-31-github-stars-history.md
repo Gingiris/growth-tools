@@ -177,3 +177,15 @@ Use [Star History](https://star-history.com) for quick checks, or the GitHub API
 - [Growth Tools Directory](/) — 100+ tools for startup growth
 - [Open Source Marketing Guide](https://github.com/Gingiris/gingiris-opensource) — 0 to 33k stars strategy
 - [Product Hunt Launch Guide](https://github.com/Gingiris/gingiris-launch) — 30x #1 winner's playbook
+
+---
+
+## 📚 Related Reading
+
+| Category | Article |
+|----------|---------|
+| 📖 | [GitHub README Best Practices](https://gingiris.github.io/growth-tools/blog/2026/03/29/github-readme-best-practices-how-to-write-a-readme-that-gets-stars/) |
+| 📖 | [Star Growth Tactics](https://gingiris.github.io/growth-tools/blog/2026/03/27/github-star-growth-10-proven-tactics-that-got-us-33k-stars/) |
+
+*More tools → [Growth Tools Directory](https://gingiris.github.io/growth-tools/)*
+

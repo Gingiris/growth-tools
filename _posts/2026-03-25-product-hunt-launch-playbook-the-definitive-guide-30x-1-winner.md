@@ -318,3 +318,15 @@ I've written extensively about each part of this process:
 ---
 
 *Questions? Drop a comment below or find me on Twitter [@iris_carrot](https://twitter.com/iris_carrot).*
+
+---
+
+## 📚 Related Reading
+
+| Category | Article |
+|----------|---------|
+| 📖 | [How to Launch on Product Hunt](https://gingiris.github.io/growth-tools/blog/2026/03/29/how-to-launch-on-product-hunt-stepbystep-guide-30x-1-winner/) |
+| 📖 | [Reddit Marketing Without Getting Banned](https://gingiris.github.io/growth-tools/blog/2026/03/30/reddit-marketing-guide-how-to-promote-without-getting-banned/) |
+
+*More tools → [Growth Tools Directory](https://gingiris.github.io/growth-tools/)*
+

@@ -198,3 +198,15 @@ Product Hunt success isn't about gaming the system. It's about building somethin
 **Questions?** Drop a comment below or reach out on [Twitter @WeiYipei](https://x.com/WeiYipei) or [Telegram @Iris_carrot](https://t.me/Iris_carrot).
 
 *This guide is part of the [Gingiris Launch Playbook](https://github.com/Gingiris/gingiris-launch) — battle-tested strategies from 30x Product Hunt #1 wins.*
+
+---
+
+## 📚 Related Reading
+
+| Category | Article |
+|----------|---------|
+| 📖 | [PH Launch Checklist](https://gingiris.github.io/growth-tools/blog/2026/03/31/product-hunt-launch-checklist-30time-1-winners-playbook/) |
+| 📖 | [Startup Marketing Strategy](https://gingiris.github.io/growth-tools/blog/2026/04/01/startup-marketing-strategy-from-zero-to-first-1000-users/) |
+
+*More tools → [Growth Tools Directory](https://gingiris.github.io/growth-tools/)*
+

@@ -190,3 +190,15 @@ Funding is fuel, not validation.
 **Questions?** Drop a comment or reach out on [Twitter @WeiYipei](https://x.com/WeiYipei).
 
 *This guide is part of the [Gingiris B2B Growth Playbook](https://github.com/Gingiris/gingiris-b2b-growth) — battle-tested strategies from $10M+ raised.*
+
+---
+
+## 📚 Related Reading
+
+| Category | Article |
+|----------|---------|
+| 📖 | [SaaS Go-to-Market](https://gingiris.github.io/growth-tools/blog/2026/03/27/saas-gotomarket-strategy-the-complete-framework-from-0-to-10m-arr/) |
+| 📖 | [Product Hunt Launch Playbook](https://gingiris.github.io/growth-tools/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/) |
+
+*More tools → [Growth Tools Directory](https://gingiris.github.io/growth-tools/)*
+
