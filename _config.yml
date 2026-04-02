@@ -1,14 +1,27 @@
 # Site settings
-title: Growth Tools Blog
-description: 出海增长实战经验、工具测评、SEO/GEO 策略分享 by Gingiris
+title: "GrowthTools — 100+ Verified Growth Tools for AI & SaaS"
+description: "Curated directory of 100+ verified growth tools for AI & SaaS founders going global. Social listening, KOL, Reddit, SEO, Product Hunt, UGC — based on AFFiNE 33k+ stars and 30x PH #1 experience."
 url: "https://gingiris.github.io"
 baseurl: "/growth-tools"
-author: Iris
+author: "Iris (Gingiris)"
+author_url: "https://gingiris.com/en"
+twitter_username: "Iris_carrot"
+github_username: "Gingiris"
+logo: "/growth-tools/logo.jpg"
+
+# Language
+lang: en
 
 # Build settings
 markdown: kramdown
 highlighter: rouge
 permalink: /blog/:year/:month/:title/
+
+# SEO Plugin (if using jekyll-seo-tag)
+# Run: gem install jekyll-seo-tag and add to Gemfile
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
 # Collections
 collections:
@@ -23,10 +36,23 @@ defaults:
     values:
       layout: "post"
       author: "Iris"
+      image: "/growth-tools/assets/images/og-banner.jpg"
 
-# Exclude
+# Social links (used by jekyll-seo-tag)
+social:
+  name: Gingiris
+  links:
+    - https://twitter.com/Iris_carrot
+    - https://github.com/Gingiris
+    - https://gingiris.com
+
+# Exclude from build
 exclude:
   - README.md
+  - README_en.md
   - LICENSE
   - Gemfile
   - Gemfile.lock
+  - "*.py"
+  - "*.sh"
+  - node_modules
