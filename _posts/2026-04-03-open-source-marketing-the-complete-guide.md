@@ -3,7 +3,7 @@ title: "Open Source Marketing: The Complete 2026 Guide"
 description: "How to market open source projects successfully. Complete SOP from 0 to 60k GitHub stars based on real AFFiNE experience. GitHub growth, KOL strategy, community building.
 date: 2026-04-03
 tags: [open-source-marketing, github-growth, community-building, growth-tools]
-canonical_url: https://gingiris.github.io/growth-tools/blog/open-source-marketing-the-complete-guide/
+canonical_url: https://gingiris.github.io/growth-tools/blog/2026/04/2026-04-03-open-source-marketing-the-complete-guide/
 ---
 
 ## TL;DR

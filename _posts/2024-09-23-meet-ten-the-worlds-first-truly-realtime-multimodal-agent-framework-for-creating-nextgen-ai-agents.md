@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Meet TEN, the World's First Truly Real-time Multimodal Agent Framework for Creating Next-Gen AI Agents"
-canonical_url: https://gingiris.github.io/growth-tools/blog/meet-ten-the-worlds-first-truly-realtime-multimodal-agent-framework-for-creating-nextgen-ai-agents/
+canonical_url: https://gingiris.github.io/growth-tools/blog/2024/09/2024-09-23-meet-ten-the-worlds-first-truly-realtime-multimodal-agent-framework-for-creating-nextgen-ai-agents/
 date: 2024-09-23
 description: "Ever since OpenAI demonstrated the real-time conversational capabilities of GPT-4o, it’s as if the movie ‘Her’ has come to life. Motivated by th"
 tags: [python, ai, opensource, javascript]

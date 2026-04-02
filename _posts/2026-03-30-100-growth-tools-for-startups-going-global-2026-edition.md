@@ -10,7 +10,7 @@ canonical: "https://dev.to/iris1031/100-growth-tools-for-startups-going-global-2
 title: 100+ Growth Tools for Startups Going Global (2026 Edition)
 published: true
 tags: startup, marketing, growth, seo
-canonical_url: https://gingiris.github.io/growth-tools/blog/100-growth-tools-for-startups-going-global-2026-edition/
+canonical_url: https://gingiris.github.io/growth-tools/blog/2026/03/2026-03-30-100-growth-tools-for-startups-going-global-2026-edition/
 ---
 
 Building a startup and trying to expand globally? After launching 30+ products on Product Hunt (with 30 daily #1 wins) and growing AFFiNE to 33k+ GitHub stars, I've compiled the ultimate toolkit for global startup growth.

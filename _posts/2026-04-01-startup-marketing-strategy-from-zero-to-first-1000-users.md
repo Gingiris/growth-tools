@@ -4,7 +4,7 @@ description: "Complete startup marketing strategy for early-stage founders. Lear
 date: 2026-04-01
 categories: [Growth, Startup, Marketing]
 tags: [startup-marketing, growth-strategy, content-marketing, community-building, product-hunt, github]
-canonical_url: https://gingiris.github.io/growth-tools/blog/startup-marketing-strategy-from-zero-to-first-1000-users/
+canonical_url: https://gingiris.github.io/growth-tools/blog/2026/04/2026-04-01-startup-marketing-strategy-from-zero-to-first-1000-users/
 seo_title: "Startup Marketing Strategy: From Zero to First 1,000 Users"
 seo_description: "Practical startup marketing guide with proven tactics for getting your first 1,000 users. Community building, content marketing, and distribution channels explained."
 keywords: "startup marketing, startup marketing strategy, marketing for startups, user acquisition, first 1000 users, community building, content marketing"

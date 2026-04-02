@@ -3,7 +3,7 @@ title: "Developer Marketing: How to Reach Technical Audiences in 2026"
 description: "A practical guide to developer marketing covering GitHub optimization, open source strategy, community building, and technical content that actually converts developers.
 date: 2026-04-03
 tags: [developer-marketing, open-source, github-growth, growth-tools]
-canonical_url: https://gingiris.github.io/growth-tools/blog/developer-marketing-how-to-reach-technical-audiences/
+canonical_url: https://gingiris.github.io/growth-tools/blog/2026/04/2026-04-03-developer-marketing-how-to-reach-technical-audiences/
 ---
 
 ## TL;DR

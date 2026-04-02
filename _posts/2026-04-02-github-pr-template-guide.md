@@ -3,7 +3,7 @@ title: "GitHub PR Template: How to Write PR Descriptions That Get Merged Faster"
 description: "The complete guide to GitHub PR templates that help maintainers review faster, reduce back-and-forth, and get your PR merged sooner. Includes free templates and examples."
 date: 2026-04-02
 tags: [github, open-source, developer-tools, pull-requests]
-canonical_url: https://gingiris.github.io/growth-tools/blog/github-pr-template-guide/
+canonical_url: https://gingiris.github.io/growth-tools/blog/2026/04/2026-04-02-github-pr-template-guide/
 ---
 
 ## TL;DR

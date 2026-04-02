@@ -5,7 +5,7 @@ date: 2026-03-30
 description: "Learn how to track GitHub stars history, analyze growth patterns, and use star data to evaluate open source projects. Free tools and methods included."
 tags: [github, stars, analytics, open-source]
 author: Iris
-canonical_url: https://gingiris.github.io/growth-tools/blog/github-stars-history-how-to-track-and-analyze-repository-growth/
+canonical_url: https://gingiris.github.io/growth-tools/blog/2026/03/2026-03-30-github-stars-history-how-to-track-and-analyze-repository-growth/
 ---
 
 ## TL;DR

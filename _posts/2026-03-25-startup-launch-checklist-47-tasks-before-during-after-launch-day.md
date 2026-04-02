@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Startup Launch Checklist: 47 Tasks Before, During & After Launch Day"
-canonical_url: https://gingiris.github.io/growth-tools/blog/startup-launch-checklist-47-tasks-before-during-after-launch-day/
+canonical_url: https://gingiris.github.io/growth-tools/blog/2026/03/2026-03-25-startup-launch-checklist-47-tasks-before-during-after-launch-day/
 date: 2026-03-25
 description: " After launching 30+ products (including getting 1 on Product Hunt multiple times), I've distilled everything into this battle-tested checklist. No fl"
 tags: [["startup", "productivity", "saas", "marketing"]]

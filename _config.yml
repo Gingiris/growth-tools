@@ -8,9 +8,23 @@ author: Iris
 # Build settings
 markdown: kramdown
 highlighter: rouge
-permalink: /blog/:title/
+permalink: /blog/:year/:month/:title/
 
-# Plugins
+# Collections
+collections:
+  posts:
+    output: true
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Iris"
+
+# Exclude
 exclude:
   - README.md
   - LICENSE

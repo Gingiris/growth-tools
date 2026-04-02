@@ -1,6 +1,6 @@
 ---
 title: "GEO 优化指南：让 AI 搜索引用你的内容"
-canonical_url: https://gingiris.github.io/growth-tools/blog/geo-optimization-guide/
+canonical_url: https://gingiris.github.io/growth-tools/blog/2026/03/2026-03-30-geo-optimization-guide/
 description: "什么是 GEO (Generative Engine Optimization)？如何让 ChatGPT、Perplexity、Google AI Overviews 引用你的内容？"
 date: 2026-03-30
 tags: [GEO, SEO, AI搜索]

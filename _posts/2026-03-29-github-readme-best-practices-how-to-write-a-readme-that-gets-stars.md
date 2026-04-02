@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "GitHub README Best Practices: How to Write a README That Gets Stars"
-canonical_url: https://gingiris.github.io/growth-tools/blog/github-readme-best-practices-how-to-write-a-readme-that-gets-stars/
+canonical_url: https://gingiris.github.io/growth-tools/blog/2026/03/2026-03-29-github-readme-best-practices-how-to-write-a-readme-that-gets-stars/
 date: 2026-03-29
 description: " --- Why Your README Matters Your README is your project's landing page. It's often the difference between someone starring your repo or bouncing in 3"
 tags: [["github", "opensource", "readme", "documentation"]]

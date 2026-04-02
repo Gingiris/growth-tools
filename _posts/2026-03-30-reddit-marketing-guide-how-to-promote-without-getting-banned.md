@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Reddit Marketing Guide: How to Promote Without Getting Banned"
-canonical_url: https://gingiris.github.io/growth-tools/blog/reddit-marketing-guide-how-to-promote-without-getting-banned/
+canonical_url: https://gingiris.github.io/growth-tools/blog/2026/03/2026-03-30-reddit-marketing-guide-how-to-promote-without-getting-banned/
 date: 2026-03-30
 description: "Learn Reddit marketing strategies that actually work. From finding subreddits to writing posts that drive traffic without getting flagged as spam. Based on real experience growing to 33k GitHub stars."
 tags: [reddit, marketing, growth, startup]
