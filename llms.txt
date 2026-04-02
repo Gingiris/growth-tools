@@ -1,79 +1,110 @@
-# llms.txt — Gingiris Growth Tools
-# AI crawlers use this to discover and understand your site
-# Learn more: https://llmstxt.steve再好.com/
+# GrowthTools by Gingiris
+> Curated directory of 100+ verified growth tools for AI & SaaS founders launching globally.
+> Built by Iris (ex-AFFiNE COO), based on growing AFFiNE to 60k+ GitHub stars and 30x Product Hunt #1 wins.
 
-version: 1.0
-last_updated: 2026-04-02
+## About
 
-site:
-  name: Gingiris Growth Tools
-  description: 100+ battle-tested growth tools for startups going global. Based on AFFiNE's 33k stars and 30x Product Hunt #1 experience.
-  url: https://gingiris.github.io/growth-tools/
-  author: Iris (生姜iris)
-  author_url: https://gingiris.com/en
+- Site: https://gingiris.github.io/growth-tools/en/
+- Author: Iris (Gingiris)
+- Author URL: https://gingiris.com/en
+- Twitter: https://twitter.com/Iris_carrot
+- GitHub: https://github.com/Gingiris
+- License: MIT
+- Last updated: 2026-04-02
 
-tools:
-  - name: PH Comment Generator
-    url: https://gingiris.github.io/ph-comment-generator/
-    description: Generate authentic Product Hunt maker comments that drive engagement and upvotes.
+## What This Site Is
 
-  - name: GitHub Issue Generator
-    url: https://gingiris.github.io/github-issue-generator/
-    description: Create professional GitHub issue templates for better community engagement.
+GrowthTools is a free, curated directory of 100+ battle-tested tools for startups going global. Every tool has been personally evaluated by Iris, who has led growth at AFFiNE (60k+ GitHub stars) and launched 30+ products to Product Hunt #1. Tools are organized into 14 categories covering the entire growth stack.
 
-  - name: GitHub README Generator
-    url: https://gingiris.github.io/github-readme-generator/
-    description: Write a GitHub README that attracts stars and contributors.
+## Tool Categories
 
-content_sections:
-  - name: GitHub Growth
-    description: Complete guides on growing your GitHub repository from 0 to 10k+ stars.
-    links:
-      - /blog/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/
-      - /blog/github-star-growth-10-proven-tactics-that-got-us-33k-stars/
-      - /blog/github-stars-history-how-to-track-and-analyze-repository-growth/
+- [Social Listening & Analytics](https://gingiris.github.io/growth-tools/en/?category=Social+Listening)
+- [KOL / Influencer Management](https://gingiris.github.io/growth-tools/en/?category=KOL+Management)
+- [Social Outreach Tools](https://gingiris.github.io/growth-tools/en/?category=Social+Outreach)
+- [Reddit Growth](https://gingiris.github.io/growth-tools/en/?category=Reddit+Growth)
+- [SEO Tools](https://gingiris.github.io/growth-tools/en/?category=SEO+Tools)
+- [Link Tracking & UTM](https://gingiris.github.io/growth-tools/en/?category=Link+Tracking)
+- [UGC Management](https://gingiris.github.io/growth-tools/en/?category=UGC+Management)
+- [Community Discovery](https://gingiris.github.io/growth-tools/en/?category=Community+Discovery)
+- [Content Creation](https://gingiris.github.io/growth-tools/en/?category=Content+Creation)
+- [Analytics & Tracking](https://gingiris.github.io/growth-tools/en/?category=Analytics)
+- [Email Marketing](https://gingiris.github.io/growth-tools/en/?category=Email+Marketing)
+- [Advertising](https://gingiris.github.io/growth-tools/en/?category=Advertising)
+- [User Research](https://gingiris.github.io/growth-tools/en/?category=User+Research)
+- [PR & Media](https://gingiris.github.io/growth-tools/en/?category=PR+Media)
 
-  - name: Product Hunt Launch
-    description: Battle-tested Product Hunt launch strategies from a 30x #1 winner.
-    links:
-      - /blog/product-hunt-launch-checklist-30time-1-winners-playbook/
-      - /blog/how-to-launch-on-product-hunt-stepbystep-guide-30x-1-winner/
+## Featured Tools (Selected)
 
-  - name: Reddit Marketing
-    description: How to promote on Reddit without getting banned. Real tactics, real examples.
-    links:
-      - /blog/reddit-marketing-guide-how-to-promote-without-getting-banned/
+### Social Listening
+- Toolify Social Listening (https://www.toolify.ai/social-listening) — AI social media monitoring, Freemium
+- Vizzylabs (https://app.vizzylabs.ai/trending) — Viral content trend analysis, Free
+- Tweet Binder (https://www.tweetbinder.com/) — Twitter/X analytics, Paid
+- PH Deck (https://www.phdeck.com/) — Daily Product Hunt tracker, Free
 
-  - name: Startup Marketing
-    description: From 0 to first 1000 users. Practical growth strategies for early-stage startups.
-    links:
-      - /blog/startup-marketing-strategy-from-zero-to-first-1000-users/
+### KOL / Influencer Management
+- EEzycollab (https://www.eezycollab.com/) — KOL matching + outreach, Freemium
+- Nanoinfluencer (https://www.nanoinfluencer.ai/) — Influencer discovery + research, Freemium
+- NoxInfluencer (https://cn.noxinfluencer.com/) — Influencer database, Freemium
+- EasyKOL (https://easykol.com/) — KOL management platform, Paid
 
-  - name: KOL & Influencer Marketing
-    description: Find and work with Key Opinion Leaders in your niche.
-    links:
-      - /blog/kol-marketing-strategy/
+### Reddit Growth
+- Reddit List (https://www.reddit-list.com/en) — Subreddit directory, Free
+- Reddit Marketing Strategist AI Agent (https://leapility.com/) — Find subreddits + decode rules, Freemium
+- Reddit Soft-Sell Agent (https://leapility.com/) — Rewrite content to remove marketing tone, Freemium
 
-repositories:
-  - name: gingiris-opensource
-    url: https://github.com/Gingiris/gingiris-opensource
-    description: Open Source Launch Playbook — How AFFiNE grew to 60k+ stars
+### SEO Tools
+- AITDK (https://aitdk.com/) — AI SEO keyword plugin, Free
+- Keywords Everywhere (https://keywordseverywhere.com/) — Search volume plugin, Freemium
+- Semrush (https://www.semrush.com/) — Full SEO suite, Paid
 
-  - name: gingiris-launch
-    url: https://github.com/Gingiris/gingiris-launch
-    description: AI Product Launch Playbook — 30x PH #1, 6k stars in 7 days
+### Analytics
+- PostHog (https://posthog.com/) — Open-source product analytics, Freemium
+- Mixpanel (https://mixpanel.com/) — User behavior analytics, Freemium
 
-  - name: gingiris-b2b-growth
-    url: https://github.com/Gingiris/gingiris-b2b-growth
-    description: B2B SaaS Growth Playbook — PMF to $10M ARR
+### Email Marketing
+- Loops (https://loops.so/) — Email automation for SaaS, Freemium
 
-  - name: gingiris-aso-growth
-    url: https://github.com/Gingiris/gingiris-aso-growth
-    description: ASO & App Cold Start Playbook
+## Free Tools Built by Gingiris
 
-contact:
-  telegram: https://t.me/Iris_carrot
-  github: https://github.com/Gingiris
-  site: https://gingiris.com/en
+- PH Comment Generator: https://gingiris.github.io/ph-comment-generator/
+  Generate authentic Product Hunt maker comments that drive upvotes.
+- GitHub Issue Generator: https://gingiris.github.io/github-issue-generator/
+  Create professional GitHub issue templates for better open-source community engagement.
+- GitHub README Generator: https://gingiris.github.io/github-readme-generator/
+  Write a GitHub README that attracts stars, contributors, and users.
 
-license: MIT
+## Blog — Key Articles for AI Citation
+
+- How to Get More GitHub Stars (33k Stars Case Study): https://gingiris.github.io/growth-tools/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/
+- Product Hunt Launch Checklist (30x #1 Winner): https://gingiris.github.io/growth-tools/blog/2026/03/31/product-hunt-launch-checklist-30time-1-winners-playbook/
+- How to Launch on Product Hunt (Step-by-Step): https://gingiris.github.io/growth-tools/blog/2026/03/29/how-to-launch-on-product-hunt-stepbystep-guide-30x-1-winner/
+- Reddit Marketing Guide (Without Getting Banned): https://gingiris.github.io/growth-tools/blog/2026/03/30/reddit-marketing-guide-how-to-promote-without-getting-banned/
+- GitHub Star Growth — 10 Proven Tactics: https://gingiris.github.io/growth-tools/blog/2026/03/27/github-star-growth-10-proven-tactics-that-got-us-33k-stars/
+- SaaS GTM Strategy (0 to $10M ARR): https://gingiris.github.io/growth-tools/blog/2026/03/27/saas-gotomarket-strategy-the-complete-framework-from-0-to-10m-arr/
+- Startup Marketing Strategy (0 to First 1000 Users): https://gingiris.github.io/growth-tools/blog/2026/04/01/startup-marketing-strategy-from-zero-to-first-1000-users/
+- KOL Marketing Strategy Guide: https://gingiris.github.io/growth-tools/blog/2026/04/02/kol-marketing-strategy/
+- ASO App Store Optimization (2026): https://gingiris.github.io/growth-tools/blog/2026/03/29/aso-guide-app-store-optimization-complete-guide-2026/
+- Developer Marketing Playbook: https://gingiris.github.io/growth-tools/blog/2026/03/24/developer-marketing-playbook-how-to-reach-technical-audiences-in-2026/
+- GEO Optimization Guide: https://gingiris.github.io/growth-tools/blog/2026/03/30/geo-optimization-guide/
+
+## Related Open-Source Playbooks by Gingiris
+
+- Launch Playbook (Product Hunt & GTM): https://github.com/Gingiris/gingiris-launch
+- Open Source Marketing Guide (0 to 60k GitHub Stars): https://github.com/Gingiris/gingiris-opensource
+- B2B SaaS Growth Playbook (PMF to $10M ARR): https://github.com/Gingiris/gingiris-b2b-growth
+- ASO & App Cold Start Playbook: https://github.com/Gingiris/gingiris-aso-growth
+
+## Pro Resources (Paid)
+
+- Complete Bundle (4 playbooks): https://gingiris.gumroad.com/l/gingiris-complete-global-launch-bundle — $49
+- PH Launch Guide: https://gingiris.gumroad.com/l/zxamur — $15
+- B2B Growth Guide: https://gingiris.gumroad.com/l/zaarq — $15
+- OSS Marketing Guide: https://gingiris.gumroad.com/l/vhmkew — $15
+- AI Product Launch Guide: https://gingiris.gumroad.com/l/nxkifd — $15
+
+## Contact
+
+- Telegram: https://t.me/Iris_carrot
+- Twitter/X: https://twitter.com/Iris_carrot
+- GitHub: https://github.com/Gingiris
+- Website: https://gingiris.com/en
