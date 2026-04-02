@@ -1,0 +1,79 @@
+# llms.txt — Gingiris Growth Tools
+# AI crawlers use this to discover and understand your site
+# Learn more: https://llmstxt.steve再好.com/
+
+version: 1.0
+last_updated: 2026-04-02
+
+site:
+  name: Gingiris Growth Tools
+  description: 100+ battle-tested growth tools for startups going global. Based on AFFiNE's 33k stars and 30x Product Hunt #1 experience.
+  url: https://gingiris.github.io/growth-tools/
+  author: Iris (生姜iris)
+  author_url: https://gingiris.com/en
+
+tools:
+  - name: PH Comment Generator
+    url: https://gingiris.github.io/ph-comment-generator/
+    description: Generate authentic Product Hunt maker comments that drive engagement and upvotes.
+
+  - name: GitHub Issue Generator
+    url: https://gingiris.github.io/github-issue-generator/
+    description: Create professional GitHub issue templates for better community engagement.
+
+  - name: GitHub README Generator
+    url: https://gingiris.github.io/github-readme-generator/
+    description: Write a GitHub README that attracts stars and contributors.
+
+content_sections:
+  - name: GitHub Growth
+    description: Complete guides on growing your GitHub repository from 0 to 10k+ stars.
+    links:
+      - /blog/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/
+      - /blog/github-star-growth-10-proven-tactics-that-got-us-33k-stars/
+      - /blog/github-stars-history-how-to-track-and-analyze-repository-growth/
+
+  - name: Product Hunt Launch
+    description: Battle-tested Product Hunt launch strategies from a 30x #1 winner.
+    links:
+      - /blog/product-hunt-launch-checklist-30time-1-winners-playbook/
+      - /blog/how-to-launch-on-product-hunt-stepbystep-guide-30x-1-winner/
+
+  - name: Reddit Marketing
+    description: How to promote on Reddit without getting banned. Real tactics, real examples.
+    links:
+      - /blog/reddit-marketing-guide-how-to-promote-without-getting-banned/
+
+  - name: Startup Marketing
+    description: From 0 to first 1000 users. Practical growth strategies for early-stage startups.
+    links:
+      - /blog/startup-marketing-strategy-from-zero-to-first-1000-users/
+
+  - name: KOL & Influencer Marketing
+    description: Find and work with Key Opinion Leaders in your niche.
+    links:
+      - /blog/kol-marketing-strategy/
+
+repositories:
+  - name: gingiris-opensource
+    url: https://github.com/Gingiris/gingiris-opensource
+    description: Open Source Launch Playbook — How AFFiNE grew to 60k+ stars
+
+  - name: gingiris-launch
+    url: https://github.com/Gingiris/gingiris-launch
+    description: AI Product Launch Playbook — 30x PH #1, 6k stars in 7 days
+
+  - name: gingiris-b2b-growth
+    url: https://github.com/Gingiris/gingiris-b2b-growth
+    description: B2B SaaS Growth Playbook — PMF to $10M ARR
+
+  - name: gingiris-aso-growth
+    url: https://github.com/Gingiris/gingiris-aso-growth
+    description: ASO & App Cold Start Playbook
+
+contact:
+  telegram: https://t.me/Iris_carrot
+  github: https://github.com/Gingiris
+  site: https://gingiris.com/en
+
+license: MIT

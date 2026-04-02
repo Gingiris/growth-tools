@@ -1,14 +1,40 @@
 User-agent: *
 Allow: /
 
-# AI Search Bots
+# AI Search Bots - Allow all for GEO/SEO
 User-agent: GPTBot
 Allow: /
+
 User-agent: ChatGPT-User
 Allow: /
+
 User-agent: ClaudeBot
 Allow: /
+
 User-agent: PerplexityBot
 Allow: /
 
+User-agent: Google-Extended
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# AI Agent / Crawl bots
+User-agent: FirecrawlAgent
+Allow: /
+
+User-agent: ImagesiftBot
+Allow: /
+
+# llms.txt - AI agents use this to discover content
 Sitemap: https://gingiris.github.io/growth-tools/sitemap.xml
