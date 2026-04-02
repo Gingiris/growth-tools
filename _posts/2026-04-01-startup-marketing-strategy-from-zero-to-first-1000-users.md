@@ -119,8 +119,8 @@ Your marketing strategy should be in place before you launch. You just should no
 ## Related Reading
 
 - [Product Hunt Launch Guide: 30-Time #1 Winner's Playbook](/blog/product-hunt-launch-the-2026-playbook-for-winning-1) — Practical PH launch tactics
-- [Complete Startup Growth Framework: From $0 to $10M ARR](/blog/saas-goto-market-strategy-the-complete-framework-from-0-to-10m-arr) — B2B growth strategies
-- [100+ Growth Tools for Startups Going Global](/blog/100-growth-tools-for-startups-going-global-2026-edition) — Curated tools for every stage
+- [Complete Startup Growth Framework: From $0 to $10M ARR](/blog/saas-gotomarket-strategy-the-complete-framework-from-0-to-10m-arr) — B2B growth strategies
+- [100+ Growth Tools for Startups Going Global](/blog/growth-tools-for-startups-going-global-2026-edition) — Curated tools for every stage
 - [GitHub Star Growth: 10 Proven Tactics](https://github.com/Gingiris/gingiris-opensource) — Open source growth strategies
 
 ---
