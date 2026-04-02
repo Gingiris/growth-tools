@@ -26,17 +26,75 @@
     <meta name="twitter:description" content="精选100+出海增长工具，基于实战经验整理。">
     <meta name="twitter:creator" content="@Iris_carrot">
     
-    <!-- JSON-LD -->
+    <!-- JSON-LD: Organization + WebSite + WebApp + FAQ -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "WebApplication",
-        "name": "Gingiris Growth Tools",
-        "description": "出海增长工具目录，精选100+实战验证的增长工具",
-        "url": "https://gingiris.github.io/growth-tools/",
-        "applicationCategory": "BusinessApplication",
-        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
-        "author": { "@type": "Person", "name": "Iris", "url": "https://twitter.com/Iris_carrot" }
+        "@graph": [
+            {
+                "@type": "Organization",
+                "@id": "https://gingiris.github.io/growth-tools/#organization",
+                "name": "Gingiris",
+                "url": "https://gingiris.github.io/growth-tools/",
+                "logo": "https://gingiris.github.io/growth-tools/logo.jpg",
+                "sameAs": ["https://twitter.com/Iris_carrot", "https://github.com/Gingiris"],
+                "author": { "@type": "Person", "name": "Iris", "url": "https://twitter.com/Iris_carrot" },
+                "description": "Gingiris — 开源增长 playbook 和工具。GitHub 60k stars，30次 Product Hunt #1 经验。"
+            },
+            {
+                "@type": "WebSite",
+                "@id": "https://gingiris.github.io/growth-tools/#website",
+                "url": "https://gingiris.github.io/growth-tools/",
+                "name": "Gingiris Growth Tools",
+                "description": "100+ growth tools for global launch — Reddit, SEO, KOL, Product Hunt, social listening.",
+                "inLanguage": ["en", "zh-CN"],
+                "isPartOf": { "@id": "https://gingiris.github.io/growth-tools/#organization" }
+            },
+            {
+                "@type": "WebApplication",
+                "@id": "https://gingiris.github.io/growth-tools/#webapp",
+                "url": "https://gingiris.github.io/growth-tools/",
+                "name": "Gingiris Growth Tools",
+                "description": "精选100+出海增长工具 — 社媒监听、KOL管理、Reddit增长、SEO、Product Hunt、UGC管理。",
+                "applicationCategory": "BusinessApplication",
+                "operatingSystem": "Any",
+                "inLanguage": ["en", "zh-CN"],
+                "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+                "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "ratingCount": "26" }
+            }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "出海增长工具有哪些？",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "核心工具：社媒监听（Brandwatch, Mention）、KOL管理（Apollo, Hunter）、Reddit增长工具、SEO工具（Ahrefs, SEMrush）、Product Hunt工具、UGC管理平台。基于AFFiNE 33k stars实战验证。"
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "如何获取GitHub Stars？",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "核心策略：1) 优化README质量和SEO；2) GitHub Trending策略；3) Reddit/HackerNews社区推广；4) 与相关开源项目协作。参考github.com/Gingiris/gingiris-opensource。"
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Product Hunt怎么上日榜第一？",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "30次日榜第一经验：1) 提前3周预热；2) 精心准备maker comments；3) 社区动员；4) 精确的发布时间；5) post-launch engagement。详见github.com/Gingiris/gingiris-launch。"
+                }
+            }
+        ]
     }
     </script>
     
