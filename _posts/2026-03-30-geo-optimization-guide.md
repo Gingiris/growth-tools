@@ -1,5 +1,6 @@
 ---
 title: "GEO 优化指南：让 AI 搜索引用你的内容"
+canonical_url: https://gingiris.github.io/growth-tools/blog/geo-optimization-guide/
 description: "什么是 GEO (Generative Engine Optimization)？如何让 ChatGPT、Perplexity、Google AI Overviews 引用你的内容？"
 date: 2026-03-30
 tags: [GEO, SEO, AI搜索]
@@ -115,7 +116,7 @@ SEO 和 GEO 都重要，创建**既能排名又能被引用**的内容：
 | Category | Article |
 |----------|---------|
 | 📖 | [Startup Marketing Strategy](https://gingiris.github.io/growth-tools/blog/2026/04/01/startup-marketing-strategy-from-zero-to-first-1000-users/) |
-| 📖 | [100+ Growth Tools for Startups](https://gingiris.github.io/growth-tools/blog/growth-tools-for-startups-going-global-2026-edition/) |
+| 📖 | [100+ Growth Tools for Startups](https://gingiris.github.io/growth-tools/blog/100-growth-tools-for-startups-going-global-2026-edition/) |
 
 *More tools → [Growth Tools Directory](https://gingiris.github.io/growth-tools/)*
 

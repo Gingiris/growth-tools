@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "SaaS Growth Strategy: Complete Framework from $0 to $10M ARR"
+canonical_url: https://gingiris.github.io/growth-tools/blog/saas-growth-strategy-complete-framework-from-0-to-10m-arr/
 date: 2026-03-29
 description: " --- Who Is This Guide For? I'm Iris, former cofounder & COO of [AFFiNE](https://github.com/toeverything/AFFiNE) (60k+ GitHub stars, $10M+ raised). Th"
 tags: [["saas", "startup", "growth", "b2b"]]

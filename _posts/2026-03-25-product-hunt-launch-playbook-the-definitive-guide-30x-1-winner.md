@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Product Hunt Launch Playbook: The Definitive Guide (30x #1 Winner)"
+canonical_url: https://gingiris.github.io/growth-tools/blog/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/
 date: 2026-03-25
 description: "title: \"Product Hunt Launch Playbook: The Definitive Guide (30x 1 Winner)\" published: true description: \"The complete Product Hunt launch playbook fro"
 tags: [["producthunt", "startup", "marketing", "opensource"]]
@@ -8,6 +9,7 @@ canonical: "https://dev.to/iris1031/product-hunt-launch-playbook-the-definitive-
 ---
 
 title: "Product Hunt Launch Playbook: The Definitive Guide (30x #1 Winner)"
+canonical_url: https://gingiris.github.io/growth-tools/blog/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/
 published: true
 description: "The complete Product Hunt launch playbook from someone who won #1 Daily 30 times. Strategy, tactics, timeline, and real examples."
 tags: producthunt, startup, marketing, opensource

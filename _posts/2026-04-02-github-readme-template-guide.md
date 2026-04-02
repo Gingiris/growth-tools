@@ -3,7 +3,7 @@ title: "GitHub README Template: The Complete 2026 Guide to Get More Stars"
 description: "Learn how to write a GitHub README that gets stars. Based on 60k GitHub stars experience — with free template, examples, and SEO optimization tips."
 date: 2026-04-02
 tags: [github, open-source, developer-tools, growth]
-canonical_url: "https://gingiris.github.io/growth-tools/blog/2026/04/02/github-readme-template-guide/"
+canonical_url: https://gingiris.github.io/growth-tools/blog/github-readme-template-guide/
 ---
 
 ## TL;DR

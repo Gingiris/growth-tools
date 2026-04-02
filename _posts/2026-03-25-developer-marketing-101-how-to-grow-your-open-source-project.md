@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Developer Marketing 101: How to Grow Your Open Source Project"
+canonical_url: https://gingiris.github.io/growth-tools/blog/developer-marketing-101-how-to-grow-your-open-source-project/
 date: 2026-03-25
 description: "# Developer Marketing 101: How to Grow Your Open Source Project  **TL;DR**: Developer marketing is different. Developers hate traditional marketing bu"
 tags: [opensource, marketing, github, devrel]

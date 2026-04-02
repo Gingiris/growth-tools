@@ -333,7 +333,7 @@ Start today: optimize your README, engage in one community genuinely, and focus 
 
 ## Related Reading
 
-- [Developer Marketing Guide](/blog/developer-marketing-guide/)
+- [Developer Marketing Guide](/blog/developer-marketing-how-to-reach-technical-audiences/)
 - [GitHub Star Growth: 10 Proven Tactics](/blog/github-star-growth-10-proven-tactics-that-got-us-33k-stars/)
 - [How to Get More GitHub Stars](/blog/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/)
 - [Growth Tools Library](https://gingiris.github.io/growth-tools/) — 100+ tools for startup growth

@@ -11,32 +11,6 @@ highlighter: rouge
 permalink: /blog/:title/
 
 # Plugins
-plugins:
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-feed
-
-# SEO
-twitter:
-  username: Iris_carrot
-  card: summary_large_image
-
-# Collections
-collections:
-  posts:
-    output: true
-    permalink: /blog/:year/:month/:title/
-
-# Defaults
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      author: "Iris"
-
-# Exclude
 exclude:
   - README.md
   - LICENSE
