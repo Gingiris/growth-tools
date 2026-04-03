@@ -5,8 +5,29 @@ date: 2026-03-25
 canonical_url: https://gingiris.github.io/growth-tools/blog/2026/03/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/
 image: "https://gingiris.github.io/growth-tools/assets/images/blog-github-stars.jpg"
 description: "Complete guide to growing GitHub stars for open source projects. Real tactics from AFFiNE's journey from 0 to 33,000 stars in 18 months."
+faq:
+  - q: "How long does it take to get 1000 GitHub stars?"
+    a: "With active promotion, 1-3 months is realistic for a useful open source project. AFFiNE hit 1,000 stars in the first month after launch via Product Hunt + Reddit. Without promotion, it can take 6-12 months."
+  - q: "Do GitHub stars affect SEO?"
+    a: "Indirectly yes. High star counts increase credibility, which leads to more backlinks, mentions, and organic shares. GitHub repo pages also rank well in Google for developer searches."
+  - q: "Can you buy GitHub stars?"
+    a: "You can, but don't. Fake stars are detectable, violate GitHub ToS, and can get your account flagged. Real stars from real users provide actual value — social proof, contributors, and community."
+  - q: "What is a good number of GitHub stars?"
+    a: "100+ shows traction, 1k+ signals a legitimate project, 5k+ means established community, 10k+ puts you in top 0.1% of repos. For fundraising, 1k+ stars is often a meaningful credibility signal."
+  - q: "How do I get my repo on GitHub Trending?"
+    a: "Coordinate a push: publish content, email community, post on Reddit/HN all within 24-48 hours. Aim for 50-100+ stars in a single day. Choose your language filter — TypeScript Trending is easier than All Languages."
 ---
 # How to Get More GitHub Stars: The Definitive Guide
+
+## TL;DR
+
+- Growing from 0 to 33K GitHub stars in 18 months required a consistent system, not luck
+- First 100 stars: tap your personal network and online communities
+- 100 to 1K: content marketing + distribution across Dev.to, Reddit, and HN
+- 1K+: optimize for GitHub Trending by coordinating star spikes
+- Consistency beats virality — weekly content compounds over time
+
+---
 
 We grew AFFiNE from **0 to 33,000 GitHub stars** in 18 months. This guide covers every tactic we used — what worked, what failed, and what actually moves the needle.
 
@@ -342,6 +363,25 @@ If you don't ask for stars, you won't get them.
 
 ---
 
+## FAQ
+
+**How long does it take to get 1000 GitHub stars?**
+With active promotion, 1-3 months is realistic for a useful open source project. AFFiNE hit 1,000 stars in the first month after launch via Product Hunt + Reddit. Without promotion, it can take 6-12 months.
+
+**Do GitHub stars affect SEO?**
+Indirectly yes. High star counts increase credibility, which leads to more backlinks, mentions, and organic shares. GitHub repo pages also rank well in Google for developer searches.
+
+**Can you buy GitHub stars?**
+You can, but don't. Fake stars are detectable, violate GitHub ToS, and can get your account flagged. Real stars from real users provide actual value — social proof, contributors, and community.
+
+**What is a good number of GitHub stars?**
+100+ shows traction, 1k+ signals a legitimate project, 5k+ means established community, 10k+ puts you in top 0.1% of repos. For fundraising, 1k+ stars is often a meaningful credibility signal.
+
+**How do I get my repo on GitHub Trending?**
+Coordinate a push: publish content, email community, post on Reddit/HN all within 24-48 hours. Aim for 50-100+ stars in a single day. Choose your language filter — TypeScript Trending is easier than All Languages.
+
+---
+
 ## 📚 Related Reading
 
 | Category | Article |
@@ -350,4 +390,5 @@ If you don't ask for stars, you won't get them.
 | 📖 | [GitHub Stars History](https://gingiris.github.io/growth-tools/blog/2026/03/30/github-stars-history-how-to-track-and-analyze-repository-growth/) |
 
 *More tools → [Growth Tools Directory](https://gingiris.github.io/growth-tools/)*
+
 
