@@ -6,7 +6,6 @@ image: "https://gingiris.github.io/growth-tools/assets/images/blog-github-stars.
 date: 2026-03-07
 description: " - 🚀 60,000+ GitHub stars - 🏆 30x Product Hunt 1 Daily - 🌍 Users in 200+ countries - 💰 $10M+ in funding After leaving AFFiNE in 2024, I de"
 tags: [["opensource", "startup", "growth", "marketing"]]
-canonical: "https://dev.to/iris1031/i-led-affine-from-0-to-60k-github-stars-here-are-my-open-source-growth-playbooks-1c3a"
 faq:
   - q: "How did AFFiNE get 60k GitHub stars?"
     a: "AFFiNE grew to 60k GitHub stars through a combination of strategies: 30+ Product Hunt launches over 18 months, consistent community seeding in developer spaces (r/selfhosted, Discord servers, Hacker News), an open source distribution model that made evaluation frictionless, and investing heavily in contributor onboarding so contributors became the most active advocates."

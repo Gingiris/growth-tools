@@ -6,7 +6,6 @@ image: "https://gingiris.github.io/growth-tools/assets/images/blog-devrel-dashbo
 date: 2024-09-23
 description: "Ever since OpenAI demonstrated the real-time conversational capabilities of GPT-4o, it’s as if the movie ‘Her’ has come to life. Motivated by th"
 tags: [python, ai, opensource, javascript]
-canonical: "https://dev.to/iris1031/meet-ten-the-worlds-first-truly-real-time-multimodal-agent-framework-for-creating-next-gen-ai-agents-3pnm"
 faq:
   - q: "What is TEN (Realtime Extension Network)?"
     a: "TEN is an open-source multimodal AI agent framework designed for real-time, low-latency interactions. It enables developers to build AI agents that process voice, video, and text simultaneously with sub-200ms response times — making it suitable for voice assistants, live translation, and interactive AI applications."

@@ -1,5 +1,7 @@
 ---
+layout: post
 title: "Startup Marketing Strategy: From 0 to First 1000 Users (2026 Guide)"
+canonical_url: https://gingiris.github.io/growth-tools/blog/2026/04/01/startup-marketing-strategy-from-zero-to-first-1000-users/
 description: "Proven startup marketing strategy framework used by successful indie hackers and early-stage founders. Covers cold start tactics, growth channels, and how to get your first 1000 users without a big budget.
 date: 2026-04-03
 tags: [startup, marketing, growth, indie-hacker]

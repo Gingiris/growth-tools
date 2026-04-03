@@ -6,7 +6,6 @@ image: "https://gingiris.github.io/growth-tools/assets/images/blog-community-bui
 date: 2026-03-08
 description: "# 如何利用“贡献者入门文档”快速提升开源项目增长  开源项目增长中，一个非常被忽视但效果显著的技巧是—�"
 tags: [beginners, community, documentation, opensource]
-canonical: https://dev.to/iris1031/ru-he-li-yong-gong-xian-zhe-ru-men-wen-dang-kuai-su-ti-sheng-kai-yuan-xiang-mu-zeng-chang-2lag
 ---
 
 # 如何利用“贡献者入门文档”快速提升开源项目增长
