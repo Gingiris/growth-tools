@@ -2,6 +2,7 @@
 layout: post
 title: "I Led AFFiNE from 0 to 60k GitHub Stars — Here Are My Open Source Growth Playbooks"
 canonical_url: https://gingiris.github.io/growth-tools/blog/2026/03/2026-03-07-i-led-affine-from-0-to-60k-github-stars-here-are-my-open-source-growth-playbooks/
+  image: "https://gingiris.github.io/growth-tools/assets/images/blog-github-stars.jpg"
 date: 2026-03-07
 description: " - 🚀 60,000+ GitHub stars - 🏆 30x Product Hunt 1 Daily - 🌍 Users in 200+ countries - 💰 $10M+ in funding After leaving AFFiNE in 2024, I de"
 tags: [["opensource", "startup", "growth", "marketing"]]

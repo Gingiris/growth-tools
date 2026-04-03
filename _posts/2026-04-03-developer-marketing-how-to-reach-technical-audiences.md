@@ -4,6 +4,7 @@ description: "A practical guide to developer marketing covering GitHub optimizat
 date: 2026-04-03
 tags: [developer-marketing, open-source, github-growth, growth-tools]
 canonical_url: https://gingiris.github.io/growth-tools/blog/2026/04/2026-04-03-developer-marketing-how-to-reach-technical-audiences/
+  image: "https://gingiris.github.io/growth-tools/assets/images/blog-devrel-dashboard.jpg"
 ---
 
 ## TL;DR
