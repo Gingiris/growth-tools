@@ -2,7 +2,7 @@
 layout: post
 title: "Reddit Marketing Tools: The Complete 2026 Stack"
 date: 2026-04-03
-canonical_url: https://gingiris.github.io/growth-tools/blog/2026-04/04/2026-04-03-reddit-marketing-tools/
+canonical_url: https://gingiris.github.io/growth-tools/blog/2026/04/2026-04-03-reddit-marketing-tools/
 image: "https://gingiris.github.io/growth-tools/assets/images/blog-reddit-marketing.jpg"
 ---
 ## TL;DR

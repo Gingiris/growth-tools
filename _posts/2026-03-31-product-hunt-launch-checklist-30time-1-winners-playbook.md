@@ -2,7 +2,7 @@
 layout: post
 title: "Product Hunt Launch Checklist: 30-Time #1 Winner's Playbook"
 date: 2026-03-31
-canonical_url: https://gingiris.github.io/growth-tools/blog/2026-03/03/2026-03-31-product-hunt-launch-checklist-30time-1-winners-playbook/
+canonical_url: https://gingiris.github.io/growth-tools/blog/2026/03/2026-03-31-product-hunt-launch-checklist-30time-1-winners-playbook/
 image: "https://gingiris.github.io/growth-tools/assets/images/blog-product-hunt-launch.jpg"
 ---
 - Product Hunt launch success depends on upvotes, comments, and hunter quality — not your product alone

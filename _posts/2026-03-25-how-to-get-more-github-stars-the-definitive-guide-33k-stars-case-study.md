@@ -2,7 +2,7 @@
 layout: post
 title: "How to Get More GitHub Stars: The Definitive Guide (33K Stars Case Study)"
 date: 2026-03-25
-canonical_url: https://gingiris.github.io/growth-tools/blog/2026-03/03/2026-03-25-how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/
+canonical_url: https://gingiris.github.io/growth-tools/blog/2026/03/2026-03-25-how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/
 image: "https://gingiris.github.io/growth-tools/assets/images/blog-github-stars.jpg"
 ---
 # How to Get More GitHub Stars: The Definitive Guide

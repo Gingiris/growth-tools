@@ -2,7 +2,7 @@
 layout: post
 title: "GitHub PR Template: How to Write PR Descriptions That Get Merged Faster"
 date: 2026-04-02
-canonical_url: https://gingiris.github.io/growth-tools/blog/2026-04/04/2026-04-02-github-pr-template-guide/
+canonical_url: https://gingiris.github.io/growth-tools/blog/2026/04/2026-04-02-github-pr-template-guide/
 image: "https://gingiris.github.io/growth-tools/assets/images/blog-github-stars.jpg"
 ---
 ## TL;DR
