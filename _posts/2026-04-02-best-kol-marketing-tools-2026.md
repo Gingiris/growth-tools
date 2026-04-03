@@ -5,9 +5,8 @@ description: "The best KOL and influencer marketing tools for SaaS and AI startu
 date: 2026-04-02
 author: Iris
 tags: [kol, influencer-marketing, tools, saas, startup, marketing]
-  image: "https://gingiris.github.io/growth-tools/assets/images/blog-kol-tools.jpg"
+image: "https://gingiris.github.io/growth-tools/assets/images/blog-kol-tools.jpg"
 canonical_url: https://gingiris.github.io/growth-tools/blog/2026/04/02/best-kol-marketing-tools-2026/
-  image: "https://gingiris.github.io/growth-tools/assets/images/blog-kol-tools.jpg"
 ---
 
 # Best KOL Marketing Tools in 2026: Find & Manage Influencers for SaaS
