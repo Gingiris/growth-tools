@@ -5,7 +5,29 @@ date: 2026-03-25
 canonical_url: https://gingiris.github.io/growth-tools/blog/2026/03/startup-launch-checklist-47-tasks-before-during-after-launch-day/
 image: "https://gingiris.github.io/growth-tools/assets/images/blog-startup-launch.jpg"
 description: "47 essential tasks before, during, and after your startup launch day. The complete checklist from 30+ successful Product Hunt #1 launches."
+faq:
+  - q: "How far in advance should you plan a startup launch?"
+    a: "6 weeks minimum. Use weeks 1-2 to build your launch foundation (website, analytics, email), weeks 3-4 for community building and pre-launch buzz, week 5 for asset preparation, week 6 for final testing."
+  - q: "What is the most important thing to do before launching a startup?"
+    a: "Build a waitlist or pre-launch audience. Without at least 200-400 warm contacts to notify, even a great product launches to silence. Community before product launch is the #1 lesson from successful founders."
+  - q: "What should you do on startup launch day?"
+    a: "Publish on all planned channels simultaneously at your target time, monitor and respond to every comment within minutes, track signups in real-time, brief your supporters to engage authentically, and stay available for 16+ hours."
+  - q: "How do you measure a successful startup launch?"
+    a: "Primary: email signups or user registrations (target 500-1000 for a good launch). Secondary: website traffic, Product Hunt ranking if applicable, press mentions, social shares. Revenue from day one is a bonus, not the goal."
+  - q: "What should you do the week after your launch?"
+    a: "Send a thank-you to top engagers, reply to every comment, share launch results publicly (builds credibility), start nurturing your email list with value, and immediately start planning your next growth channel."
 ---
+## TL;DR
+
+- A successful launch requires 6 weeks of preparation — not 6 days
+- Build a pre-launch waitlist of 200–400+ people before you go live
+- Stack your channels: Product Hunt + Hacker News + Reddit on the same day for compounding reach
+- On launch day: respond to every comment within 30 minutes — speed signals care
+- Measure success by email signups (500–1,000 is a good launch), not by Day 1 revenue
+- The launch is the start of growth, not the finish line
+
+---
+
 After launching 30+ products (including getting #1 on Product Hunt multiple times), I've distilled everything into this battle-tested checklist.
 
 No fluff. Just the tasks that actually matter.
@@ -188,6 +210,25 @@ Need deeper playbooks? Check out these battle-tested guides:
 
 ---
 
+## FAQ
+
+**How far in advance should you plan a startup launch?**
+6 weeks minimum. Use weeks 1-2 to build your launch foundation (website, analytics, email), weeks 3-4 for community building and pre-launch buzz, week 5 for asset preparation, week 6 for final testing.
+
+**What is the most important thing to do before launching a startup?**
+Build a waitlist or pre-launch audience. Without at least 200-400 warm contacts to notify, even a great product launches to silence. Community before product launch is the #1 lesson from successful founders.
+
+**What should you do on startup launch day?**
+Publish on all planned channels simultaneously at your target time, monitor and respond to every comment within minutes, track signups in real-time, brief your supporters to engage authentically, and stay available for 16+ hours.
+
+**How do you measure a successful startup launch?**
+Primary: email signups or user registrations (target 500-1000 for a good launch). Secondary: website traffic, Product Hunt ranking if applicable, press mentions, social shares. Revenue from day one is a bonus, not the goal.
+
+**What should you do the week after your launch?**
+Send a thank-you to top engagers, reply to every comment, share launch results publicly (builds credibility), start nurturing your email list with value, and immediately start planning your next growth channel.
+
+---
+
 ## 📚 Related Reading
 
 | Category | Article |
@@ -196,4 +237,5 @@ Need deeper playbooks? Check out these battle-tested guides:
 | 📖 | [Startup Marketing Strategy](https://gingiris.github.io/growth-tools/blog/2026/04/01/startup-marketing-strategy-from-zero-to-first-1000-users/) |
 
 *More tools → [Growth Tools Directory](https://gingiris.github.io/growth-tools/)*
+
 
