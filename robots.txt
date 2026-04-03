@@ -1,26 +1,45 @@
 User-agent: *
 Allow: /
 
-# AI Search Bots - Allow all for GEO/SEO
+# ── OpenAI ────────────────────────────────────────────────────────────────────
+# GPTBot: model training (platform.openai.com/docs/gptbot)
 User-agent: GPTBot
 Allow: /
 
-User-agent: ChatGPT-User
-Allow: /
-
-User-agent: ClaudeBot
-Allow: /
-
-User-agent: PerplexityBot
-Allow: /
-
-User-agent: Google-Extended
-Allow: /
-
+# OAI-SearchBot: ChatGPT Search indexing (appears in ChatGPT Search results)
 User-agent: OAI-SearchBot
 Allow: /
 
+# ChatGPT-User: user-triggered real-time fetch (e.g. user pastes a URL in chat)
+User-agent: ChatGPT-User
+Allow: /
+
+# ── Anthropic (Claude) ────────────────────────────────────────────────────────
+# ClaudeBot: model training data crawl
+User-agent: ClaudeBot
+Allow: /
+
+# anthropic-ai: legacy alias for ClaudeBot
 User-agent: anthropic-ai
+Allow: /
+
+# Claude-User: user-triggered real-time fetch (user shares a link in Claude chat)
+User-agent: Claude-User
+Allow: /
+
+# Claude-SearchBot: Claude built-in search index (support.anthropic.com)
+User-agent: Claude-SearchBot
+Allow: /
+
+# ── Google (Gemini) ───────────────────────────────────────────────────────────
+# Google-Extended: Gemini / Vertex AI training opt-in
+# (developers.google.com/search/docs/crawling-indexing/robots/google-extended)
+# Allowing = your content can train Gemini & appear in AI Overviews
+User-agent: Google-Extended
+Allow: /
+
+# ── Other AI search engines ───────────────────────────────────────────────────
+User-agent: PerplexityBot
 Allow: /
 
 User-agent: CCBot
@@ -29,12 +48,19 @@ Allow: /
 User-agent: Applebot-Extended
 Allow: /
 
-# AI Agent / Crawl bots
+# ── AI agents & crawlers ──────────────────────────────────────────────────────
 User-agent: FirecrawlAgent
 Allow: /
 
 User-agent: ImagesiftBot
 Allow: /
 
-# llms.txt - AI agents use this to discover content
+User-agent: CCBot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# ── Discovery ─────────────────────────────────────────────────────────────────
+# llms.txt at /llms.txt — AI agents use this to understand site structure
 Sitemap: https://gingiris.github.io/growth-tools/sitemap.xml
