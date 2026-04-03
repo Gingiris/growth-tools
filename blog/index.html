@@ -4,59 +4,271 @@ title: Blog - 出海增长实战
 description: 出海增长经验分享、工具测评、SEO/GEO 策略
 ---
 
+{% assign featured_slugs = "i-led-affine-from-0-to-60k-github-stars-here-are-my-open-source-growth-playbooks,product-hunt-launch-playbook-the-definitive-guide-30x-1-winner,how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study" | split: "," %}
+
+{% assign featured_posts = "" | split: "" %}
+{% assign regular_posts = "" | split: "" %}
+{% assign all_tags = "" | split: "" %}
+
+{% for post in site.posts %}
+  {% assign slug = post.url | split: "/" | last %}
+  {% assign is_featured = false %}
+  {% for fs in featured_slugs %}
+    {% if slug == fs %}{% assign is_featured = true %}{% endif %}
+  {% endfor %}
+  {% if is_featured %}
+    {% assign featured_posts = featured_posts | push: post %}
+  {% else %}
+    {% assign regular_posts = regular_posts | push: post %}
+  {% endif %}
+  {% for tag in post.tags %}
+    {% unless all_tags contains tag %}
+      {% assign all_tags = all_tags | push: tag %}
+    {% endunless %}
+  {% endfor %}
+{% endfor %}
+
 <div class="blog-header">
-    <h1>📝 出海增长 Blog</h1>
-    <p>实战经验、工具测评、SEO/GEO 策略分享</p>
+  <div class="blog-header-top">
+    <h1>出海增长 Blog</h1>
+    <span class="post-count">{{ site.posts.size }} 篇</span>
+  </div>
+  <p>实战经验、工具测评、SEO/GEO 策略 · by <a href="https://twitter.com/Iris_carrot">@Iris</a></p>
 </div>
 
-<div class="post-list">
-    {% for post in site.posts %}
-    <article class="post-card">
-        <a href="{{ post.url | prepend: site.baseurl }}">
-            <time class="post-date">{{ post.date | date: "%Y-%m-%d" }}</time>
-            <h2 class="post-title">{{ post.title }}</h2>
-            {% if post.description %}
-            <p class="post-excerpt">{{ post.description }}</p>
-            {% endif %}
-            {% if post.tags.size > 0 %}
-            <div class="post-tags">
-                {% for tag in post.tags %}<span class="tag">{{ tag }}</span>{% endfor %}
-            </div>
-            {% endif %}
-        </a>
+<!-- Tag Filter -->
+<div class="tag-filter" id="tagFilter">
+  <button class="tag-btn active" data-tag="all">全部</button>
+  {% assign sorted_tags = all_tags | sort %}
+  {% for tag in sorted_tags %}
+  <button class="tag-btn" data-tag="{{ tag }}">{{ tag }}</button>
+  {% endfor %}
+</div>
+
+<!-- Featured Posts -->
+<section class="featured-section" id="featuredSection">
+  <div class="section-label">⭐ 精选</div>
+  <div class="featured-grid">
+    {% for post in featured_posts %}
+    {% assign words = post.content | number_of_words %}
+    {% assign reading_time = words | divided_by: 200 | plus: 1 %}
+    <a href="{{ post.url | prepend: site.baseurl }}"
+       class="featured-card post-item"
+       data-tags="{{ post.tags | join: ',' }}">
+      <div class="featured-card-inner">
+        <div class="featured-meta">
+          <time>{{ post.date | date: "%Y-%m-%d" }}</time>
+          <span class="read-time">{{ reading_time }} min read</span>
+        </div>
+        <h2 class="featured-title">{{ post.title }}</h2>
+        {% if post.description %}
+        <p class="featured-excerpt">{{ post.description | truncate: 120 }}</p>
+        {% endif %}
+        <div class="featured-tags">
+          {% for tag in post.tags limit: 3 %}
+          <span class="tag">{{ tag }}</span>
+          {% endfor %}
+        </div>
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+</section>
+
+<!-- All Posts -->
+<section class="posts-section">
+  <div class="section-label">全部文章</div>
+  <div class="post-list" id="postList">
+    {% for post in regular_posts %}
+    {% assign words = post.content | number_of_words %}
+    {% assign reading_time = words | divided_by: 200 | plus: 1 %}
+    <article class="post-card post-item" data-tags="{{ post.tags | join: ',' }}">
+      <a href="{{ post.url | prepend: site.baseurl }}">
+        <div class="post-card-meta">
+          <time class="post-date">{{ post.date | date: "%Y-%m-%d" }}</time>
+          <span class="read-time">{{ reading_time }} min read</span>
+        </div>
+        <h2 class="post-title">{{ post.title }}</h2>
+        {% if post.description %}
+        <p class="post-excerpt">{{ post.description | truncate: 130 }}</p>
+        {% endif %}
+        {% if post.tags.size > 0 %}
+        <div class="post-tags">
+          {% for tag in post.tags limit: 4 %}<span class="tag">{{ tag }}</span>{% endfor %}
+        </div>
+        {% endif %}
+      </a>
     </article>
     {% endfor %}
-    
-    {% if site.posts.size == 0 %}
-    <div class="no-posts">
-        <p>🚧 文章即将上线，敬请期待！</p>
-        <p>关注 <a href="https://twitter.com/Iris_carrot">@Iris</a> 获取更新</p>
-    </div>
-    {% endif %}
-</div>
+  </div>
+  <p class="no-results" id="noResults" style="display:none">该分类下暂无文章。</p>
+</section>
+
+<script>
+(function () {
+  var buttons = document.querySelectorAll('.tag-btn');
+  var items   = document.querySelectorAll('.post-item');
+  var featured = document.getElementById('featuredSection');
+  var noResults = document.getElementById('noResults');
+
+  buttons.forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var tag = btn.dataset.tag;
+
+      // Active state
+      buttons.forEach(function (b) { b.classList.remove('active'); });
+      btn.classList.add('active');
+
+      var visible = 0;
+      items.forEach(function (item) {
+        var tags = item.dataset.tags || '';
+        var show = tag === 'all' || tags.split(',').indexOf(tag) !== -1;
+        item.style.display = show ? '' : 'none';
+        if (show) visible++;
+      });
+
+      // Hide featured section when filtering
+      featured.style.display = tag === 'all' ? '' : 'none';
+      noResults.style.display = (tag !== 'all' && visible === 0) ? '' : 'none';
+    });
+  });
+})();
+</script>
 
 <style>
-    .blog-header { text-align: center; margin-bottom: 48px; }
-    .blog-header h1 { font-size: 32px; margin-bottom: 12px; }
-    .blog-header p { color: var(--text-secondary); font-size: 18px; }
-    
-    .post-list { display: flex; flex-direction: column; gap: 16px; }
-    
-    .post-card {
-        background: var(--surface);
-        border: 1px solid var(--border);
-        border-radius: 12px;
-        transition: all 0.2s;
-    }
-    .post-card:hover { border-color: var(--accent); transform: translateY(-2px); }
-    .post-card a { display: block; padding: 24px; color: inherit; text-decoration: none; }
-    
-    .post-date { font-size: 13px; color: var(--text-secondary); }
-    .post-title { font-size: 20px; margin: 8px 0; }
-    .post-excerpt { color: var(--text-secondary); font-size: 15px; margin-bottom: 12px; }
-    .post-tags { display: flex; gap: 8px; flex-wrap: wrap; }
-    .tag { background: var(--bg); padding: 4px 10px; border-radius: 12px; font-size: 12px; color: var(--text-secondary); }
-    
-    .no-posts { text-align: center; padding: 60px 20px; color: var(--text-secondary); }
-    .no-posts p { margin-bottom: 12px; }
+/* ── Header ─────────────────────────────────────────────────────── */
+.blog-header { margin-bottom: 32px; }
+.blog-header-top {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+.blog-header h1 { font-size: 28px; font-weight: 800; }
+.post-count {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 2px 10px;
+  font-size: 13px;
+  color: var(--text-secondary);
+}
+.blog-header p { color: var(--text-secondary); font-size: 15px; }
+.blog-header a { color: var(--accent); }
+
+/* ── Tag filter ──────────────────────────────────────────────────── */
+.tag-filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 36px;
+}
+.tag-btn {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 5px 14px;
+  font-size: 13px;
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: all 0.15s;
+  font-family: inherit;
+}
+.tag-btn:hover { border-color: var(--accent); color: var(--text); }
+.tag-btn.active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+
+/* ── Section label ───────────────────────────────────────────────── */
+.section-label {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--text-secondary);
+  margin-bottom: 16px;
+}
+
+/* ── Featured grid ───────────────────────────────────────────────── */
+.featured-section { margin-bottom: 48px; }
+.featured-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 16px;
+}
+.featured-card {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  background: var(--surface);
+  border: 1px solid var(--accent);
+  border-radius: 12px;
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+.featured-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 24px rgba(99,102,241,0.15);
+  text-decoration: none;
+}
+.featured-card-inner { padding: 22px; }
+.featured-meta {
+  display: flex;
+  gap: 10px;
+  font-size: 12px;
+  color: var(--text-secondary);
+  margin-bottom: 10px;
+}
+.featured-title {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.4;
+  margin-bottom: 10px;
+  color: var(--text);
+}
+.featured-excerpt {
+  font-size: 13px;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin-bottom: 14px;
+}
+.featured-tags { display: flex; flex-wrap: wrap; gap: 6px; }
+
+/* ── Post list ───────────────────────────────────────────────────── */
+.posts-section { }
+.post-list { display: flex; flex-direction: column; gap: 12px; }
+.post-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  transition: border-color 0.15s, transform 0.15s;
+}
+.post-card:hover { border-color: var(--accent); transform: translateY(-2px); }
+.post-card a { display: block; padding: 20px 24px; color: inherit; text-decoration: none; }
+.post-card-meta {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 6px;
+}
+.post-date { font-size: 12px; color: var(--text-secondary); }
+.read-time { font-size: 12px; color: var(--text-secondary); }
+.post-title { font-size: 18px; font-weight: 600; margin-bottom: 6px; line-height: 1.4; }
+.post-excerpt { color: var(--text-secondary); font-size: 14px; margin-bottom: 10px; line-height: 1.6; }
+.post-tags { display: flex; gap: 6px; flex-wrap: wrap; }
+.tag {
+  background: var(--bg);
+  padding: 3px 9px;
+  border-radius: 10px;
+  font-size: 11px;
+  color: var(--text-secondary);
+}
+
+.no-results {
+  text-align: center;
+  padding: 48px 0;
+  color: var(--text-secondary);
+  font-size: 15px;
+}
 </style>
