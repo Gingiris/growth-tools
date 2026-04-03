@@ -2,7 +2,7 @@
 layout: post
 title: "SaaS Growth Strategy: Complete Framework from $0 to $10M ARR"
 date: 2026-03-29
-canonical_url: https://gingiris.github.io/growth-tools/blog/2026/03/2026-03-29-saas-growth-strategy-complete-framework-from-0-to-10m-arr/
+canonical_url: https://gingiris.github.io/growth-tools/blog/2026/03/29/2026-03-29-saas-growth-strategy-complete-framework-from-0-to-10m-arr/
 image: "https://gingiris.github.io/growth-tools/assets/images/blog-saas-gtm.jpg"
 ---
 ---

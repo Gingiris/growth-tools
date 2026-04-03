@@ -2,7 +2,7 @@
 layout: post
 title: "GitHub Stars History: How to Track and Analyze Repository Growth"
 date: 2026-03-31
-canonical_url: https://gingiris.github.io/growth-tools/blog/2026/03/2026-03-31-github-stars-history/
+canonical_url: https://gingiris.github.io/growth-tools/blog/2026/03/31/2026-03-31-github-stars-history/
 image: "https://gingiris.github.io/growth-tools/assets/images/blog-github-history.jpg"
 ---
 ## TL;DR
