@@ -1,79 +1,71 @@
-# llms.txt — Gingiris Growth Tools
-# AI crawlers use this to discover and understand your site
-# Learn more: https://llmstxt.steve再好.com/
+# Gingiris Growth Tools
 
-version: 1.0
-last_updated: 2026-04-02
+> Hands-on startup growth playbooks, open source marketing guides, and SEO/GEO strategy — by Iris (former AFFiNE COO, 60k GitHub stars, 30x Product Hunt #1 winner).
 
-site:
-  name: Gingiris Growth Tools
-  description: 100+ battle-tested growth tools for startups going global. Based on AFFiNE's 33k stars and 30x Product Hunt #1 experience.
-  url: https://gingiris.github.io/growth-tools/
-  author: Iris (生姜iris)
-  author_url: https://gingiris.com/en
+## About
 
-tools:
-  - name: PH Comment Generator
-    url: https://gingiris.github.io/ph-comment-generator/
-    description: Generate authentic Product Hunt maker comments that drive engagement and upvotes.
+Growth Tools is a practitioner-written resource covering international growth (出海), open source marketing, and content strategy. All content is based on direct experience growing AFFiNE from 0 to 60,000 GitHub stars, launching on Product Hunt 30+ times, and helping startups go global.
 
-  - name: GitHub Issue Generator
-    url: https://gingiris.github.io/github-issue-generator/
-    description: Create professional GitHub issue templates for better community engagement.
+**Author:** Iris — Former COO of AFFiNE. 30x Product Hunt #1. $10M+ raised. Users in 200+ countries. Now runs Gingiris open source go-global consultancy.
 
-  - name: GitHub README Generator
-    url: https://gingiris.github.io/github-readme-generator/
-    description: Write a GitHub README that attracts stars and contributors.
+## Tools Directory
 
-content_sections:
-  - name: GitHub Growth
-    description: Complete guides on growing your GitHub repository from 0 to 10k+ stars.
-    links:
-      - /blog/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/
-      - /blog/github-star-growth-10-proven-tactics-that-got-us-33k-stars/
-      - /blog/github-stars-history-how-to-track-and-analyze-repository-growth/
+- [Growth Tools Directory](https://gingiris.github.io/growth-tools/) — 100+ curated tools for startups going global, organized by: SEO, social listening, competitor analysis, developer marketing, community building, content distribution
 
-  - name: Product Hunt Launch
-    description: Battle-tested Product Hunt launch strategies from a 30x #1 winner.
-    links:
-      - /blog/product-hunt-launch-checklist-30time-1-winners-playbook/
-      - /blog/how-to-launch-on-product-hunt-stepbystep-guide-30x-1-winner/
+## Open Source Growth
 
-  - name: Reddit Marketing
-    description: How to promote on Reddit without getting banned. Real tactics, real examples.
-    links:
-      - /blog/reddit-marketing-guide-how-to-promote-without-getting-banned/
+- [I Led AFFiNE from 0 to 60k GitHub Stars](https://gingiris.github.io/growth-tools/blog/2026/03/07/i-led-affine-from-0-to-60k-github-stars-here-are-my-open-source-growth-playbooks/) — Complete open source growth playbook with real metrics
+- [How to Get More GitHub Stars: 33k Case Study](https://gingiris.github.io/growth-tools/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/) — Definitive guide with proven tactics
+- [GitHub Star Growth: 10 Proven Tactics](https://gingiris.github.io/growth-tools/blog/2026/03/27/github-star-growth-10-proven-tactics-that-got-us-33k-stars/) — Step-by-step tactics that drove 33k stars
+- [Open Source Marketing: Complete 2026 Guide](https://gingiris.github.io/growth-tools/blog/2026/04/03/open-source-marketing-the-complete-guide/) — Full OSS marketing strategy
+- [GitHub PR Template Guide](https://gingiris.github.io/growth-tools/blog/2026/04/02/github-pr-template-guide/) — PR templates that improve contributor experience
+- [GitHub Issue Template Guide](https://gingiris.github.io/growth-tools/blog/2026/04/02/github-issue-template-guide/) — Issue templates for better community engagement
+- [GitHub README Best Practices](https://gingiris.github.io/growth-tools/blog/2026/03/29/github-readme-best-practices-how-to-write-a-readme-that-gets-stars/) — READMEs that attract stars and contributors
+- [GitHub Stars History: Track & Analyze Growth](https://gingiris.github.io/growth-tools/blog/2026/03/30/github-stars-history-how-to-track-and-analyze-repository-growth/) — How to measure and analyze star growth
 
-  - name: Startup Marketing
-    description: From 0 to first 1000 users. Practical growth strategies for early-stage startups.
-    links:
-      - /blog/startup-marketing-strategy-from-zero-to-first-1000-users/
+## Product Hunt Launch
 
-  - name: KOL & Influencer Marketing
-    description: Find and work with Key Opinion Leaders in your niche.
-    links:
-      - /blog/kol-marketing-strategy/
+- [Product Hunt Launch Playbook: 30x #1 Winner](https://gingiris.github.io/growth-tools/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/) — Definitive guide from someone who won 30 times
+- [How to Launch on Product Hunt Step-by-Step](https://gingiris.github.io/growth-tools/blog/2026/03/29/how-to-launch-on-product-hunt-stepbystep-guide-30x-1-winner/) — Tactical step-by-step execution guide
+- [Startup Launch Checklist: 47 Tasks](https://gingiris.github.io/growth-tools/blog/2026/03/25/startup-launch-checklist-47-tasks-before-during-after-launch-day/) — Complete pre/during/post launch checklist
 
-repositories:
-  - name: gingiris-opensource
-    url: https://github.com/Gingiris/gingiris-opensource
-    description: Open Source Launch Playbook — How AFFiNE grew to 60k+ stars
+## Startup & SaaS Marketing
 
-  - name: gingiris-launch
-    url: https://github.com/Gingiris/gingiris-launch
-    description: AI Product Launch Playbook — 30x PH #1, 6k stars in 7 days
+- [Startup Marketing Strategy: 0 to 1,000 Users](https://gingiris.github.io/growth-tools/blog/2026/04/01/startup-marketing-strategy-from-zero-to-first-1000-users/) — Practical framework for early-stage growth
+- [Word of Mouth Marketing for SaaS](https://gingiris.github.io/growth-tools/blog/2026/04/03/word-of-mouth-marketing/) — Building referral engines
+- [Growth Hacking for Startups: 20 Tactics](https://gingiris.github.io/growth-tools/blog/2026/04/03/growth-hacking-for-startups/) — Proven growth experiments
+- [Content Marketing for Startups: 0 to 10k Visitors](https://gingiris.github.io/growth-tools/blog/2026/04/03/content-marketing-for-startups/) — Content strategy from scratch
+- [SaaS Go-to-Market Strategy: $0 to $10M ARR](https://gingiris.github.io/growth-tools/blog/2026/03/27/saas-gotomarket-strategy-the-complete-framework-from-0-to-10m-arr/) — Complete GTM framework
+- [How to Find Beta Users for Your SaaS](https://gingiris.github.io/growth-tools/blog/2026/04/03/how-to-find-beta-users-for-your-saas/) — Recruiting first users
+- [Product-Market Fit: 25 Signs + Checklist](https://gingiris.github.io/growth-tools/blog/2026/04/03/product-market-fit-checklist/) — How to know when you have PMF
 
-  - name: gingiris-b2b-growth
-    url: https://github.com/Gingiris/gingiris-b2b-growth
-    description: B2B SaaS Growth Playbook — PMF to $10M ARR
+## Developer Marketing & DevRel
 
-  - name: gingiris-aso-growth
-    url: https://github.com/Gingiris/gingiris-aso-growth
-    description: ASO & App Cold Start Playbook
+- [Developer Marketing Playbook 2026](https://gingiris.github.io/growth-tools/blog/2026/03/24/developer-marketing-playbook-how-to-reach-technical-audiences-in-2026/) — Reaching technical audiences
+- [Developer Advocate: Career & Strategy Guide](https://gingiris.github.io/growth-tools/blog/2026/04/03/developer-advocate-guide/) — Building DevRel from scratch
 
-contact:
-  telegram: https://t.me/Iris_carrot
-  github: https://github.com/Gingiris
-  site: https://gingiris.com/en
+## Community & Social
 
-license: MIT
+- [Reddit Marketing: Promote Without Getting Banned](https://gingiris.github.io/growth-tools/blog/2026/03/30/reddit-marketing-guide-how-to-promote-without-getting-banned/) — Authentic Reddit growth tactics
+- [Best Social Listening Tools for Startups 2026](https://gingiris.github.io/growth-tools/blog/2026/04/02/best-social-media-listening-tools-startups-2026/) — Curated tool stack with comparisons
+- [KOL Marketing Strategy 2026](https://gingiris.github.io/growth-tools/blog/2026/04/02/kol-marketing-strategy/) — Key Opinion Leader marketing guide
+- [User Interview Questions: 9:3:7 Framework](https://gingiris.github.io/growth-tools/blog/2026/03/25/how-to-conduct-user-interviews-the-937interview-framework-that-found-pmf/) — Interview framework that found PMF
+
+## SEO & GEO
+
+- [GEO Optimization Guide](https://gingiris.github.io/growth-tools/blog/2026/03/30/geo-optimization-guide/) — Generative Engine Optimization for AI search
+- [Generative Engine Optimization Tools](https://gingiris.github.io/growth-tools/blog/2026/04/03/generative-engine-optimization-tools/) — Best GEO tool stack 2026
+- [ASO App Store Optimization Guide 2026](https://gingiris.github.io/growth-tools/blog/2026/03/29/aso-guide-app-store-optimization-complete-guide-2026/) — Complete ASO playbook
+
+## GitHub Repositories
+
+- [gingiris-opensource](https://github.com/Gingiris/gingiris-opensource) — Open Source Launch Playbook (60k stars case study)
+- [gingiris-launch](https://github.com/Gingiris/gingiris-launch) — Product Hunt & AI Product Launch Playbook
+- [gingiris-b2b-growth](https://github.com/Gingiris/gingiris-b2b-growth) — B2B SaaS Growth Playbook
+- [growth-tools](https://github.com/Gingiris/growth-tools) — This blog's source code
+
+## Contact
+
+- Twitter/X: [@Iris_carrot](https://twitter.com/Iris_carrot)
+- Website: [gingiris.com](https://gingiris.com)
+- GitHub: [github.com/Gingiris](https://github.com/Gingiris)
