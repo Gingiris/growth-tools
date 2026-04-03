@@ -1,6 +1,10 @@
 ---
-
-
+layout: post
+title: "Developer Marketing Playbook: How to Reach Technical Audiences in 2026"
+date: 2026-03-24
+canonical_url: https://gingiris.github.io/growth-tools/blog/2026-03/03/2026-03-24-developer-marketing-playbook-how-to-reach-technical-audiences-in-2026/
+image: "https://gingiris.github.io/growth-tools/assets/images/blog-developer-marketing.jpg"
+---
 Developers hate being marketed to. They can smell a sales pitch from miles away. Yet some companies build massive developer communities while others struggle to get any traction. What is the difference?
 
 After building developer communities around products with 30K+ GitHub stars, here is the developer marketing playbook that actually works.

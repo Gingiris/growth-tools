@@ -1,5 +1,10 @@
 ---
-
+layout: post
+title: "GitHub README Template: The Complete 2026 Guide to Get More Stars"
+date: 2026-04-02
+canonical_url: https://gingiris.github.io/growth-tools/blog/2026-04/04/2026-04-02-github-readme-template-guide/
+image: "https://gingiris.github.io/growth-tools/assets/images/blog-github-stars.jpg"
+---
 ## TL;DR
 
 - A great README = clear intro + visual badges + quick start + real examples

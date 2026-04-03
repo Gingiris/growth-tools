@@ -1,5 +1,10 @@
 ---
-
+layout: post
+title: "GitHub Stars History: How to Track and Analyze Repository Growth"
+date: 2026-03-30
+canonical_url: https://gingiris.github.io/growth-tools/blog/2026-03/03/2026-03-30-github-stars-history-how-to-track-and-analyze-repository-growth/
+image: "https://gingiris.github.io/growth-tools/assets/images/blog-github-history.jpg"
+---
 ## TL;DR
 
 - GitHub stars history shows how a repo gained popularity over time

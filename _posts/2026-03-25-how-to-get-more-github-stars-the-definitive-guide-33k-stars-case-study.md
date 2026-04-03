@@ -1,12 +1,10 @@
 ---
-
+layout: post
 title: "How to Get More GitHub Stars: The Definitive Guide (33K Stars Case Study)"
-canonical_url: https://gingiris.github.io/growth-tools/blog/2026/03/2026-03-25-how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/
-published: true
-description: "Complete guide to growing GitHub stars for open source projects. Real tactics from AFFiNE's journey from 0 to 33,000 stars in 18 months."
-tags: github, opensource, marketing, developer
+date: 2026-03-25
+canonical_url: https://gingiris.github.io/growth-tools/blog/2026-03/03/2026-03-25-how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/
+image: "https://gingiris.github.io/growth-tools/assets/images/blog-github-stars.jpg"
 ---
-
 # How to Get More GitHub Stars: The Definitive Guide
 
 We grew AFFiNE from **0 to 33,000 GitHub stars** in 18 months. This guide covers every tactic we used — what worked, what failed, and what actually moves the needle.

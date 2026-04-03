@@ -1,12 +1,10 @@
 ---
-
+layout: post
 title: "Product Hunt Launch Playbook: The Definitive Guide (30x #1 Winner)"
-canonical_url: https://gingiris.github.io/growth-tools/blog/2026/03/2026-03-25-product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/
-published: true
-description: "The complete Product Hunt launch playbook from someone who won #1 Daily 30 times. Strategy, tactics, timeline, and real examples."
-tags: producthunt, startup, marketing, opensource
+date: 2026-03-25
+canonical_url: https://gingiris.github.io/growth-tools/blog/2026-03/03/2026-03-25-product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/
+image: "https://gingiris.github.io/growth-tools/assets/images/blog-product-hunt-launch.jpg"
 ---
-
 # Product Hunt Launch Playbook: The Definitive Guide
 
 I've launched on Product Hunt **30+ times** and won #1 Daily on 30 of them. This isn't another generic guide — it's the exact playbook we used at AFFiNE to get 33,000 GitHub stars.
