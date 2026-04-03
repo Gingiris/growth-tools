@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="{{ page.lang | default: 'zh-CN' }}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,13 +12,15 @@
     <meta property="og:title" content="{{ page.title }}">
     <meta property="og:description" content="{{ page.description | default: site.description }}">
     <meta property="og:type" content="article">
-    <meta property="og:url" content="{{ page.url | absolute_url }}">
-    
+    <meta property="og:url" content="{{ page.canonical_url | default: page.url | absolute_url }}">
+    {% if page.image %}<meta property="og:image" content="{{ page.image }}">{% endif %}
+
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="{{ page.title }}">
     <meta name="twitter:description" content="{{ page.description | default: site.description }}">
-    <meta name="twitter:creator" content="@{{ site.twitter.username }}">
+    <meta name="twitter:creator" content="@Iris_carrot">
+    {% if page.image %}<meta name="twitter:image" content="{{ page.image }}">{% endif %}
     
     {% seo %}
     
@@ -40,8 +42,9 @@
         "name": "Gingiris",
         "url": "https://gingiris.com"
       },
-      "url": "{{ page.url | absolute_url }}",
-      "mainEntityOfPage": "{{ page.url | absolute_url }}"
+      {% if page.image %}"image": "{{ page.image }}",{% endif %}
+      "url": "{{ page.canonical_url | default: page.url | absolute_url }}",
+      "mainEntityOfPage": "{{ page.canonical_url | default: page.url | absolute_url }}"
     }
     </script>
     
