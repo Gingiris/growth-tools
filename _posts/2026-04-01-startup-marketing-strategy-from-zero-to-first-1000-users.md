@@ -2,7 +2,7 @@
 layout: post
 title: "Startup Marketing Strategy: From Zero to First 1,000 Users"
 date: 2026-04-01
-canonical_url: https://gingiris.github.io/growth-tools/blog/2026/04/01/2026-04-01-startup-marketing-strategy-from-zero-to-first-1000-users/
+canonical_url: https://gingiris.github.io/growth-tools/blog/2026/04/01/startup-marketing-strategy-from-zero-to-first-1000-users/
 image: "https://gingiris.github.io/growth-tools/assets/images/blog-startup-marketing.jpg"
 ---
 <!-- SEO: startup marketing keyword appears in first 100 words -->

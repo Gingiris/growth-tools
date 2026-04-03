@@ -2,7 +2,7 @@
 layout: post
 title: "How to Conduct User Interviews: The 937-Interview Framework That Found PMF"
 date: 2026-03-25
-canonical_url: https://gingiris.github.io/growth-tools/blog/2026/03/25/2026-03-25-how-to-conduct-user-interviews-the-937interview-framework-that-found-pmf/
+canonical_url: https://gingiris.github.io/growth-tools/blog/2026/03/25/how-to-conduct-user-interviews-the-937interview-framework-that-found-pmf/
 image: "https://gingiris.github.io/growth-tools/assets/images/blog-user-interview.jpg"
 ---
 **TL;DR**: HeyGen's founder conducted 937 user interviews in 6 months to find product-market fit. This is the exact framework — from screening users to extracting actionable insights.

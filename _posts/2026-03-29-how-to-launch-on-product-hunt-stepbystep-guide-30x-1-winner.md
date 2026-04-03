@@ -2,7 +2,7 @@
 layout: post
 title: "How to Launch on Product Hunt: Step-by-Step Guide (30x #1 Winner)"
 date: 2026-03-29
-canonical_url: https://gingiris.github.io/growth-tools/blog/2026/03/29/2026-03-29-how-to-launch-on-product-hunt-stepbystep-guide-30x-1-winner/
+canonical_url: https://gingiris.github.io/growth-tools/blog/2026/03/29/how-to-launch-on-product-hunt-stepbystep-guide-30x-1-winner/
 image: "https://gingiris.github.io/growth-tools/assets/images/blog-product-hunt-launch.jpg"
 ---
 ---

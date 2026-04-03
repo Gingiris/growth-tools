@@ -2,7 +2,7 @@
 layout: post
 title: "SaaS Go-to-Market Strategy: The Complete Framework from $0 to $10M ARR"
 date: 2026-03-27
-canonical_url: https://gingiris.github.io/growth-tools/blog/2026/03/27/2026-03-27-saas-gotomarket-strategy-the-complete-framework-from-0-to-10m-arr/
+canonical_url: https://gingiris.github.io/growth-tools/blog/2026/03/27/saas-gotomarket-strategy-the-complete-framework-from-0-to-10m-arr/
 image: "https://gingiris.github.io/growth-tools/assets/images/blog-saas-gtm.jpg"
 ---
 Most SaaS founders obsess over product features while neglecting go-to-market strategy. The result? Great products that nobody knows about.

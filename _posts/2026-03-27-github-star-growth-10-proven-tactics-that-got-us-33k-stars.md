@@ -2,7 +2,7 @@
 layout: post
 title: "GitHub Star Growth: 10 Proven Tactics That Got Us 33k Stars"
 date: 2026-03-27
-canonical_url: https://gingiris.github.io/growth-tools/blog/2026/03/27/2026-03-27-github-star-growth-10-proven-tactics-that-got-us-33k-stars/
+canonical_url: https://gingiris.github.io/growth-tools/blog/2026/03/27/github-star-growth-10-proven-tactics-that-got-us-33k-stars/
 image: "https://gingiris.github.io/growth-tools/assets/images/blog-github-stars.jpg"
 ---
 ## Why GitHub Stars Matter in 2026
