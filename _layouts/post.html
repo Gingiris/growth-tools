@@ -2,6 +2,34 @@
 layout: default
 ---
 
+<!-- BreadcrumbList Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://gingiris.github.io/growth-tools/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://gingiris.github.io/growth-tools/blog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": {{ page.title | jsonify }},
+      "item": "{{ page.canonical_url | default: page.url | absolute_url }}"
+    }
+  ]
+}
+</script>
+
 {% if page.faq %}
 <script type="application/ld+json">
 {
@@ -24,6 +52,15 @@ layout: default
 {% endif %}
 
 <article class="post">
+    <!-- Breadcrumb Nav -->
+    <nav aria-label="Breadcrumb" class="breadcrumb">
+      <ol>
+        <li><a href="{{ site.baseurl }}/">Home</a></li>
+        <li><a href="{{ site.baseurl }}/blog/">Blog</a></li>
+        <li aria-current="page">{{ page.title | truncate: 50 }}</li>
+      </ol>
+    </nav>
+
     <header class="post-header">
         <p class="post-meta">
             <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y年%m月%d日" }}</time>
@@ -95,4 +132,12 @@ layout: default
     .post-content th { background: var(--surface); }
     
     .post-footer { margin-top: 60px; padding-top: 24px; border-top: 1px solid var(--border); color: var(--text-secondary); }
+
+    /* Breadcrumb */
+    .breadcrumb { margin-bottom: 24px; font-size: 13px; color: var(--text-secondary); }
+    .breadcrumb ol { list-style: none; display: flex; gap: 6px; flex-wrap: wrap; }
+    .breadcrumb li + li::before { content: "›"; margin-right: 6px; }
+    .breadcrumb a { color: var(--text-secondary); }
+    .breadcrumb a:hover { color: var(--text); text-decoration: none; }
+    .breadcrumb [aria-current="page"] { color: var(--text); }
 </style>
