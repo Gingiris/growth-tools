@@ -4,6 +4,7 @@ title: "How to Get More GitHub Stars: The Definitive Guide (33K Stars Case Study
 date: 2026-03-25
 canonical_url: https://gingiris.github.io/growth-tools/blog/2026/03/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/
 image: "https://gingiris.github.io/growth-tools/assets/images/blog-github-stars.jpg"
+description: "Complete guide to growing GitHub stars for open source projects. Real tactics from AFFiNE's journey from 0 to 33,000 stars in 18 months."
 ---
 # How to Get More GitHub Stars: The Definitive Guide
 
