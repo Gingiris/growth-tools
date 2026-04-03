@@ -4,6 +4,7 @@ title: "GitHub README Best Practices: How to Write a README That Gets Stars"
 date: 2026-03-29
 canonical_url: https://gingiris.github.io/growth-tools/blog/2026/03/github-readme-best-practices-how-to-write-a-readme-that-gets-stars/
 image: "https://gingiris.github.io/growth-tools/assets/images/blog-github-stars.jpg"
+description: "GitHub README best practices that get stars. Write a README that converts visitors — structure, visuals, quick start, and the 30-second readability test."
 ---
 ---
 
