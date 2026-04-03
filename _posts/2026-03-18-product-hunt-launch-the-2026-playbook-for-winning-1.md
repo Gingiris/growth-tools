@@ -1,11 +1,4 @@
 ---
-layout: post
-title: "Product Hunt Launch: The 2026 Playbook for Winning #1"
-date: 2026-03-18
-description: "title: \"Product Hunt Launch: The 2026 Playbook for Winning 1\" published: true description: \"A battle-tested guide to Product Hunt launch success. Lear"
-tags: [["producthunt", "startup", "launch", "marketing"]]
-canonical: "https://dev.to/iris1031/product-hunt-launch-the-2026-playbook-for-winning-1-5a23"
----
 
 title: "Product Hunt Launch: The 2026 Playbook for Winning #1"
 published: true

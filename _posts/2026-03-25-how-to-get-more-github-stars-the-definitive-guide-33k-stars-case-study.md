@@ -1,12 +1,4 @@
 ---
-layout: post
-title: "How to Get More GitHub Stars: The Definitive Guide (33K Stars Case Study)"
-canonical_url: https://gingiris.github.io/growth-tools/blog/2026/03/2026-03-25-how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/
-date: 2026-03-25
-description: "title: \"How to Get More GitHub Stars: The Definitive Guide (33K Stars Case Study)\" published: true description: \"Complete guide to growing GitHub star"
-tags: [["github", "opensource", "marketing", "developer"]]
-canonical: "https://dev.to/iris1031/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study-2kjo"
----
 
 title: "How to Get More GitHub Stars: The Definitive Guide (33K Stars Case Study)"
 canonical_url: https://gingiris.github.io/growth-tools/blog/2026/03/2026-03-25-how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/

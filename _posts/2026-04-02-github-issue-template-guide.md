@@ -1,10 +1,4 @@
 ---
-title: "GitHub Issue Template: How to Get More Contributions and Build Community"
-description: "Learn how to write GitHub issue templates that get better bug reports, feature requests, and community contributions. Based on 60k GitHub stars experience — with free templates."
-date: 2026-04-02
-tags: [github, open-source, community, developer-tools, contributions]
-canonical_url: https://gingiris.github.io/growth-tools/blog/2026/04/2026-04-02-github-issue-template-guide/
----
 
 ## TL;DR
 

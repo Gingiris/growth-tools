@@ -1,11 +1,4 @@
 ---
-layout: post
-title: "100+ Growth Tools for Startups Going Global (2026 Edition)"
-date: 2026-03-30
-description: "title: 100+ Growth Tools for Startups Going Global (2026 Edition) published: true tags: startup, marketing, growth, seo canonical_url: https://gingiris.github.io/growth-tools/blog/100-growth-tools-for-startups-going-global-2026-edition/
-tags: [["startup", "marketing", "growth", "seo"]]
-canonical: "https://dev.to/iris1031/100-growth-tools-for-startups-going-global-2026-edition-3h2b"
----
 
 title: 100+ Growth Tools for Startups Going Global (2026 Edition)
 published: true

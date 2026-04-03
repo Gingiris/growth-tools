@@ -1,12 +1,4 @@
 ---
-layout: post
-title: "GitHub Star Growth: 10 Proven Tactics That Got Us 33k Stars"
-canonical_url: https://gingiris.github.io/growth-tools/blog/2026/03/2026-03-27-github-star-growth-10-proven-tactics-that-got-us-33k-stars/
-date: 2026-03-27
-description: " Why GitHub Stars Matter in 2026 Stars aren't just vanity metrics. They directly impact: - Discoverability: Higher star count = better GitHub search r"
-tags: [["opensource", "github", "growth", "webdev"]]
-canonical: "https://dev.to/iris1031/github-star-growth-10-proven-tactics-that-got-us-33k-stars-1h6"
----
 
 
 ## Why GitHub Stars Matter in 2026

@@ -1,14 +1,4 @@
 ---
-title: "Startup Marketing Strategy: From Zero to First 1,000 Users"
-description: "Complete startup marketing strategy for early-stage founders. Learn how to go from 0 to first 1,000 users using community building, content marketing, and proven distribution channels — without a big budget.
-date: 2026-04-01
-categories: [Growth, Startup, Marketing]
-tags: [startup-marketing, growth-strategy, content-marketing, community-building, product-hunt, github]
-canonical_url: https://gingiris.github.io/growth-tools/blog/2026/04/2026-04-01-startup-marketing-strategy-from-zero-to-first-1000-users/
-seo_title: "Startup Marketing Strategy: From Zero to First 1,000 Users"
-seo_description: "Practical startup marketing guide with proven tactics for getting your first 1,000 users. Community building, content marketing, and distribution channels explained."
-keywords: "startup marketing, startup marketing strategy, marketing for startups, user acquisition, first 1000 users, community building, content marketing"
----
 
 <!-- SEO: startup marketing keyword appears in first 100 words -->
 Startups face a unique marketing challenge: you need users before you have brand recognition, but you cannot build brand recognition without users. This chicken-and-egg problem trips up even the most talented founders. The solution is not a bigger ad budget or a viral video — it is finding your **first 100 users who love you so much they cannot stop talking about you**.

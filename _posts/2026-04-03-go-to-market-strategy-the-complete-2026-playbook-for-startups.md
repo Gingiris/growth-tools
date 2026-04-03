@@ -1,13 +1,4 @@
 ---
-title: "Go-to-Market Strategy: The Complete 2026 Playbook for Startups"
-description: "A complete go-to-market strategy guide for startups in 2026. Learn how AFFiNE, Manus, and Devin executed GTM from day zero. Includes a free checklist and growth tools.
-date: 2026-04-03
-tags: [go-to-market, startup, product-launch, growth-strategy, product-hunt]
-canonical_url: https://dev.to/iris1031/go-to-market-strategy-the-complete-2026-playbook-for-startups-210j
-seo_title: "Go-to-Market Strategy: The Complete 2026 Playbook for Startups"
-seo_description: "Learn how AFFiNE, Manus, and Devin executed go-to-market strategy from day zero. Includes 4 pillars of GTM, real case studies, and a free launch checklist."
-keywords: "go to market strategy, startup GTM, product launch checklist, Product Hunt launch, AFFiNE GTM"
----
 
 ## TL;DR
 

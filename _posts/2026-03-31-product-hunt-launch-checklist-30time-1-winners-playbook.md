@@ -1,12 +1,4 @@
 ---
-layout: post
-title: "Product Hunt Launch Checklist: 30-Time #1 Winner's Playbook"
-canonical_url: https://gingiris.github.io/growth-tools/blog/2026/03/2026-03-31-product-hunt-launch-checklist-30time-1-winners-playbook/
-date: 2026-03-31
-description: " - Product Hunt launch success depends on upvotes, comments, and hunter quality — not your product alone - The PH ranking algorithm weighs velocity "
-tags: [[]]
-canonical: "https://dev.to/iris1031/product-hunt-launch-checklist-30-time-1-winners-playbook-259m"
----
 
 
 - Product Hunt launch success depends on upvotes, comments, and hunter quality — not your product alone

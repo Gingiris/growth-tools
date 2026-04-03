@@ -1,10 +1,4 @@
 ---
-title: "KOL Marketing Strategy: How to Find and Work with Influencers in 2026"
-description: "A practical KOL marketing guide covering influencer discovery, outreach, and collaboration strategies that actually drive results. Includes real case studies and free tools.
-date: 2026-04-02
-tags: [kol-marketing, influencer-marketing, growth-tools, startup-marketing]
-canonical_url: https://gingiris.github.io/growth-tools/blog/2026/04/2026-04-02-kol-marketing-strategy/
----
 
 ## TL;DR
 

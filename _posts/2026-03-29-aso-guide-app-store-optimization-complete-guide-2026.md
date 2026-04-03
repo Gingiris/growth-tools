@@ -1,12 +1,4 @@
 ---
-layout: post
-title: "ASO Guide: App Store Optimization Complete Guide 2026"
-canonical_url: https://gingiris.github.io/growth-tools/blog/2026/03/2026-03-29-aso-guide-app-store-optimization-complete-guide-2026/
-date: 2026-03-29
-description: " --- What is ASO? ASO (App Store Optimization) is SEO for app stores. It helps your app rank higher in search results and convert more visitors to dow"
-tags: [["aso", "appstore", "mobile", "marketing"]]
-canonical: "https://dev.to/iris1031/aso-guide-app-store-optimization-complete-guide-2026-2d4a"
----
 
 
 ---

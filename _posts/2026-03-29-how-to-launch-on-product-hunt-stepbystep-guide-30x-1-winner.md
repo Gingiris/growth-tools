@@ -1,12 +1,4 @@
 ---
-layout: post
-title: "How to Launch on Product Hunt: Step-by-Step Guide (30x #1 Winner)"
-canonical_url: https://gingiris.github.io/growth-tools/blog/2026/03/2026-03-29-how-to-launch-on-product-hunt-stepbystep-guide-30x-1-winner/
-date: 2026-03-29
-description: " --- Who Is This Guide For? I'm Iris, former cofounder & COO of [AFFiNE](https://github.com/toeverything/AFFiNE) (60k+ GitHub stars). I led our global"
-tags: [["producthunt", "startup", "marketing", "launch"]]
-canonical: "https://dev.to/iris1031/how-to-launch-on-product-hunt-step-by-step-guide-30x-1-winner-1902"
----
 
 
 ---
