@@ -4,6 +4,7 @@ title: "Product Hunt Launch Checklist: 30-Time #1 Winner's Playbook"
 date: 2026-03-31
 canonical_url: https://gingiris.github.io/growth-tools/blog/2026/03/product-hunt-launch-checklist-30time-1-winners-playbook/
 image: "https://gingiris.github.io/growth-tools/assets/images/blog-product-hunt-launch.jpg"
+description: "Product Hunt launch checklist from a 30-time #1 winner. Every task from 6 weeks pre-launch to post-launch follow-up, with exact timing and tips."
 ---
 - Product Hunt launch success depends on upvotes, comments, and hunter quality — not your product alone
 - The PH ranking algorithm weighs velocity (upvotes per hour) heavily in the first 6-8 hours
