@@ -4,7 +4,7 @@ title: "Content Marketing for Startups: From 0 to 10k Monthly Visitors (Real Pla
 description: "The complete content marketing guide for startups — how to go from zero traffic to 10k+ monthly visitors with limited resources. Keyword strategy, content types, distribution, and real examples from AFFiNE's 60k-star growth journey."
 date: 2026-04-03
 tags: [content-marketing, startup-growth, seo, growth-tools, saas-marketing]
-canonical_url: "https://gingiris.github.io/growth-tools/blog/2026/04/content-marketing-for-startups/"
+canonical_url: https://gingiris.github.io/growth-tools/blog/2026/04/03/content-marketing-for-startups/
 image: "https://gingiris.github.io/growth-tools/assets/images/blog-startup-launch.jpg"
 faq:
   - q: "How do you start content marketing for a startup?"

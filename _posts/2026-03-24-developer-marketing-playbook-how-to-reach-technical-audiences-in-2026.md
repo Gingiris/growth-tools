@@ -2,7 +2,7 @@
 layout: post
 title: "Developer Marketing Playbook: How to Reach Technical Audiences in 2026"
 date: 2026-03-24
-canonical_url: https://gingiris.github.io/growth-tools/blog/2026/03/developer-marketing-playbook-how-to-reach-technical-audiences-in-2026/
+canonical_url: https://gingiris.github.io/growth-tools/blog/2026/03/24/developer-marketing-playbook-how-to-reach-technical-audiences-in-2026/
 image: "https://gingiris.github.io/growth-tools/assets/images/blog-developer-marketing.jpg"
 description: "The complete developer marketing playbook for 2026. Reach technical audiences through GitHub, Dev.to, Hacker News, and open source community building."
 faq:

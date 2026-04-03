@@ -2,7 +2,7 @@
 layout: post
 title: "KOL Marketing Strategy: How to Find and Work with Influencers in 2026"
 date: 2026-04-02
-canonical_url: https://gingiris.github.io/growth-tools/blog/2026/04/kol-marketing-strategy/
+canonical_url: https://gingiris.github.io/growth-tools/blog/2026/04/02/kol-marketing-strategy/
 image: "https://gingiris.github.io/growth-tools/assets/images/blog-kol-marketing.jpg"
 description: "Complete KOL marketing strategy for B2B SaaS and developer tools. Find, outreach, and partner with key opinion leaders to drive authentic growth."
 faq:

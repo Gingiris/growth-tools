@@ -4,7 +4,7 @@ title: "Growth Hacking for Startups: 20 Proven Tactics (2026 Edition)"
 description: "The definitive growth hacking guide for startups in 2026. 20 real tactics covering product-led growth, community, content, and distribution — with examples from AFFiNE's 0 to 60k GitHub stars journey."
 date: 2026-04-03
 tags: [growth-hacking, startup-growth, saas-growth, growth-tools, user-acquisition]
-canonical_url: "https://gingiris.github.io/growth-tools/blog/2026/04/growth-hacking-for-startups/"
+canonical_url: https://gingiris.github.io/growth-tools/blog/2026/04/03/growth-hacking-for-startups/
 image: "https://gingiris.github.io/growth-tools/assets/images/blog-startup-launch.jpg"
 faq:
   - q: "What is growth hacking?"

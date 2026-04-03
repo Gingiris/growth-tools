@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "如何利用“贡献者入门文档”快速提升开源项目增长"
-canonical_url: https://gingiris.github.io/growth-tools/blog/2026/03/2026-03-08-ru-he-li-yong-gong-xian-zhe-ru-men-wen-dang-kuai-su-ti-sheng-kai-yuan-xiang-mu-zeng-chang/
+canonical_url: https://gingiris.github.io/growth-tools/blog/2026/03/08/ru-he-li-yong-gong-xian-zhe-ru-men-wen-dang-kuai-su-ti-sheng-kai-yuan-xiang-mu-zeng-chang/
 image: "https://gingiris.github.io/growth-tools/assets/images/blog-community-building.jpg"
 date: 2026-03-08
 description: "# 如何利用“贡献者入门文档”快速提升开源项目增长  开源项目增长中，一个非常被忽视但效果显著的技巧是—�"

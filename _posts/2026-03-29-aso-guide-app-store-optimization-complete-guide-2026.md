@@ -2,7 +2,7 @@
 layout: post
 title: "App Store Optimization Tools: Best ASO Stack for 2026 (+ Complete Strategy Guide)"
 date: 2026-03-29
-canonical_url: https://gingiris.github.io/growth-tools/blog/2026/03/aso-guide-app-store-optimization-complete-guide-2026/
+canonical_url: https://gingiris.github.io/growth-tools/blog/2026/03/29/aso-guide-app-store-optimization-complete-guide-2026/
 image: "https://gingiris.github.io/growth-tools/assets/images/blog-aso-optimization.jpg"
 description: "The best app store optimization tools for 2026, plus a complete ASO strategy guide. Rank higher in App Store and Google Play with keyword research, screenshot optimization, and ratings tactics."
 faq:

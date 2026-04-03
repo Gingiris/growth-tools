@@ -4,7 +4,7 @@ title: "Generative Engine Optimization Tools: Best GEO Stack for 2026"
 description: "The best generative engine optimization tools for 2026. Get your content cited in ChatGPT, Perplexity, Claude, and Gemini. Includes free and paid GEO tools with honest reviews."
 date: 2026-04-03
 tags: [geo-optimization, generative-engine-optimization, ai-seo, seo-tools, content-marketing]
-canonical_url: "https://gingiris.github.io/growth-tools/blog/2026/04/generative-engine-optimization-tools/"
+canonical_url: https://gingiris.github.io/growth-tools/blog/2026/04/03/generative-engine-optimization-tools/
 image: "https://gingiris.github.io/growth-tools/assets/images/blog-startup-launch.jpg"
 faq:
   - q: "What are GEO tools?"

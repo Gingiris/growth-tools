@@ -2,7 +2,7 @@
 layout: post
 title: "ASO App Store Optimization: Complete 2026 Playbook"
 date: 2026-03-15
-canonical_url: https://gingiris.github.io/growth-tools/blog/2026/03/aso-guide-app-store-optimization-complete-guide-2026/
+canonical_url: https://gingiris.github.io/growth-tools/blog/2026/03/29/aso-guide-app-store-optimization-complete-guide-2026/
 image: "https://gingiris.github.io/growth-tools/assets/images/blog-aso-optimization.jpg"
 description: "The complete 2026 ASO playbook: rank higher in App Store and Google Play. Keyword research, screenshots, ratings strategy — real tactics from 30+ launches."
 faq:

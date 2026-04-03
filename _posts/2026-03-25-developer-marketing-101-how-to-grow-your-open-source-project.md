@@ -2,7 +2,7 @@
 layout: post
 title: "Developer Marketing 101: How to Grow Your Open Source Project"
 date: 2026-03-25
-canonical_url: https://gingiris.github.io/growth-tools/blog/2026/03/developer-marketing-playbook-how-to-reach-technical-audiences-in-2026/
+canonical_url: https://gingiris.github.io/growth-tools/blog/2026/03/24/developer-marketing-playbook-how-to-reach-technical-audiences-in-2026/
 image: "https://gingiris.github.io/growth-tools/assets/images/blog-developer-marketing.jpg"
 description: "Developer marketing 101 for growing open source projects. Community building, content strategy, and distribution channels that actually work in 2026."
 faq:

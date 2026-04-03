@@ -2,7 +2,7 @@
 layout: post
 title: "GitHub Issue Template: How to Get More Contributions and Build Community"
 date: 2026-04-02
-canonical_url: https://gingiris.github.io/growth-tools/blog/2026/04/github-issue-template-guide/
+canonical_url: https://gingiris.github.io/growth-tools/blog/2026/04/02/github-issue-template-guide/
 image: "https://gingiris.github.io/growth-tools/assets/images/blog-github-stars.jpg"
 description: "How to write GitHub issue templates that get better bug reports. Ready-to-use templates for bug reports, feature requests, and questions — copy and paste."
 faq:

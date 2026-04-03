@@ -4,7 +4,7 @@ title: "Word of Mouth Marketing: The Complete Guide for SaaS Startups in 2026"
 description: "How to engineer word of mouth marketing for SaaS. Real tactics for referral loops, viral coefficients, and building products people can't stop talking about — with examples from 0 to 60k GitHub stars."
 date: 2026-04-03
 tags: [word-of-mouth-marketing, growth, saas-growth, referral-marketing, viral-marketing]
-canonical_url: "https://gingiris.github.io/growth-tools/blog/2026/04/word-of-mouth-marketing/"
+canonical_url: https://gingiris.github.io/growth-tools/blog/2026/04/03/word-of-mouth-marketing/
 image: "https://gingiris.github.io/growth-tools/assets/images/blog-startup-launch.jpg"
 faq:
   - q: "What is word of mouth marketing?"

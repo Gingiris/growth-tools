@@ -4,7 +4,7 @@ title: "Developer Advocate: The Complete Career & Strategy Guide for 2026"
 description: "Everything about developer advocacy — what a developer advocate does, how to become one, and how to build a DevRel program that drives real product growth. Includes salary data, skills, and a 90-day playbook."
 date: 2026-04-03
 tags: [developer-advocate, devrel, developer-relations, developer-marketing, open-source]
-canonical_url: "https://gingiris.github.io/growth-tools/blog/2026/04/developer-advocate-guide/"
+canonical_url: https://gingiris.github.io/growth-tools/blog/2026/04/03/developer-advocate-guide/
 image: "https://gingiris.github.io/growth-tools/assets/images/blog-developer-marketing.jpg"
 faq:
   - q: "What does a developer advocate do?"
