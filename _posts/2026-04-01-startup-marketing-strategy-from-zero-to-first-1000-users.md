@@ -122,3 +122,13 @@ Your marketing strategy should be in place before you launch. You just should no
 ---
 
 *This guide distills practical experience from 30+ successful Product Hunt launches and 18 months of growing an open-source project to 33k stars.*
+
+---
+
+## Further Reading
+
+- [Growth Hacking for Startups: 20 Proven Tactics](https://gingiris.github.io/growth-tools/blog/2026/04/growth-hacking-for-startups/)
+- [Word of Mouth Marketing: The Complete Guide](https://gingiris.github.io/growth-tools/blog/2026/04/word-of-mouth-marketing/)
+- [Content Marketing for Startups: 0 to 10k Visitors](https://gingiris.github.io/growth-tools/blog/2026/04/content-marketing-for-startups/)
+- [Go-to-Market Strategy: The Complete 2026 Playbook](https://gingiris.github.io/growth-tools/blog/2026/04/go-to-market-strategy-the-complete-2026-playbook-for-startups/)
+- [Developer Advocate: Career & Strategy Guide](https://gingiris.github.io/growth-tools/blog/2026/04/developer-advocate-guide/)

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to Conduct User Interviews: The 937-Interview Framework That Found PMF"
+title: "User Interview Questions: 50+ Templates + The 9:3:7 Framework That Found PMF"
 date: 2026-03-25
 canonical_url: https://gingiris.github.io/growth-tools/blog/2026/03/how-to-conduct-user-interviews-the-937interview-framework-that-found-pmf/
 image: "https://gingiris.github.io/growth-tools/assets/images/blog-user-interview.jpg"

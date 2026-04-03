@@ -82,3 +82,14 @@ I do consulting for startups going global. If you're working on something intere
 ---
 
 *All playbooks are MIT licensed. Use them however you want.*
+
+---
+
+## Further Reading
+
+- [Word of Mouth Marketing: How to Engineer Organic Growth](https://gingiris.github.io/growth-tools/blog/2026/04/word-of-mouth-marketing/)
+- [Growth Hacking for Startups: 20 Proven Tactics](https://gingiris.github.io/growth-tools/blog/2026/04/growth-hacking-for-startups/)
+- [Product Hunt Launch Playbook: Definitive Guide (30x #1)](https://gingiris.github.io/growth-tools/blog/2026/03/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/)
+- [How to Get More GitHub Stars: 33K Case Study](https://gingiris.github.io/growth-tools/blog/2026/03/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/)
+- [Developer Marketing: How to Reach Technical Audiences](https://gingiris.github.io/growth-tools/blog/2026/04/developer-marketing-how-to-reach-technical-audiences/)
+- [Open Source Marketing: The Complete 2026 Guide](https://gingiris.github.io/growth-tools/blog/2026/04/open-source-marketing-the-complete-guide/)
