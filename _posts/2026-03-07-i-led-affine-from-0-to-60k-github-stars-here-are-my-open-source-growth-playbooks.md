@@ -14,6 +14,9 @@ faq:
     a: "The highest-leverage tactics for open source growth: (1) Write a README that works as a product page — clear problem statement, compelling screenshots, instant setup. (2) Participate authentically in communities where your users are before promoting. (3) Launch repeatedly on Product Hunt — each launch reaches a new audience. (4) Invest in contributor experience — fast PR reviews, clear contribution guides, public recognition. Contributors become your best advocates."
   - q: "How long does it take to get 1,000 GitHub stars?"
     a: "Timeline varies significantly by strategy. With active community seeding and a Product Hunt launch: 1-4 weeks. With organic growth only (no active distribution): 3-12 months. The fastest path is combining a compelling README, a coordinated launch day with 50-100 supporters, and immediate community participation in the first 48 hours."
+gumroad_url: "https://gingiris.gumroad.com/l/vhmkew"
+gumroad_title: "Open-Source Project Integrated Marketing Action Manual"
+gumroad_desc: "开源项目从 0 到首个 10k Stars 的完整营销手册。含 Reddit、HN、GitHub 社区运营 SOP 和内容分发全流程。"
 ---
 
 

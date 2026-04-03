@@ -12,6 +12,9 @@ faq:
     a: "Marketing traditionally refers to brand building and awareness campaigns. Growth (or growth hacking) focuses on measurable, experiment-driven acquisition with a direct line to revenue. For early-stage startups, focus on growth over marketing: run small experiments (direct outreach, community posts, A/B tests on landing pages), measure conversion at every step, double down on what works, and kill what doesn't. Brand marketing becomes valuable at scale; growth tactics are what get you there."
   - q: "Should startups use paid advertising to get first users?"
     a: "Generally no — paid advertising before product-market fit wastes money and masks the signal you need. Paid ads work when you know: (1) who your customer is, (2) what message converts them, and (3) what their LTV is. Pre-PMF, you don't know any of these reliably. Use organic channels first (outreach, community, content) because they give you direct feedback — users tell you why they did or didn't convert. This data is more valuable than traffic. Start paid ads when organic channels are working and you want to scale what already converts."
+gumroad_url: "https://gingiris.gumroad.com/l/nxkifd"
+gumroad_title: "AI Product Global Launch Guide (with Case Studies)"
+gumroad_desc: "附真实案例的 AI 产品全球发布指南。发布策略、社区布局、媒体关系与首批用户获取的完整路径。"
 ---
 <!-- SEO: startup marketing keyword appears in first 100 words -->
 Startups face a unique marketing challenge: you need users before you have brand recognition, but you cannot build brand recognition without users. This chicken-and-egg problem trips up even the most talented founders. The solution is not a bigger ad budget or a viral video — it is finding your **first 100 users who love you so much they cannot stop talking about you**.

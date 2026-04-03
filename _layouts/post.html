@@ -94,6 +94,22 @@ layout: default
         {{ content }}
     </div>
 
+    <!-- Gumroad CTA (shown when post has gumroad_url in front matter) -->
+    {% if page.gumroad_url %}
+    <div class="gumroad-cta">
+        <div class="gumroad-cta-inner">
+            <div class="gumroad-cta-left">
+                <span class="gumroad-cta-badge">📦 完整手册</span>
+                <div class="gumroad-cta-title">{{ page.gumroad_title }}</div>
+                <p class="gumroad-cta-desc">{{ page.gumroad_desc }}</p>
+            </div>
+            <a href="{{ page.gumroad_url }}" class="gumroad-btn" target="_blank" rel="noopener">
+                获取手册 →
+            </a>
+        </div>
+    </div>
+    {% endif %}
+
     <!-- Author Box -->
     <div class="author-box">
         <div class="author-avatar">🌱</div>
@@ -416,6 +432,59 @@ layout: default
   margin-bottom: 8px;
 }
 .related-card-meta { color: var(--text-secondary); font-size: 12px; }
+
+/* ── Gumroad CTA ────────────────────────────────────────────────── */
+.gumroad-cta {
+  background: linear-gradient(135deg, #1e1b4b 0%, #1a1a2e 100%);
+  border: 1px solid #4338ca;
+  border-radius: 12px;
+  padding: 28px;
+  margin: 48px 0 36px;
+}
+.gumroad-cta-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+.gumroad-cta-badge {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #a5b4fc;
+  margin-bottom: 8px;
+}
+.gumroad-cta-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 8px;
+  line-height: 1.4;
+}
+.gumroad-cta-desc {
+  color: #c7d2fe;
+  font-size: 14px;
+  line-height: 1.6;
+  margin: 0;
+}
+.gumroad-cta-left { flex: 1; min-width: 200px; }
+.gumroad-btn {
+  display: inline-block;
+  background: var(--accent);
+  color: #fff;
+  font-weight: 700;
+  font-size: 15px;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: opacity 0.15s;
+  flex-shrink: 0;
+}
+.gumroad-btn:hover { opacity: 0.88; text-decoration: none; color: #fff; }
 
 /* ── Post footer ────────────────────────────────────────────────── */
 .post-footer {

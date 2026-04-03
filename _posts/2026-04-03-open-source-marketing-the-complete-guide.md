@@ -12,6 +12,9 @@ faq:
     a: "Open source project marketing playbook: (1) README first — write a README that functions as a product page with clear value proposition, compelling visuals, and instant setup. (2) Launch on Hacker News (Show HN) and Product Hunt simultaneously for maximum first-week exposure. (3) Seed relevant communities — Reddit, Discord servers, developer Slack groups — with genuine, value-first participation. (4) Build contributor infrastructure — CONTRIBUTING.md, good first issues, fast PR reviews — so early users become advocates. (5) Create content around the problems your project solves to build organic discovery."
   - q: "How do open source companies make money?"
     a: "Open source monetization models: (1) Open Core — core product is free and open source, advanced features (SSO, audit logs, enterprise controls) are paid. Examples: GitLab, Metabase. (2) Managed service / SaaS — open source software, but pay for hosted version. Examples: MongoDB Atlas, Elastic Cloud. (3) Support and services — enterprise support contracts, training, professional services. Examples: Red Hat, Canonical. (4) Dual licensing — open source for non-commercial use, commercial license for businesses. Examples: Qt, MariaDB. Most successful OSS companies combine open core with managed SaaS."
+gumroad_url: "https://gingiris.gumroad.com/l/vhmkew"
+gumroad_title: "Open-Source Project Integrated Marketing Action Manual"
+gumroad_desc: "开源项目从 0 到首个 10k Stars 的完整营销手册。含 Reddit、HN、GitHub 社区运营 SOP 和内容分发全流程。"
 ---
 
 ## TL;DR

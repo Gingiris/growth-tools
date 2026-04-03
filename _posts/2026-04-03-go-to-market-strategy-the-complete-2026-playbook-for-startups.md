@@ -12,6 +12,9 @@ faq:
     a: "Core GTM strategy components: (1) Ideal Customer Profile (ICP) — who specifically benefits most from your product. (2) Value proposition — what outcome you deliver and why you're the best choice. (3) Positioning — how you're differentiated from alternatives in the customer's mind. (4) Channel strategy — where and how you'll reach your ICP (content, outbound, partnerships, product-led). (5) Pricing model — how you'll monetize and at what price points. (6) Sales motion — self-serve, inside sales, or field sales. (7) Launch plan — sequencing and timeline for entering the market."
   - q: "How do you create a GTM strategy for a startup?"
     a: "GTM strategy creation for startups: Start with your ICP — interview 20 potential customers to understand their workflows, pain points, and buying process. Define your value proposition based on what you learn, not what you assume. Choose 1-2 distribution channels where your ICP already spends time. Set a realistic revenue target for the first 90 days. Execute, measure, and iterate monthly. The mistake most startups make is building a GTM strategy in a vacuum — the best GTM strategies are shaped by real customer conversations, not market research reports."
+gumroad_url: "https://gingiris.gumroad.com/l/gingiris-complete-global-launch-bundle"
+gumroad_title: "Gingiris Complete Global Launch Playbook Bundle"
+gumroad_desc: "全系出海手册合集，包含 Product Hunt、开源营销、AI B2B 出海的所有操作手册，一次性获取。"
 ---
 ## TL;DR
 

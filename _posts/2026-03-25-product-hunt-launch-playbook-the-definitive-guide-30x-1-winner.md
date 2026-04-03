@@ -12,6 +12,9 @@ faq:
     a: "Product Hunt launch preparation timeline: T-4 weeks: finalize product, write tagline and description, prepare gallery assets. T-2 weeks: select hunter, recruit upvote supporters, prepare email and social announcements. T-1 week: schedule all communications, brief your team, prepare response templates for comments. T-1 day: send reminder to supporters, queue all scheduled posts. Launch day: post at 12:01 AM PT, send notifications, monitor and engage all day."
   - q: "Should you launch on Product Hunt if you're pre-launch?"
     a: "Yes — a pre-launch 'coming soon' page on Product Hunt builds followers who get notified on launch day. This is free future audience building. For the actual product launch, wait until you have at least an MVP that works end-to-end. Product Hunt voters expect to be able to try the product immediately. Launching a non-functional product wastes your one high-impact launch window."
+gumroad_url: "https://gingiris.gumroad.com/l/zxamur"
+gumroad_title: "Product Hunt Launch Action Guide"
+gumroad_desc: "30次 Product Hunt #1 的完整操作手册。覆盖发布前准备、当天执行、评论话术、猎手选择，一步一步可执行。"
 ---
 # Product Hunt Launch Playbook: The Definitive Guide
 

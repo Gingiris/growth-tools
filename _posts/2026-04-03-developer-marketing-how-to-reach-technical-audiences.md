@@ -12,6 +12,9 @@ faq:
     a: "Best channels to reach developers in 2026: GitHub (your README and repository activity is always-on marketing), Hacker News (Show HN for launches, thoughtful comments for community building), Reddit (subreddits by tech stack: r/python, r/javascript, r/devops), Developer newsletters (TLDR, Cooper Press, Pointer), Twitter/X (still the primary real-time developer conversation platform), Discord and Slack communities (direct access to specific developer niches), and Dev.to/Hashnode (developer blogging platforms with built-in audiences)."
   - q: "How is developer marketing different from B2B marketing?"
     a: "Developer marketing differs from traditional B2B marketing in key ways: developers are the end users AND influencers of purchasing decisions (they evaluate before recommending to management). They are highly skeptical of marketing language and respond to technical depth. They prefer self-serve evaluation (free tier, open source, instant signup) over sales-led processes. Content must demonstrate technical competence, not just business value. And the influencer landscape is peer networks (GitHub contributions, conference talks, blog posts) rather than traditional industry analysts."
+gumroad_url: "https://gingiris.gumroad.com/l/vhmkew"
+gumroad_title: "Open-Source Project Integrated Marketing Action Manual"
+gumroad_desc: "开源项目从 0 到首个 10k Stars 的完整营销手册。含 Reddit、HN、GitHub 社区运营 SOP 和内容分发全流程。"
 ---
 
 ## TL;DR

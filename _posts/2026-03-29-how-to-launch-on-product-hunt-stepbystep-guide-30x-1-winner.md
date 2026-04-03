@@ -12,6 +12,9 @@ faq:
     a: "Yes — and it's a proven strategy. You can relaunch for significant updates (major version releases, new platforms, key feature additions). AFFiNE launched 30+ times over 18 months, each time for a meaningful product update. Each launch reaches a fresh audience of daily Product Hunt visitors who weren't there for previous launches. The Product Hunt community accepts relaunches as long as there's a genuine reason (not just trying to game visibility)."
   - q: "Does Product Hunt still matter in 2026?"
     a: "Yes, for specific use cases. Product Hunt remains the highest-density concentration of early adopters, tech enthusiasts, and startup founders on the internet. For developer tools, SaaS products, and consumer tech: a top-10 finish still drives 500-2,000 website visits, 50-300 signups, and backlinks from coverage. Its value is lower for niche B2B products with narrow ICPs, and for consumer apps where the tech-enthusiast audience doesn't match the target user."
+gumroad_url: "https://gingiris.gumroad.com/l/zxamur"
+gumroad_title: "Product Hunt Launch Action Guide"
+gumroad_desc: "30次 Product Hunt #1 的完整操作手册。覆盖发布前准备、当天执行、评论话术、猎手选择，一步一步可执行。"
 ---
 ---
 

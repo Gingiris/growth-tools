@@ -12,6 +12,9 @@ faq:
     a: "Product Hunt tagline best practices: under 60 characters, no hyperbole or buzzwords ('revolutionary', 'game-changing'), describe what the product does rather than what it is, use active verbs, and make it understandable to someone who has never heard of your product. Good examples: 'Open-source Notion alternative for local-first collaboration' / 'Write tests 10x faster with AI that understands your codebase' / 'Turn any website into an API in 60 seconds'. Bad examples: 'The future of productivity' / 'AI-powered everything'."
   - q: "How important is the first comment on Product Hunt?"
     a: "The first comment (typically from the maker) is extremely important — it's the first thing visitors read after the tagline and gallery. Best practices: post the first comment immediately after launch, tell a genuine story about why you built the product, include a specific offer for Product Hunt users (extended trial, discount), ask a question to encourage engagement, and keep it under 300 words. A compelling first comment can increase upvote conversion by 10-20% from viewers who would otherwise scroll past."
+gumroad_url: "https://gingiris.gumroad.com/l/zxamur"
+gumroad_title: "Product Hunt Launch Action Guide"
+gumroad_desc: "30次 Product Hunt #1 的完整操作手册。覆盖发布前准备、当天执行、评论话术、猎手选择，一步一步可执行。"
 ---
 - Product Hunt launch success depends on upvotes, comments, and hunter quality — not your product alone
 - The PH ranking algorithm weighs velocity (upvotes per hour) heavily in the first 6-8 hours

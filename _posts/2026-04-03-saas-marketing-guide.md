@@ -15,6 +15,9 @@ faq:
     a: "Benchmarks by stage: Pre-revenue — near $0, founder does all marketing. $1k-$10k MRR — $500-2k/month (primarily tools and content). $10k-$100k MRR — 20-30% of MRR on marketing and sales. $100k+ MRR — 40-60% of new MRR investment in growth. The key metric is CAC:LTV ratio — sustainable SaaS marketing maintains LTV at least 3x CAC."
   - q: "What is product-led growth (PLG) in SaaS marketing?"
     a: "Product-led growth (PLG) is a go-to-market strategy where the product itself is the primary acquisition, activation, and expansion mechanism. Users can sign up, experience value, and upgrade without speaking to a salesperson. Examples: Slack (team invites = built-in virality), Notion (shareable pages = organic acquisition), Figma (collaborative design = natural expansion). PLG works best when the product delivers clear value quickly and has natural sharing or collaboration built in."
+gumroad_url: "https://gingiris.gumroad.com/l/zaarq"
+gumroad_title: "AI Global B2B Product Full-Lifecycle Growth Guide"
+gumroad_desc: "AI B2B 产品出海全生命周期增长手册。从 GTM 策略、渠道打法、定价到 ARR 规模化的完整可执行框架。"
 ---
 
 SaaS marketing in 2026 is not what it was in 2019. Paid acquisition costs have tripled. SEO is getting disrupted by AI answers. Social media organic reach is effectively dead.

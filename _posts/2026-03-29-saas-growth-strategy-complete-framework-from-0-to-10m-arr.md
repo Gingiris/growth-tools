@@ -12,6 +12,9 @@ faq:
     a: "PLG (Product-Led Growth) uses the product itself as the primary acquisition and expansion mechanism — users sign up, experience value, and upgrade without a salesperson. Examples: Slack, Notion, Figma. SLG (Sales-Led Growth) uses human sales touchpoints as the primary conversion mechanism. Best for high-ACV enterprise deals where buyers need ROI justification. Most successful modern SaaS companies combine both: PLG for bottom-up adoption, SLG for enterprise expansion and account management."
   - q: "How do you calculate SaaS growth rate?"
     a: "Key SaaS growth metrics: MoM (month-over-month) growth rate = (current MRR - previous MRR) / previous MRR × 100. 15-20% MoM = strong early-stage growth (T2D3 = triple, triple, double, double, double ARR over 5 years). Net Revenue Retention (NRR) = (starting MRR + expansion - churn - contraction) / starting MRR × 100. NRR > 100% means existing customers grow faster than churn — the holy grail for compounding SaaS revenue."
+gumroad_url: "https://gingiris.gumroad.com/l/zaarq"
+gumroad_title: "AI Global B2B Product Full-Lifecycle Growth Guide"
+gumroad_desc: "AI B2B 产品出海全生命周期增长手册。从 GTM 策略、渠道打法、定价到 ARR 规模化的完整可执行框架。"
 ---
 ---
 
