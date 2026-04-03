@@ -2,7 +2,7 @@
 layout: post
 title: "Product Hunt Launch Playbook: The Definitive Guide (30x #1 Winner)"
 date: 2026-03-25
-canonical_url: https://gingiris.github.io/growth-tools/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/
+canonical_url: https://gingiris.github.io/growth-tools/blog/2026/03/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/
 image: "https://gingiris.github.io/growth-tools/assets/images/blog-product-hunt-launch.jpg"
 ---
 # Product Hunt Launch Playbook: The Definitive Guide

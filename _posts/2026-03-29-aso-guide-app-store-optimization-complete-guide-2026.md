@@ -2,7 +2,7 @@
 layout: post
 title: "ASO Guide: App Store Optimization Complete Guide 2026"
 date: 2026-03-29
-canonical_url: https://gingiris.github.io/growth-tools/blog/2026/03/29/aso-guide-app-store-optimization-complete-guide-2026/
+canonical_url: https://gingiris.github.io/growth-tools/blog/2026/03/aso-guide-app-store-optimization-complete-guide-2026/
 image: "https://gingiris.github.io/growth-tools/assets/images/blog-aso-optimization.jpg"
 ---
 ---
