@@ -51,6 +51,9 @@ layout: default
 </script>
 {% endif %}
 
+{% assign words = content | number_of_words %}
+{% assign reading_time = words | divided_by: 200 | plus: 1 %}
+
 <article class="post">
     <!-- Breadcrumb Nav -->
     <nav aria-label="Breadcrumb" class="breadcrumb">
@@ -63,9 +66,10 @@ layout: default
 
     <header class="post-header">
         <p class="post-meta">
-            <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y年%m月%d日" }}</time>
+            <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y-%m-%d" }}</time>
+            <span class="reading-time">· {{ reading_time }} min read</span>
             {% if page.tags.size > 0 %}
-            · {% for tag in page.tags %}<span class="tag">{{ tag }}</span>{% unless forloop.last %}, {% endunless %}{% endfor %}
+            · {% for tag in page.tags %}<span class="tag">{{ tag }}</span>{% unless forloop.last %} {% endunless %}{% endfor %}
             {% endif %}
         </p>
         <h1 class="post-title">{{ page.title }}</h1>
@@ -73,71 +77,351 @@ layout: default
         <p class="post-desc">{{ page.description }}</p>
         {% endif %}
     </header>
-    
+
+    <!-- TOC: collapsible on mobile/tablet (hidden until JS confirms ≥3 headings) -->
+    <details class="toc-inline" id="toc-details" style="display:none">
+        <summary>📋 目录 / Table of Contents</summary>
+        <nav id="toc-inline-nav"></nav>
+    </details>
+
+    <!-- TOC: fixed sidebar on wide desktop (≥1440px) -->
+    <nav class="toc-float" id="toc-float" style="display:none" aria-label="Table of contents">
+        <p class="toc-label">目录</p>
+        <div id="toc-float-nav"></div>
+    </nav>
+
     <div class="post-content">
         {{ content }}
     </div>
-    
+
+    <!-- Author Box -->
+    <div class="author-box">
+        <div class="author-avatar">🌱</div>
+        <div class="author-info">
+            <div class="author-name">Iris</div>
+            <p class="author-bio">AFFiNE 前 COO，带领产品从 0 到 60k+ GitHub Stars，30 次 Product Hunt #1。现专注开源 SaaS 出海增长咨询，服务全球华人创始人。</p>
+            <div class="author-links">
+                <a href="https://twitter.com/Iris_carrot" target="_blank" rel="noopener">𝕏 @Iris_carrot</a>
+                <a href="https://gingiris.com" target="_blank" rel="noopener">gingiris.com →</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Related Posts (Liquid — tag-based matching) -->
+    {% assign relatedPosts = "" | split: "" %}
+    {% for post in site.posts %}
+      {% unless post.url == page.url %}
+        {% assign commonTags = 0 %}
+        {% for tag in page.tags %}
+          {% if post.tags contains tag %}
+            {% assign commonTags = commonTags | plus: 1 %}
+          {% endif %}
+        {% endfor %}
+        {% if commonTags >= 1 %}
+          {% assign relatedPosts = relatedPosts | push: post %}
+        {% endif %}
+      {% endunless %}
+    {% endfor %}
+    {% assign relatedPosts = relatedPosts | slice: 0, 3 %}
+
+    {% if relatedPosts.size > 0 %}
+    <section class="related-posts">
+        <h3 class="related-title">相关文章</h3>
+        <div class="related-grid">
+            {% for post in relatedPosts %}
+            <a href="{{ post.url | relative_url }}" class="related-card">
+                <div class="related-card-title">{{ post.title | truncate: 70 }}</div>
+                <div class="related-card-meta">{{ post.date | date: "%Y-%m-%d" }}</div>
+            </a>
+            {% endfor %}
+        </div>
+    </section>
+    {% endif %}
+
     <footer class="post-footer">
         <p>—</p>
         <p>作者: <a href="https://twitter.com/Iris_carrot">@Iris</a> · 更多增长工具: <a href="{{ site.baseurl }}/">Growth Tools</a></p>
     </footer>
 </article>
 
-<style>
-    .post-header { margin-bottom: 40px; }
-    .post-meta { color: var(--text-secondary); font-size: 14px; margin-bottom: 12px; }
-    .post-title { font-size: 32px; line-height: 1.3; margin-bottom: 16px; }
-    .post-desc { font-size: 18px; color: var(--text-secondary); }
-    .tag { background: var(--surface); padding: 2px 8px; border-radius: 4px; font-size: 12px; }
-    
-    .post-content { font-size: 17px; }
-    .post-content h2 { font-size: 24px; margin: 40px 0 16px; }
-    .post-content h3 { font-size: 20px; margin: 32px 0 12px; }
-    .post-content p { margin-bottom: 20px; }
-    .post-content ul, .post-content ol { margin-bottom: 20px; padding-left: 24px; }
-    .post-content li { margin-bottom: 8px; }
-    .post-content blockquote {
-        border-left: 3px solid var(--accent);
-        padding-left: 20px;
-        margin: 24px 0;
-        color: var(--text-secondary);
-    }
-    .post-content code {
-        background: var(--surface);
-        padding: 2px 6px;
-        border-radius: 4px;
-        font-size: 14px;
-    }
-    .post-content pre {
-        background: var(--surface);
-        padding: 16px;
-        border-radius: 8px;
-        overflow-x: auto;
-        margin-bottom: 20px;
-    }
-    .post-content pre code { background: none; padding: 0; }
-    .post-content img { max-width: 100%; border-radius: 8px; margin: 24px 0; }
-    .post-content a { color: var(--accent); }
-    .post-content table {
-        width: 100%;
-        border-collapse: collapse;
-        margin: 24px 0;
-    }
-    .post-content th, .post-content td {
-        border: 1px solid var(--border);
-        padding: 12px;
-        text-align: left;
-    }
-    .post-content th { background: var(--surface); }
-    
-    .post-footer { margin-top: 60px; padding-top: 24px; border-top: 1px solid var(--border); color: var(--text-secondary); }
+<script>
+(function () {
+  // ── TOC Generator ───────────────────────────────────────────────
+  var content = document.querySelector('.post-content');
+  if (!content) return;
 
-    /* Breadcrumb */
-    .breadcrumb { margin-bottom: 24px; font-size: 13px; color: var(--text-secondary); }
-    .breadcrumb ol { list-style: none; display: flex; gap: 6px; flex-wrap: wrap; }
-    .breadcrumb li + li::before { content: "›"; margin-right: 6px; }
-    .breadcrumb a { color: var(--text-secondary); }
-    .breadcrumb a:hover { color: var(--text); text-decoration: none; }
-    .breadcrumb [aria-current="page"] { color: var(--text); }
+  var headings = Array.prototype.slice.call(content.querySelectorAll('h2, h3'));
+  if (headings.length < 3) return;
+
+  function slugify(text) {
+    return text.toLowerCase()
+      .replace(/[^\w\s-]/g, '')
+      .replace(/\s+/g, '-')
+      .replace(/-+/g, '-')
+      .trim() || 'section';
+  }
+
+  // Assign stable IDs to headings
+  var usedIds = {};
+  headings.forEach(function (h) {
+    if (!h.id) {
+      var base = slugify(h.textContent);
+      var id = base;
+      var n = 1;
+      while (usedIds[id]) { id = base + '-' + (n++); }
+      h.id = id;
+      usedIds[id] = true;
+    }
+  });
+
+  // Build TOC HTML
+  function buildTOC() {
+    var html = '<ul>';
+    headings.forEach(function (h) {
+      var cls = h.tagName === 'H3' ? ' toc-h3' : '';
+      html += '<li class="toc-item' + cls + '">'
+            + '<a href="#' + h.id + '" class="toc-link">' + h.textContent + '</a>'
+            + '</li>';
+    });
+    html += '</ul>';
+    return html;
+  }
+
+  var tocHTML = buildTOC();
+
+  var inlineNav = document.getElementById('toc-inline-nav');
+  var floatNav  = document.getElementById('toc-float-nav');
+  if (inlineNav) inlineNav.innerHTML = tocHTML;
+  if (floatNav)  floatNav.innerHTML  = tocHTML;
+
+  // Show containers
+  var tocDetails = document.getElementById('toc-details');
+  var tocFloat   = document.getElementById('toc-float');
+  if (tocDetails) tocDetails.style.display = '';
+  if (tocFloat)   tocFloat.style.display   = '';
+
+  // ── Active highlight with IntersectionObserver ──────────────────
+  if (!window.IntersectionObserver) return;
+  var observer = new IntersectionObserver(function (entries) {
+    entries.forEach(function (entry) {
+      var id = entry.target.id;
+      document.querySelectorAll('.toc-link[href="#' + id + '"]').forEach(function (link) {
+        if (entry.isIntersecting) {
+          link.classList.add('toc-active');
+        } else {
+          link.classList.remove('toc-active');
+        }
+      });
+    });
+  }, { rootMargin: '-10% 0px -75% 0px' });
+
+  headings.forEach(function (h) { observer.observe(h); });
+})();
+</script>
+
+<style>
+/* ── Breadcrumb ─────────────────────────────────────────────────── */
+.breadcrumb { margin-bottom: 24px; font-size: 13px; color: var(--text-secondary); }
+.breadcrumb ol { list-style: none; display: flex; gap: 6px; flex-wrap: wrap; margin: 0; padding: 0; }
+.breadcrumb li + li::before { content: "›"; margin-right: 6px; }
+.breadcrumb a { color: var(--text-secondary); }
+.breadcrumb a:hover { color: var(--text); text-decoration: none; }
+.breadcrumb [aria-current="page"] { color: var(--text); }
+
+/* ── Post header ────────────────────────────────────────────────── */
+.post-header { margin-bottom: 40px; }
+.post-meta {
+  color: var(--text-secondary);
+  font-size: 14px;
+  margin-bottom: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px;
+}
+.reading-time { color: var(--text-secondary); }
+.post-title { font-size: 32px; line-height: 1.3; margin-bottom: 16px; }
+.post-desc { font-size: 18px; color: var(--text-secondary); line-height: 1.6; }
+.tag { background: var(--surface); padding: 2px 8px; border-radius: 4px; font-size: 12px; }
+
+/* ── TOC inline — mobile/tablet (<1440px) ───────────────────────── */
+.toc-inline {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 14px 18px;
+  margin-bottom: 36px;
+  font-size: 14px;
+}
+.toc-inline summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--text-secondary);
+  list-style: none;
+  user-select: none;
+}
+.toc-inline summary::-webkit-details-marker { display: none; }
+.toc-inline[open] summary { margin-bottom: 12px; color: var(--text); }
+
+/* ── TOC float — wide desktop (≥1440px) ────────────────────────── */
+.toc-float {
+  position: fixed;
+  left: calc(50% - 630px);
+  top: 90px;
+  width: 190px;
+  font-size: 13px;
+  max-height: calc(100vh - 110px);
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+.toc-float::-webkit-scrollbar { display: none; }
+.toc-label {
+  font-weight: 700;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-secondary);
+  margin-bottom: 12px;
+}
+
+@media (min-width: 1440px) {
+  .toc-inline { display: none !important; }
+}
+@media (max-width: 1439px) {
+  .toc-float { display: none !important; }
+}
+
+/* ── TOC shared list styles ─────────────────────────────────────── */
+.toc-inline ul, .toc-float ul { list-style: none; padding: 0; margin: 0; }
+.toc-item { margin-bottom: 6px; }
+.toc-h3 { padding-left: 14px; }
+.toc-link {
+  color: var(--text-secondary);
+  text-decoration: none;
+  line-height: 1.4;
+  display: block;
+  border-left: 2px solid transparent;
+  padding-left: 8px;
+  transition: color 0.15s, border-color 0.15s;
+}
+.toc-link:hover,
+.toc-link.toc-active {
+  color: var(--text);
+  border-left-color: var(--accent);
+  text-decoration: none;
+}
+
+/* ── Post content ───────────────────────────────────────────────── */
+.post-content { font-size: 17px; }
+.post-content h2 { font-size: 24px; margin: 40px 0 16px; }
+.post-content h3 { font-size: 20px; margin: 32px 0 12px; }
+.post-content p { margin-bottom: 20px; }
+.post-content ul, .post-content ol { margin-bottom: 20px; padding-left: 24px; }
+.post-content li { margin-bottom: 8px; }
+.post-content blockquote {
+  border-left: 3px solid var(--accent);
+  padding-left: 20px;
+  margin: 24px 0;
+  color: var(--text-secondary);
+}
+.post-content code {
+  background: var(--surface);
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+.post-content pre {
+  background: var(--surface);
+  padding: 16px;
+  border-radius: 8px;
+  overflow-x: auto;
+  margin-bottom: 20px;
+}
+.post-content pre code { background: none; padding: 0; }
+.post-content img { max-width: 100%; border-radius: 8px; margin: 24px 0; }
+.post-content a { color: var(--accent); }
+.post-content table { width: 100%; border-collapse: collapse; margin: 24px 0; }
+.post-content th, .post-content td {
+  border: 1px solid var(--border);
+  padding: 12px;
+  text-align: left;
+}
+.post-content th { background: var(--surface); }
+
+/* ── Author box ─────────────────────────────────────────────────── */
+.author-box {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 24px;
+  margin: 56px 0 32px;
+}
+.author-avatar {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--accent), #818cf8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+  flex-shrink: 0;
+}
+.author-name { font-weight: 700; font-size: 17px; margin-bottom: 6px; }
+.author-bio {
+  color: var(--text-secondary);
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 12px;
+}
+.author-links { display: flex; gap: 16px; flex-wrap: wrap; }
+.author-links a { color: var(--accent); font-size: 13px; font-weight: 500; }
+.author-links a:hover { text-decoration: underline; }
+
+@media (max-width: 560px) {
+  .author-box { flex-direction: column; }
+  .author-avatar { width: 44px; height: 44px; font-size: 20px; }
+}
+
+/* ── Related posts ──────────────────────────────────────────────── */
+.related-posts { margin-bottom: 48px; }
+.related-title { font-size: 18px; font-weight: 700; margin-bottom: 16px; }
+.related-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+  gap: 12px;
+}
+.related-card {
+  display: block;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 16px;
+  text-decoration: none;
+  transition: border-color 0.15s, transform 0.15s;
+}
+.related-card:hover {
+  border-color: var(--accent);
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+.related-card-title {
+  color: var(--text);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-bottom: 8px;
+}
+.related-card-meta { color: var(--text-secondary); font-size: 12px; }
+
+/* ── Post footer ────────────────────────────────────────────────── */
+.post-footer {
+  margin-top: 60px;
+  padding-top: 24px;
+  border-top: 1px solid var(--border);
+  color: var(--text-secondary);
+}
 </style>
