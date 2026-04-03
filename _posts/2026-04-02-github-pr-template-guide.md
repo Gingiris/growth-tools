@@ -4,6 +4,7 @@ title: "GitHub PR Template: How to Write PR Descriptions That Get Merged Faster"
 date: 2026-04-02
 canonical_url: https://gingiris.github.io/growth-tools/blog/2026/04/github-pr-template-guide/
 image: "https://gingiris.github.io/growth-tools/assets/images/blog-github-stars.jpg"
+description: "GitHub pull request template best practices. Write PR templates that speed up code review — with a complete copy-paste template that actually gets merged."
 ---
 ## TL;DR
 
