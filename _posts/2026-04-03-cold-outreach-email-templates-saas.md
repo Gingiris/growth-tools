@@ -45,6 +45,14 @@ The key shift: **Stop thinking about what you want. Start thinking about what th
 
 ---
 
+## How to Write a Cold Email That Gets Replies (5-Step Process)
+
+1. **Research your recipient for 5 minutes** — find one specific, recent, genuine thing to reference: a post they wrote, a company milestone, a community comment. Generic openers kill reply rates.
+2. **Write your subject line last** — once you know what the email is about, you'll know what to put in the subject. Keep it under 50 characters and make it feel like a message from a human, not a campaign.
+3. **Lead with them, not you** — the first sentence should be about the recipient. The second can be about why you're writing. The third is your ask. Total: under 150 words.
+4. **Make the ask frictionless** — don't ask for a 30-minute call in a first email. Ask for a yes/no response, a quick 10-minute chat, or just whether it's relevant.
+5. **Schedule 2-3 follow-ups before you send the first email** — map out your full sequence (initial + 2 follow-ups) so each adds new value rather than just repeating the ask.
+
 ## The Anatomy of a Cold Email That Gets Replies
 
 Every high-performing cold email has the same structure:

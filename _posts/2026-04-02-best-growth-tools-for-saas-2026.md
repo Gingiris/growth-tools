@@ -37,6 +37,14 @@ Most "best tools" lists are either outdated, paid placements, or written by peop
 - Tools are ranked by actual ROI, not affiliate commissions
 - Based on launching 30+ products globally across US, Europe, and Asia markets
 
+## How to Build Your SaaS Growth Tool Stack (Step by Step)
+
+1. **Start with free analytics first** — PostHog (free up to 1M events/month) tells you where users drop off. You can't optimize what you don't measure.
+2. **Add email before you need it** — set up Loops or Mailchimp while you still have zero subscribers. Email lists are an asset; waiting until you need it means starting from scratch.
+3. **Pick one community monitoring tool** — Toolify Social Listening (free tier) for brand mentions + Reddit List for finding relevant subreddits. Don't pay for social tools until you have a repeatable outreach process.
+4. **Choose SEO tools based on your channel** — AITDK (free browser plugin) for keyword spot-checks; only upgrade to Semrush/Ahrefs when SEO is your primary acquisition channel.
+5. **Add KOL/influencer tools after your first paid campaign** — EEzycollab (free tier) when you're doing manual outreach; upgrade to NoxInfluencer or Modash when you're running 5+ campaigns simultaneously.
+
 ---
 
 ## Category 1: Social Listening & Analytics

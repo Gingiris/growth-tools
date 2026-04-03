@@ -5,6 +5,13 @@ date: 2026-03-29
 canonical_url: https://gingiris.github.io/growth-tools/blog/2026/03/saas-growth-strategy-complete-framework-from-0-to-10m-arr/
 image: "https://gingiris.github.io/growth-tools/assets/images/blog-saas-gtm.jpg"
 description: "Complete SaaS growth strategy framework from $0 to $10M ARR. Product-led, sales-led, and community-led growth with real metrics and case studies."
+faq:
+  - q: "What is the SaaS growth framework from 0 to $10M ARR?"
+    a: "The SaaS growth framework by stage: $0-$1k MRR (pre-PMF) — direct outreach, manual customer development, no paid acquisition. $1k-$10k MRR (early traction) — double down on 1-2 working channels, automate onboarding, begin SEO content. $10k-$100k MRR (growth) — systematize top channels, add paid search for high-intent keywords, hire first sales rep. $100k-$1M MRR (scale) — expand into new segments, build partnerships, consider international. $1M-$10M ARR — product-led expansion, channel partnerships, enterprise sales motion."
+  - q: "What is the difference between PLG and SLG in SaaS?"
+    a: "PLG (Product-Led Growth) uses the product itself as the primary acquisition and expansion mechanism — users sign up, experience value, and upgrade without a salesperson. Examples: Slack, Notion, Figma. SLG (Sales-Led Growth) uses human sales touchpoints as the primary conversion mechanism. Best for high-ACV enterprise deals where buyers need ROI justification. Most successful modern SaaS companies combine both: PLG for bottom-up adoption, SLG for enterprise expansion and account management."
+  - q: "How do you calculate SaaS growth rate?"
+    a: "Key SaaS growth metrics: MoM (month-over-month) growth rate = (current MRR - previous MRR) / previous MRR × 100. 15-20% MoM = strong early-stage growth (T2D3 = triple, triple, double, double, double ARR over 5 years). Net Revenue Retention (NRR) = (starting MRR + expansion - churn - contraction) / starting MRR × 100. NRR > 100% means existing customers grow faster than churn — the holy grail for compounding SaaS revenue."
 ---
 ---
 

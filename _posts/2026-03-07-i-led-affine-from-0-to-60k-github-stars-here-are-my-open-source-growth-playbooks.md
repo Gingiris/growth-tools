@@ -7,6 +7,13 @@ date: 2026-03-07
 description: " - 🚀 60,000+ GitHub stars - 🏆 30x Product Hunt 1 Daily - 🌍 Users in 200+ countries - 💰 $10M+ in funding After leaving AFFiNE in 2024, I de"
 tags: [["opensource", "startup", "growth", "marketing"]]
 canonical: "https://dev.to/iris1031/i-led-affine-from-0-to-60k-github-stars-here-are-my-open-source-growth-playbooks-1c3a"
+faq:
+  - q: "How did AFFiNE get 60k GitHub stars?"
+    a: "AFFiNE grew to 60k GitHub stars through a combination of strategies: 30+ Product Hunt launches over 18 months, consistent community seeding in developer spaces (r/selfhosted, Discord servers, Hacker News), an open source distribution model that made evaluation frictionless, and investing heavily in contributor onboarding so contributors became the most active advocates."
+  - q: "What is the best way to grow an open source project?"
+    a: "The highest-leverage tactics for open source growth: (1) Write a README that works as a product page — clear problem statement, compelling screenshots, instant setup. (2) Participate authentically in communities where your users are before promoting. (3) Launch repeatedly on Product Hunt — each launch reaches a new audience. (4) Invest in contributor experience — fast PR reviews, clear contribution guides, public recognition. Contributors become your best advocates."
+  - q: "How long does it take to get 1,000 GitHub stars?"
+    a: "Timeline varies significantly by strategy. With active community seeding and a Product Hunt launch: 1-4 weeks. With organic growth only (no active distribution): 3-12 months. The fastest path is combining a compelling README, a coordinated launch day with 50-100 supporters, and immediate community participation in the first 48 hours."
 ---
 
 

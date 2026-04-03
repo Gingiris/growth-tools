@@ -5,6 +5,13 @@ date: 2026-04-02
 canonical_url: https://gingiris.github.io/growth-tools/blog/2026/04/github-issue-template-guide/
 image: "https://gingiris.github.io/growth-tools/assets/images/blog-github-stars.jpg"
 description: "How to write GitHub issue templates that get better bug reports. Ready-to-use templates for bug reports, feature requests, and questions — copy and paste."
+faq:
+  - q: "What is a GitHub issue template?"
+    a: "A GitHub issue template is a pre-filled form that appears when someone opens a new issue in your repository. Templates guide contributors to provide structured, useful information — eliminating the back-and-forth of asking for reproduction steps, version numbers, and environment details. They're stored in .github/ISSUE_TEMPLATE/ as markdown files and can include required fields, dropdowns, and checkboxes."
+  - q: "How do you create a GitHub issue template?"
+    a: "Create a GitHub issue template by: (1) Creating the directory .github/ISSUE_TEMPLATE/ in your repository. (2) Adding a markdown file (e.g., bug_report.md) with YAML front matter specifying the template name, description, and labels. (3) Writing the template body with H2 sections for required information (Steps to Reproduce, Expected Behavior, Actual Behavior, Environment). (4) Optionally creating a config.yml in the same folder to control which issue types are available. Push to main and templates appear automatically in the issue creation flow."
+  - q: "What should a bug report GitHub issue template include?"
+    a: "A bug report template should include: Environment section (OS, browser/runtime version, package version), Steps to Reproduce (numbered list, minimum reproduction steps), Expected Behavior (what should happen), Actual Behavior (what actually happens, including error messages or screenshots), and Additional Context (logs, related issues, workarounds tried). Keep it short enough that reporters actually fill it out — the most useful templates take under 3 minutes to complete. Long templates lead to reporters deleting sections entirely."
 ---
 ## TL;DR
 

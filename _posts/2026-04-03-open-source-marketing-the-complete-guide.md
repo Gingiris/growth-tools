@@ -5,6 +5,13 @@ date: 2026-04-03
 tags: [open-source-marketing, github-growth, community-building, growth-tools]
 canonical_url: https://gingiris.github.io/growth-tools/blog/2026/04/2026-04-03-open-source-marketing-the-complete-guide/
 image: "https://gingiris.github.io/growth-tools/assets/images/blog-open-source-marketing.jpg"
+faq:
+  - q: "What is open source marketing?"
+    a: "Open source marketing is the set of strategies used to grow awareness, adoption, and community around open source software projects. It combines traditional software marketing with community-specific tactics: GitHub star growth, developer community building, contributor recruitment, and open source-specific distribution channels (Hacker News, developer subreddits, GitHub trending). The unique aspect of open source marketing is that the product itself (the code) is the primary marketing asset — anyone can evaluate, fork, and contribute."
+  - q: "How do you market an open source project?"
+    a: "Open source project marketing playbook: (1) README first — write a README that functions as a product page with clear value proposition, compelling visuals, and instant setup. (2) Launch on Hacker News (Show HN) and Product Hunt simultaneously for maximum first-week exposure. (3) Seed relevant communities — Reddit, Discord servers, developer Slack groups — with genuine, value-first participation. (4) Build contributor infrastructure — CONTRIBUTING.md, good first issues, fast PR reviews — so early users become advocates. (5) Create content around the problems your project solves to build organic discovery."
+  - q: "How do open source companies make money?"
+    a: "Open source monetization models: (1) Open Core — core product is free and open source, advanced features (SSO, audit logs, enterprise controls) are paid. Examples: GitLab, Metabase. (2) Managed service / SaaS — open source software, but pay for hosted version. Examples: MongoDB Atlas, Elastic Cloud. (3) Support and services — enterprise support contracts, training, professional services. Examples: Red Hat, Canonical. (4) Dual licensing — open source for non-commercial use, commercial license for businesses. Examples: Qt, MariaDB. Most successful OSS companies combine open core with managed SaaS."
 ---
 
 ## TL;DR

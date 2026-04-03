@@ -5,6 +5,13 @@ date: 2026-04-02
 canonical_url: https://gingiris.github.io/growth-tools/blog/2026/04/github-pr-template-guide/
 image: "https://gingiris.github.io/growth-tools/assets/images/blog-github-stars.jpg"
 description: "GitHub pull request template best practices. Write PR templates that speed up code review — with a complete copy-paste template that actually gets merged."
+faq:
+  - q: "What is a GitHub PR template?"
+    a: "A GitHub pull request (PR) template is a pre-filled description that automatically appears when contributors open a new pull request. It guides them to describe what the PR does, why it's needed, how it was tested, and any related issues. Templates are stored at .github/PULL_REQUEST_TEMPLATE.md and activate automatically for all new PRs in the repository."
+  - q: "What should a GitHub pull request template include?"
+    a: "An effective PR template includes: a brief description of the change and its purpose, related issue references (Closes #123), type of change (bug fix / new feature / breaking change / docs), testing checklist (unit tests added, manual testing steps), and any deployment notes or migration requirements. Keep it to 10-15 lines — contributors are more likely to complete shorter templates. For larger teams, add a reviewer assignment section and a screenshots section for UI changes."
+  - q: "How do PR templates improve code review?"
+    a: "PR templates improve code review by: reducing back-and-forth (reviewers have context upfront), catching common omissions (missing tests, missing documentation), standardizing how changes are described across the codebase, making it easier for new contributors to understand what's expected, and creating a searchable history of why changes were made. Teams with good PR templates report 30-50% faster review cycles because reviewers spend less time asking clarifying questions."
 ---
 ## TL;DR
 
@@ -182,6 +189,14 @@ Copy this `.github/pull_request_template.md`:
 ```
 
 ---
+
+## How to Get a PR Merged Faster (5 Steps)
+
+1. **Open a Draft PR early** — use GitHub's Draft PR feature to get early feedback before your code is complete. This surfaces architectural issues before you've built on top of them.
+2. **Keep the diff under 400 lines** — PRs under 400 lines get reviewed 3x faster. Break large features into sequential PRs that each do one thing.
+3. **Respond to review comments within 24 hours** — maintainers lose context quickly. Fast responses keep your PR at the top of their mental queue.
+4. **Resolve all conversations before re-requesting review** — mark every comment as "resolved" and leave a brief reply explaining what you changed. Don't make reviewers re-read everything.
+5. **Add a test that fails before your fix and passes after** — this proves your fix is correct and prevents regression. It's the single fastest way to build reviewer trust.
 
 ## Tips for Getting Your PR Merged Faster
 

@@ -5,6 +5,13 @@ date: 2026-03-29
 canonical_url: https://gingiris.github.io/growth-tools/blog/2026/03/github-readme-best-practices-how-to-write-a-readme-that-gets-stars/
 image: "https://gingiris.github.io/growth-tools/assets/images/blog-github-stars.jpg"
 description: "GitHub README best practices that get stars. Write a README that converts visitors — structure, visuals, quick start, and the 30-second readability test."
+faq:
+  - q: "What should a GitHub README include?"
+    a: "A high-converting GitHub README should include: (1) A one-line description that clearly explains what the project does and for whom. (2) A visual demo (GIF, screenshot, or video) showing the product working. (3) Quick install/setup instructions (under 5 commands). (4) A features list with the most compelling capabilities. (5) Links to documentation, live demo, and contributing guide. (6) Badges (stars, license, build status) for social proof. The goal: a developer should understand the project's value and know how to try it within 30 seconds."
+  - q: "How long should a GitHub README be?"
+    a: "README length should match project complexity. For a simple library: 300-500 words with code examples. For a full application: 500-1,500 words with screenshots and setup guide. For a complex framework: 1,000-3,000 words with architecture overview and multiple examples. The most common mistake is either too short (no context) or too long (information overload). Lead with the value proposition; detailed documentation belongs in a /docs folder or separate wiki."
+  - q: "What makes a README get GitHub stars?"
+    a: "READMEs that earn stars share these characteristics: a compelling headline that makes the value immediately obvious, a visual demo that shows (not tells) what the product does, a 'why this over alternatives' section that honestly addresses comparisons, extremely low friction to try (ideally one command), and a well-maintained appearance (recent commits, responsive issues). The README is your product's first impression — developers judge project quality by README quality before ever running the code."
 ---
 ---
 

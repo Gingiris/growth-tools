@@ -57,30 +57,17 @@ Keyword research takes 2 hours. It determines 80% of your content marketing resu
 
 ### The 3-Step Keyword Research Process
 
-**Step 1: Seed keywords**
-List 20 topics related to your product and your users' jobs to be done. Don't filter yet.
+1. **Brainstorm seed keywords** — list 20 topics related to your product and your users' jobs to be done. Include pain points, actions, and tools. Don't filter yet.
+2. **Filter for search volume and difficulty** — use DataForSEO, Ahrefs, or Semrush to find monthly search volume (target > 50/month) and keyword difficulty (target KD 0-30 for a new blog). New sites can't compete for high-KD terms.
+3. **Score and prioritize by opportunity** — calculate: (search volume ÷ KD) × intent relevance (1-3 scale). Your first 10 posts should target your top 10 opportunity-score keywords, not the ones with the highest volume.
 
-Example for a project management tool:
-- project management
-- task tracking
-- team collaboration
-- sprint planning
-- how to prioritize tasks
-- project management for small teams
-- ...
-
-**Step 2: Filter for search volume and difficulty**
-Use a keyword research tool (DataForSEO, Ahrefs, or Semrush) to pull:
-- Monthly search volume (you want > 50/month to start)
-- Keyword difficulty (target KD 0-30 for a new blog)
-- Search intent (informational vs. commercial)
+**Example for a project management tool:**
+- "project management" — KD 85, skip
+- "project management for small teams" — KD 12, target
+- "how to prioritize tasks" — KD 8, target
+- "sprint planning template" — KD 6, target
 
 New blogs should target KD < 30. You have almost no domain authority — competing for "project management" (KD 85) is a waste of time.
-
-**Step 3: Prioritize by opportunity score**
-Score each keyword: (search volume / KD) × intent relevance (1-3).
-
-Your first 10 posts should target your top 10 keywords by opportunity score.
 
 ### The Content Gap Approach
 

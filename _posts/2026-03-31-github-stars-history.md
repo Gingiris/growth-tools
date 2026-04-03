@@ -5,6 +5,13 @@ date: 2026-03-31
 canonical_url: https://gingiris.github.io/growth-tools/blog/2026/03/github-stars-history-how-to-track-and-analyze-repository-growth/
 image: "https://gingiris.github.io/growth-tools/assets/images/blog-github-history.jpg"
 description: "Track your GitHub stars history and analyze growth milestones. How to use star history data to improve your open source marketing strategy."
+faq:
+  - q: "How do I see the star history of a GitHub repository?"
+    a: "To view GitHub star history: visit star-history.com and enter any public repository URL to see a visual timeline of star growth. Alternatively, use the GitHub API: GET https://api.github.com/repos/{owner}/{repo}/stargazers with the header Accept: application/vnd.github.v3.star+json to retrieve timestamped star data. The GitHub Insights tab (visible only to repo owners) shows the past 14 days of traffic including stars."
+  - q: "Can you track competitor GitHub star growth?"
+    a: "Yes — GitHub star history is public data. Use star-history.com to compare multiple repositories on the same chart. This competitive intelligence reveals: when competitors had viral moments, how their growth rate compares to yours, and whether their growth is organic (steady) or spike-driven (launch events). Tracking competitors helps identify what types of content, launches, or community events drive star spikes so you can replicate the conditions."
+  - q: "What causes sudden spikes in GitHub stars?"
+    a: "Common causes of GitHub star spikes: Hacker News front page (Show HN or Ask HN) — typically 500-3,000 stars in 24 hours. Reddit viral post in a large developer subreddit — 200-1,000 stars. Influential Twitter/X thread or newsletter mention — 100-500 stars. Product Hunt top 5 finish — 200-600 stars. Being featured in GitHub's Trending page — 100-300 stars/day for 3-7 days. Understanding which event caused each spike helps you engineer future spikes deliberately."
 ---
 ## TL;DR
 

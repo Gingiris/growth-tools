@@ -5,6 +5,13 @@ date: 2026-04-02
 canonical_url: https://gingiris.github.io/growth-tools/blog/2026/04/github-readme-template-guide/
 image: "https://gingiris.github.io/growth-tools/assets/images/blog-github-stars.jpg"
 description: "GitHub README template guide with copy-paste examples. Structure your README for maximum clarity, star conversion, and contributor onboarding in 2026."
+faq:
+  - q: "What is a GitHub README template?"
+    a: "A GitHub README template is a pre-structured markdown document that provides a starting framework for documenting your repository. A good template includes sections for project description, installation, usage examples, contributing guide, and license — ensuring your README covers the information developers expect when evaluating or using your project."
+  - q: "How do you write a GitHub README that gets stars?"
+    a: "READMEs that attract stars follow this structure: (1) One-line description that explains what it does and for whom. (2) Visual demo (GIF, screenshot, or video) showing the product working. (3) Quick start (install + run in under 5 commands). (4) Features list with the most compelling capabilities. (5) Why this over alternatives. (6) Badges for social proof. The goal is that a developer can understand the value and try the project within 30 seconds of landing on the README."
+  - q: "What badges should I add to my GitHub README?"
+    a: "Recommended GitHub README badges: Stars badge (shows social proof), License badge (communicates open source terms), Build/CI status badge (signals code quality), NPM/package version badge (shows active maintenance), Contributors badge (builds community signal). Generate badges at shields.io — enter your repository details and choose from hundreds of pre-built badge types. Use 4-6 badges maximum; too many create visual clutter that reduces the professional appearance you're trying to project."
 ---
 ## TL;DR
 

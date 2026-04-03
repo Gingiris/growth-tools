@@ -5,6 +5,13 @@ date: 2026-03-31
 canonical_url: https://gingiris.github.io/growth-tools/blog/2026/03/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/
 image: "https://gingiris.github.io/growth-tools/assets/images/blog-product-hunt-launch.jpg"
 description: "Product Hunt launch checklist from a 30-time #1 winner. Every task from 6 weeks pre-launch to post-launch follow-up, with exact timing and tips."
+faq:
+  - q: "What is the Product Hunt launch checklist for winning #1?"
+    a: "The #1 winner checklist: Assets — tagline under 60 chars, description under 260 chars, 5-10 gallery images, demo video or GIF, first comment ready. People — hunter selected (5k+ followers), 50-100+ upvote supporters confirmed, team assigned to monitor comments. Timing — Tuesday-Thursday launch, 12:01 AM PT start, all notifications queued. Day-of — launch posted, supporter notifications sent, social media posts live, team actively engaging comments all day."
+  - q: "How do you write a good Product Hunt tagline?"
+    a: "Product Hunt tagline best practices: under 60 characters, no hyperbole or buzzwords ('revolutionary', 'game-changing'), describe what the product does rather than what it is, use active verbs, and make it understandable to someone who has never heard of your product. Good examples: 'Open-source Notion alternative for local-first collaboration' / 'Write tests 10x faster with AI that understands your codebase' / 'Turn any website into an API in 60 seconds'. Bad examples: 'The future of productivity' / 'AI-powered everything'."
+  - q: "How important is the first comment on Product Hunt?"
+    a: "The first comment (typically from the maker) is extremely important — it's the first thing visitors read after the tagline and gallery. Best practices: post the first comment immediately after launch, tell a genuine story about why you built the product, include a specific offer for Product Hunt users (extended trial, discount), ask a question to encourage engagement, and keep it under 300 words. A compelling first comment can increase upvote conversion by 10-20% from viewers who would otherwise scroll past."
 ---
 - Product Hunt launch success depends on upvotes, comments, and hunter quality — not your product alone
 - The PH ranking algorithm weighs velocity (upvotes per hour) heavily in the first 6-8 hours

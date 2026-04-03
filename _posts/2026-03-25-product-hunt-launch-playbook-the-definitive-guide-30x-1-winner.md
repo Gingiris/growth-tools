@@ -5,6 +5,13 @@ date: 2026-03-25
 canonical_url: https://gingiris.github.io/growth-tools/blog/2026/03/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/
 image: "https://gingiris.github.io/growth-tools/assets/images/blog-product-hunt-launch.jpg"
 description: "The complete Product Hunt launch playbook from a 30x #1 winner. Strategy, tactics, 6-week timeline, and real examples from AFFiNE's launch history."
+faq:
+  - q: "How do you get #1 on Product Hunt?"
+    a: "The factors that most influence a #1 finish: (1) Launch day preparation — have 100+ supporters ready to upvote in the first 2 hours. (2) Hunter selection — a hunter with 5k+ followers gives you initial visibility. (3) Active engagement — comment on every comment, respond to every question throughout the day. (4) Gallery assets — high-quality screenshots and a demo GIF/video significantly increase conversion from viewers to upvoters. (5) Community — your existing newsletter, Twitter, and community are your biggest asset on launch day."
+  - q: "How do you prepare for a Product Hunt launch?"
+    a: "Product Hunt launch preparation timeline: T-4 weeks: finalize product, write tagline and description, prepare gallery assets. T-2 weeks: select hunter, recruit upvote supporters, prepare email and social announcements. T-1 week: schedule all communications, brief your team, prepare response templates for comments. T-1 day: send reminder to supporters, queue all scheduled posts. Launch day: post at 12:01 AM PT, send notifications, monitor and engage all day."
+  - q: "Should you launch on Product Hunt if you're pre-launch?"
+    a: "Yes — a pre-launch 'coming soon' page on Product Hunt builds followers who get notified on launch day. This is free future audience building. For the actual product launch, wait until you have at least an MVP that works end-to-end. Product Hunt voters expect to be able to try the product immediately. Launching a non-functional product wastes your one high-impact launch window."
 ---
 # Product Hunt Launch Playbook: The Definitive Guide
 

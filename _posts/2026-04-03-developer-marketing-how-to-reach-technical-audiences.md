@@ -5,6 +5,13 @@ date: 2026-04-03
 tags: [developer-marketing, open-source, github-growth, growth-tools]
 canonical_url: https://gingiris.github.io/growth-tools/blog/2026/03/developer-marketing-playbook-how-to-reach-technical-audiences-in-2026/
 image: "https://gingiris.github.io/growth-tools/assets/images/blog-devrel-dashboard.jpg"
+faq:
+  - q: "How do you market to developers effectively?"
+    a: "Developer marketing that works: (1) Show, don't tell — developers trust working code examples over marketing copy. Every piece of content should include something developers can run. (2) Be technically accurate — one factual error destroys credibility with technical audiences. (3) Participate in communities authentically before promoting — answer questions, file issues, contribute content. (4) Respect developers' time — get to the point quickly, make documentation comprehensive, minimize friction to try the product. (5) Measure developer trust signals: GitHub stars, npm downloads, StackOverflow mentions — not vanity metrics like impressions."
+  - q: "What is the best way to reach developers online?"
+    a: "Best channels to reach developers in 2026: GitHub (your README and repository activity is always-on marketing), Hacker News (Show HN for launches, thoughtful comments for community building), Reddit (subreddits by tech stack: r/python, r/javascript, r/devops), Developer newsletters (TLDR, Cooper Press, Pointer), Twitter/X (still the primary real-time developer conversation platform), Discord and Slack communities (direct access to specific developer niches), and Dev.to/Hashnode (developer blogging platforms with built-in audiences)."
+  - q: "How is developer marketing different from B2B marketing?"
+    a: "Developer marketing differs from traditional B2B marketing in key ways: developers are the end users AND influencers of purchasing decisions (they evaluate before recommending to management). They are highly skeptical of marketing language and respond to technical depth. They prefer self-serve evaluation (free tier, open source, instant signup) over sales-led processes. Content must demonstrate technical competence, not just business value. And the influencer landscape is peer networks (GitHub contributions, conference talks, blog posts) rather than traditional industry analysts."
 ---
 
 ## TL;DR

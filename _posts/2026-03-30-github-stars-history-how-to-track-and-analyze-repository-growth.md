@@ -5,6 +5,13 @@ date: 2026-03-30
 canonical_url: https://gingiris.github.io/growth-tools/blog/2026/03/github-stars-history-how-to-track-and-analyze-repository-growth/
 image: "https://gingiris.github.io/growth-tools/assets/images/blog-github-history.jpg"
 description: "How to track and analyze GitHub star history. Tools, methods, and metrics for understanding your open source project growth — with free and paid options."
+faq:
+  - q: "How do you track GitHub star history?"
+    a: "Tools for tracking GitHub star history: Star History (star-history.com) — free, visual star growth chart for any public repo. GitStar Ranking — tracks star velocity and trending repos. GitHub's native Insights tab (only accessible to repo owners) shows traffic and star data for the past 14 days. For historical data beyond 14 days, the GitHub API endpoint GET /repos/{owner}/{repo}/stargazers with Accept: application/vnd.github.v3.star+json returns timestamped star data."
+  - q: "What is a good GitHub star growth rate?"
+    a: "GitHub star growth benchmarks by project stage: Newly launched (week 1) — 100+ stars is a successful launch; 500+ is exceptional. Growing project (months 1-6) — 500-1,000 stars/month is strong organic growth. Established project — 1,000-5,000 stars/month indicates significant developer mindshare. Viral moment (HN front page, major tweet) — 1,000-5,000 stars in 24-48 hours is typical for viral events. Absolute numbers matter less than trajectory — consistent monthly growth signals a healthy project."
+  - q: "Why do GitHub repos lose stars?"
+    a: "GitHub repositories rarely actually lose stars (users unstarring is uncommon). Apparent star loss or stagnation happens because: star velocity slows when initial launch momentum fades, the project appears abandoned (no recent commits), a competitor launches with better positioning, or the technology becomes deprecated. The best defense against star stagnation: consistent commits, regular releases, and periodic relaunch moments (major version releases, new feature launches) that re-activate distribution."
 ---
 ## TL;DR
 
@@ -24,6 +31,14 @@ A repo with 10k stars gained over 5 years is very different from one that got 10
 I've helped grow AFFiNE from 0 to 33k+ GitHub stars. Here's how to read and use star data effectively.
 
 ---
+
+## How to Track GitHub Stars History (Step by Step)
+
+1. **Go to [star-history.com](https://star-history.com)** — paste your repo URL and get an instant visual chart. Free, no signup required.
+2. **Compare with competitors** — add up to 5 repos on the same chart to benchmark your growth trajectory.
+3. **Pull timestamped data via GitHub API** — use `GET /repos/{owner}/{repo}/stargazers` with `Accept: application/vnd.github.v3.star+json` for raw star-by-date data.
+4. **Set up weekly tracking** — screenshot your star-history chart every Monday to identify growth trends before they become obvious.
+5. **Identify your spike triggers** — cross-reference star spikes with your activity log (launches, HN posts, viral tweets) to find your highest-ROI distribution channels.
 
 ## How to Check GitHub Stars History
 

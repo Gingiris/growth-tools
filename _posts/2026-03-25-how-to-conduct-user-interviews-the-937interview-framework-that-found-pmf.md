@@ -5,6 +5,13 @@ date: 2026-03-25
 canonical_url: https://gingiris.github.io/growth-tools/blog/2026/03/how-to-conduct-user-interviews-the-937interview-framework-that-found-pmf/
 image: "https://gingiris.github.io/growth-tools/assets/images/blog-user-interview.jpg"
 description: "The 9:3:7 user interview framework that found product-market fit. Step-by-step guide to running user interviews that reveal real needs and pain points."
+faq:
+  - q: "What is the 9:3:7 user interview framework?"
+    a: "The 9:3:7 framework structures user interviews around three ratios: 9 minutes of listening and open-ended questions for every 1 minute of talking, 3 follow-up questions minimum for every initial answer, and 7 behavioral questions (what did you actually do?) for every 3 attitudinal questions (what do you think you'd do?). This ratio prevents interviewers from leading witnesses and surfaces actual behavior rather than stated preferences."
+  - q: "How many user interviews do you need to find product-market fit?"
+    a: "Research by Nielsen Norman Group shows that 5 users reveal 85% of usability issues. For PMF discovery, 15-20 interviews with your target persona typically reveal consistent patterns. The key signal is when you start hearing the same pain points, workflows, and failure modes repeatedly — usually by interview 12-15. More important than quantity: interview the right people (actual buyers or active users of alternatives, not friends and family)."
+  - q: "What questions should you ask in a user interview?"
+    a: "The most valuable user interview questions: (1) 'Walk me through the last time you had to [problem your product solves].' (2) 'What did you do to solve it?' (3) 'What was frustrating about that?' (4) 'How much did that problem cost you — in time or money?' (5) 'What would the ideal solution look like?' Avoid hypotheticals ('would you use...') and questions that invite social desirability bias ('do you like...'). Anchor everything in past behavior."
 ---
 **TL;DR**: HeyGen's founder conducted 937 user interviews in 6 months to find product-market fit. This is the exact framework — from screening users to extracting actionable insights.
 

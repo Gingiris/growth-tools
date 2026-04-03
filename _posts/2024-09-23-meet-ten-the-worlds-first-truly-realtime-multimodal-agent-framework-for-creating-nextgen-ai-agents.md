@@ -7,6 +7,13 @@ date: 2024-09-23
 description: "Ever since OpenAI demonstrated the real-time conversational capabilities of GPT-4o, it’s as if the movie ‘Her’ has come to life. Motivated by th"
 tags: [python, ai, opensource, javascript]
 canonical: "https://dev.to/iris1031/meet-ten-the-worlds-first-truly-real-time-multimodal-agent-framework-for-creating-next-gen-ai-agents-3pnm"
+faq:
+  - q: "What is TEN (Realtime Extension Network)?"
+    a: "TEN is an open-source multimodal AI agent framework designed for real-time, low-latency interactions. It enables developers to build AI agents that process voice, video, and text simultaneously with sub-200ms response times — making it suitable for voice assistants, live translation, and interactive AI applications."
+  - q: "What makes TEN different from other AI agent frameworks?"
+    a: "TEN's key differentiator is real-time multimodal processing. Unlike LangChain or AutoGPT which are primarily text-based and batch-oriented, TEN handles simultaneous audio, video, and text streams with latency optimized for live interaction. It's built for use cases where response time matters: live voice agents, real-time translation, interactive AI tutors."
+  - q: "How do I get started with the TEN framework?"
+    a: "TEN is open source on GitHub. To get started: clone the repository, follow the quickstart guide in the README to set up the environment, and run one of the provided example agents. The framework supports Python and C++ extensions, and integrates with major LLM providers including OpenAI, Anthropic, and local models."
 ---
 
 Ever since OpenAI demonstrated the real-time conversational capabilities of GPT-4o, it’s as if the movie ‘Her’ has come to life. Motivated by the breakthrough user experience of new multimodal capabilities, developers are seeking ways to build real-time conversational AI agents. It is true that some open-source workflow builders currently offer options for easy-to-use orchestration, however, building multimodal AI agents is difficult as these agents not only require ultra-low latency but a deep understanding of technologies like chat, speech to text, text to speech, and real-time audio and video communications. There is also the added complexity of integrating all of these modules together to deliver human-like experience.
