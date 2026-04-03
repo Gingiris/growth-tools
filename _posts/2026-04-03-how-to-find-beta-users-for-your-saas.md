@@ -4,7 +4,7 @@ title: "How to Find Beta Users for Your SaaS: The Complete 2026 Playbook"
 description: "Learn exactly how to find beta users for your SaaS product — from Reddit and Slack communities to cold outreach, waitlists, and beta platforms. Real tactics, real numbers."
 date: 2026-04-03
 tags: [beta-testing, saas-growth, user-acquisition, product-launch, startup]
-canonical_url: "https://gingiris.github.io/growth-tools/blog/2026-04-03-how-to-find-beta-users-for-your-saas/"
+canonical_url: https://gingiris.github.io/growth-tools/blog/2026/04/03/how-to-find-beta-users-for-your-saas/"
 image: "https://gingiris.github.io/growth-tools/assets/images/blog-startup-launch.jpg"
 faq:
   - q: "How many beta users do you need for a SaaS product?"

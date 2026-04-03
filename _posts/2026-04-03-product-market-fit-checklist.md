@@ -4,7 +4,7 @@ title: "Product-Market Fit: 25 Signs You Have It + The Complete Measurement Chec
 description: "How to measure product-market fit: the Sean Ellis 40% rule, NPS benchmarks, retention curves, and a 25-point PMF checklist for SaaS founders. Real examples from AFFiNE's 60k-star journey."
 date: 2026-04-03
 tags: [product-market-fit, saas-growth, startup, metrics, product-strategy]
-canonical_url: "https://gingiris.github.io/growth-tools/blog/2026-04-03-product-market-fit-checklist/"
+canonical_url: https://gingiris.github.io/growth-tools/blog/2026/04/03/product-market-fit-checklist/"
 image: "https://gingiris.github.io/growth-tools/assets/images/blog-startup-launch.jpg"
 faq:
   - q: "What is the 40% rule for product-market fit?"

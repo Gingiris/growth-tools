@@ -4,7 +4,7 @@ title: "Cold Email Templates for SaaS: 10 Copy-Paste Scripts That Get Replies (+
 description: "The best cold email templates for SaaS — beta invites, partnerships, investor outreach, and KOL cold DMs. Plus a review of cold email software tools with open rate benchmarks."
 date: 2026-04-03
 tags: [cold-outreach, email-templates, saas-growth, sales, user-acquisition]
-canonical_url: "https://gingiris.github.io/growth-tools/blog/2026-04-03-cold-outreach-email-templates-saas/"
+canonical_url: https://gingiris.github.io/growth-tools/blog/2026/04/03/cold-outreach-email-templates-saas/"
 image: "https://gingiris.github.io/growth-tools/assets/images/blog-startup-launch.jpg"
 faq:
   - q: "What is a good response rate for cold outreach emails?"
