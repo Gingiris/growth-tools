@@ -4,7 +4,7 @@ description: "How to market open source projects successfully. Complete SOP from
 date: 2026-04-03
 tags: [open-source-marketing, github-growth, community-building, growth-tools]
 canonical_url: https://gingiris.github.io/growth-tools/blog/2026/04/2026-04-03-open-source-marketing-the-complete-guide/
-  image: "https://gingiris.github.io/growth-tools/assets/images/blog-open-source-marketing.jpg"
+image: "https://gingiris.github.io/growth-tools/assets/images/blog-open-source-marketing.jpg"
 ---
 
 ## TL;DR
