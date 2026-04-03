@@ -5,7 +5,7 @@ description: "The best social media listening tools for startups in 2026. Find o
 date: 2026-04-02
 author: Iris
 tags: [social-listening, tools, startup, marketing, analytics]
-image: /growth-tools/assets/images/og-banner.jpg
+  image: "https://gingiris.github.io/growth-tools/assets/images/blog-social-media-listening.jpg"
 canonical_url: https://gingiris.github.io/growth-tools/blog/2026/04/02/best-social-media-listening-tools-startups-2026/
   image: "https://gingiris.github.io/growth-tools/assets/images/blog-social-media-listening.jpg"
 ---
