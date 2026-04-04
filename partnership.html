@@ -6,41 +6,34 @@ canonical_url: https://gingiris.github.io/growth-tools/partnership/
 ---
 
 <style>
-  /* Override dark default layout */
-  body {
-    background: #f9f9f9 !important;
-    color: #111 !important;
-  }
-
   .partners-page {
     max-width: 860px;
     margin: 0 auto;
-    padding: 60px 24px 120px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    padding: 48px 24px 120px;
   }
 
   /* Breadcrumb */
   .breadcrumb-nav {
     font-size: 13px;
-    color: #888;
-    margin-bottom: 40px;
+    color: var(--text-secondary);
+    margin-bottom: 36px;
   }
-  .breadcrumb-nav a { color: #888; text-decoration: none; }
-  .breadcrumb-nav a:hover { color: #111; }
-  .breadcrumb-nav span { margin: 0 6px; }
+  .breadcrumb-nav a { color: var(--text-secondary); text-decoration: none; }
+  .breadcrumb-nav a:hover { color: var(--text); }
+  .breadcrumb-nav span { margin: 0 6px; color: var(--text-muted); }
 
   /* Header */
-  .partners-header { margin-bottom: 16px; }
+  .partners-header { margin-bottom: 20px; }
   .partners-header h1 {
-    font-size: 40px;
+    font-size: 32px;
     font-weight: 800;
-    color: #111;
+    color: var(--text);
     margin: 0 0 12px;
     letter-spacing: -0.5px;
   }
   .partners-header p {
-    font-size: 16px;
-    color: #555;
+    font-size: 15px;
+    color: var(--text-secondary);
     max-width: 560px;
     line-height: 1.65;
     margin: 0;
@@ -48,36 +41,47 @@ canonical_url: https://gingiris.github.io/growth-tools/partnership/
   .transparency-note {
     display: inline-flex;
     align-items: center;
-    gap: 6px;
-    background: #f4f4f5;
-    border-radius: 6px;
+    gap: 8px;
+    background: var(--green-light);
+    border: 1px solid rgba(90,144,96,0.2);
+    border-radius: 8px;
     padding: 8px 14px;
     font-size: 13px;
-    color: #666;
-    margin-top: 20px;
+    color: var(--accent);
+    margin-top: 16px;
+    font-weight: 500;
   }
-  .transparency-note svg { flex-shrink: 0; }
+  .transparency-note svg { flex-shrink: 0; opacity: 0.8; }
+  .transparency-note code {
+    font-family: inherit;
+    font-weight: 600;
+    background: none;
+    border: none;
+    padding: 0;
+    color: var(--accent);
+    font-size: 13px;
+  }
 
   /* Divider */
   .section-divider {
     border: none;
-    border-top: 1px solid #e8e8e8;
-    margin: 40px 0;
+    border-top: 1px solid var(--border);
+    margin: 36px 0;
   }
 
   /* Section label */
   .section-label {
     font-size: 11px;
     font-weight: 700;
-    letter-spacing: 1.2px;
+    letter-spacing: 0.1em;
     text-transform: uppercase;
-    color: #999;
-    margin-bottom: 20px;
+    color: var(--accent);
+    margin-bottom: 16px;
   }
 
   /* Partner cards */
   .partner-card {
-    border: 1px solid #e8e8e8;
+    border: 1px solid var(--border);
     border-radius: 14px;
     padding: 28px;
     display: flex;
@@ -85,30 +89,30 @@ canonical_url: https://gingiris.github.io/growth-tools/partnership/
     align-items: flex-start;
     margin-bottom: 16px;
     transition: box-shadow 0.18s, border-color 0.18s;
-    background: #fff;
+    background: var(--surface);
   }
   .partner-card:hover {
     box-shadow: 0 4px 24px rgba(0,0,0,0.07);
-    border-color: #d0d0d0;
+    border-color: var(--border-hover);
   }
   .partner-card.featured {
-    border-color: #111;
-    background: #fafafa;
+    border-color: var(--accent);
+    background: var(--surface);
   }
 
   .partner-logo {
-    width: 80px;
-    height: 80px;
-    border-radius: 16px;
-    border: 1px solid #e8e8e8;
-    background: #fff;
+    width: 72px;
+    height: 72px;
+    border-radius: 14px;
+    border: 1px solid var(--border);
+    background: var(--surface);
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 36px;
+    font-size: 32px;
     flex-shrink: 0;
     overflow: hidden;
-    padding: 10px;
+    padding: 8px;
     box-sizing: border-box;
   }
   .partner-logo img {
@@ -132,28 +136,28 @@ canonical_url: https://gingiris.github.io/growth-tools/partnership/
     font-weight: 700;
     letter-spacing: 0.8px;
     text-transform: uppercase;
-    color: #7c3aed;
-    background: #f3f0ff;
+    color: var(--accent);
+    background: var(--green-light);
     padding: 2px 8px;
     border-radius: 4px;
   }
   .partner-category {
     font-size: 11px;
-    color: #999;
+    color: var(--text-muted);
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 0.6px;
   }
 
   .partner-name {
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 700;
-    color: #111;
+    color: var(--text);
     margin: 0 0 6px;
   }
   .partner-desc {
     font-size: 14px;
-    color: #555;
+    color: var(--text-secondary);
     line-height: 1.6;
     margin: 0 0 16px;
   }
@@ -166,8 +170,9 @@ canonical_url: https://gingiris.github.io/growth-tools/partnership/
   }
   .tag {
     font-size: 11px;
-    color: #666;
-    background: #f4f4f5;
+    color: var(--text-secondary);
+    background: var(--surface-hover);
+    border: 1px solid var(--border);
     padding: 3px 9px;
     border-radius: 20px;
     font-weight: 500;
@@ -180,22 +185,24 @@ canonical_url: https://gingiris.github.io/growth-tools/partnership/
     font-size: 13px;
     font-weight: 600;
     color: #fff;
-    background: #111;
+    background: var(--accent);
     padding: 8px 16px;
     border-radius: 8px;
     text-decoration: none;
     transition: background 0.15s;
   }
-  .partner-cta:hover { background: #333; }
+  .partner-cta:hover { background: var(--accent-hover); }
   .partner-cta svg { width: 13px; height: 13px; }
 
   /* Become a partner section */
   .become-partner {
-    margin-top: 56px;
-    background: linear-gradient(135deg, #1e1b4b 0%, #111827 100%);
+    margin-top: 48px;
+    background: linear-gradient(135deg, #1a3020 0%, #2d4a30 55%, #243d28 100%);
     border-radius: 16px;
     padding: 40px 36px;
     color: #fff;
+    border: 1px solid rgba(143,186,122,0.2);
+    box-shadow: 0 4px 24px rgba(45,74,48,0.15);
   }
   .become-partner h2 {
     font-size: 24px;
