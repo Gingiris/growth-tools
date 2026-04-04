@@ -194,4 +194,9 @@ Use Reddit Search, SubredditStats, or the Reddit List tool. Search for keywords 
 
 *More tools → [Growth Tools Directory](https://gingiris.github.io/growth-tools/)*
 
+## Related Articles
+
+- [Best Social Media Listening Tools for Startups in 2026](https://gingiris.github.io/growth-tools/blog/2026/04/02/best-social-media-listening-tools-startups-2026/)
+- [Startup Marketing Strategy: From Zero to Your First 1,000 Users](https://gingiris.github.io/growth-tools/blog/2026/04/01/startup-marketing-strategy-from-zero-to-first-1000-users/)
+
 

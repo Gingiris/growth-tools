@@ -251,3 +251,8 @@ Read the CONTRIBUTING.md before submitting. Follow their conventions.
 For more open source growth strategies, see [github.com/Gingiris/gingiris-opensource](https://github.com/Gingiris/gingiris-opensource) — the complete playbook from 0 to 60k stars.
 
 *Part of the [Gingiris Open Source Growth Playbook](https://github.com/Gingiris/gingiris-opensource) — helping developers contribute to open source with confidence.*
+
+## Related Articles
+
+- [GitHub Issue Template Guide: How to Write Issues That Get Fixed](https://gingiris.github.io/growth-tools/blog/2026/04/02/github-issue-template-guide/)
+- [GitHub README Best Practices: How to Write a README That Gets Stars](https://gingiris.github.io/growth-tools/blog/2026/03/29/github-readme-best-practices-how-to-write-a-readme-that-gets-stars/)

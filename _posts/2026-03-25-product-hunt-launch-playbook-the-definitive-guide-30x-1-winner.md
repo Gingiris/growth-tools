@@ -333,3 +333,8 @@ I've written extensively about each part of this process:
 
 *More tools → [Growth Tools Directory](https://gingiris.github.io/growth-tools/)*
 
+## Related Articles
+
+- [Startup Launch Checklist: 47 Tasks Before, During & After Launch Day](https://gingiris.github.io/growth-tools/blog/2026/03/25/startup-launch-checklist-47-tasks-before-during-after-launch-day/)
+- [How I Led AFFiNE from 0 to 60k GitHub Stars: Open Source Growth Playbooks](https://gingiris.github.io/growth-tools/blog/2026/03/07/i-led-affine-from-0-to-60k-github-stars-here-are-my-open-source-growth-playbooks/)
+

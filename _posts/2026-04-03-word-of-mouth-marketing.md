@@ -378,3 +378,8 @@ For more growth tools and frameworks, explore the [Gingiris Growth Tools Directo
 - [SaaS Growth Strategy: $0 to $10M ARR Framework](https://gingiris.github.io/growth-tools/blog/2026/03/saas-growth-strategy-complete-framework-from-0-to-10m-arr/)
 - [Product-Market Fit: 25 Signs You Have It](https://gingiris.github.io/growth-tools/blog/2026/04/product-market-fit-checklist/)
 - [Community-Led Growth: How to Build a Developer Community](https://gingiris.github.io/growth-tools/blog/2026/04/open-source-marketing-the-complete-guide/)
+
+## Related Articles
+
+- [Startup Marketing Strategy: From Zero to Your First 1,000 Users](https://gingiris.github.io/growth-tools/blog/2026/04/01/startup-marketing-strategy-from-zero-to-first-1000-users/)
+- [Growth Hacking for Startups: 20 Proven Tactics](https://gingiris.github.io/growth-tools/blog/2026/04/03/growth-hacking-for-startups/)

@@ -113,3 +113,8 @@ More GitHub tools → [Growth Tools Directory](https://gingiris.github.io/growth
 
 *More tools → [Growth Tools Directory](https://gingiris.github.io/growth-tools/)*
 
+## Related Articles
+
+- [GitHub Star Growth: 10 Proven Tactics That Got Us 33k Stars](https://gingiris.github.io/growth-tools/blog/2026/03/27/github-star-growth-10-proven-tactics-that-got-us-33k-stars/)
+- [GitHub README Best Practices: How to Write a README That Gets Stars](https://gingiris.github.io/growth-tools/blog/2026/03/29/github-readme-best-practices-how-to-write-a-readme-that-gets-stars/)
+
