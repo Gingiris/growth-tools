@@ -1,0 +1,359 @@
+---
+layout: default
+title: "Partners | Gingiris Growth Tools"
+description: "Trusted partners and collaborators in SEO, AI tools, and startup growth. Outbound links marked with rel=sponsored or nofollow for full transparency."
+canonical_url: https://gingiris.github.io/growth-tools/partnership/
+---
+
+<style>
+  .partners-page {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 60px 24px 120px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  }
+
+  /* Breadcrumb */
+  .breadcrumb-nav {
+    font-size: 13px;
+    color: #888;
+    margin-bottom: 40px;
+  }
+  .breadcrumb-nav a { color: #888; text-decoration: none; }
+  .breadcrumb-nav a:hover { color: #111; }
+  .breadcrumb-nav span { margin: 0 6px; }
+
+  /* Header */
+  .partners-header { margin-bottom: 16px; }
+  .partners-header h1 {
+    font-size: 40px;
+    font-weight: 800;
+    color: #111;
+    margin: 0 0 12px;
+    letter-spacing: -0.5px;
+  }
+  .partners-header p {
+    font-size: 16px;
+    color: #555;
+    max-width: 560px;
+    line-height: 1.65;
+    margin: 0;
+  }
+  .transparency-note {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: #f4f4f5;
+    border-radius: 6px;
+    padding: 8px 14px;
+    font-size: 13px;
+    color: #666;
+    margin-top: 20px;
+  }
+  .transparency-note svg { flex-shrink: 0; }
+
+  /* Divider */
+  .section-divider {
+    border: none;
+    border-top: 1px solid #e8e8e8;
+    margin: 40px 0;
+  }
+
+  /* Section label */
+  .section-label {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: #999;
+    margin-bottom: 20px;
+  }
+
+  /* Partner cards */
+  .partner-card {
+    border: 1px solid #e8e8e8;
+    border-radius: 14px;
+    padding: 28px;
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    margin-bottom: 16px;
+    transition: box-shadow 0.18s, border-color 0.18s;
+    background: #fff;
+  }
+  .partner-card:hover {
+    box-shadow: 0 4px 24px rgba(0,0,0,0.07);
+    border-color: #d0d0d0;
+  }
+  .partner-card.featured {
+    border-color: #111;
+    background: #fafafa;
+  }
+
+  .partner-logo {
+    width: 56px;
+    height: 56px;
+    border-radius: 12px;
+    border: 1px solid #e8e8e8;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+    flex-shrink: 0;
+    overflow: hidden;
+  }
+  .partner-logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+  }
+
+  .partner-body { flex: 1; min-width: 0; }
+
+  .partner-meta {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 6px;
+  }
+  .featured-badge {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    color: #7c3aed;
+    background: #f3f0ff;
+    padding: 2px 8px;
+    border-radius: 4px;
+  }
+  .partner-category {
+    font-size: 11px;
+    color: #999;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+  }
+
+  .partner-name {
+    font-size: 18px;
+    font-weight: 700;
+    color: #111;
+    margin: 0 0 6px;
+  }
+  .partner-desc {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.6;
+    margin: 0 0 16px;
+  }
+
+  .partner-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 16px;
+  }
+  .tag {
+    font-size: 11px;
+    color: #666;
+    background: #f4f4f5;
+    padding: 3px 9px;
+    border-radius: 20px;
+    font-weight: 500;
+  }
+
+  .partner-cta {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #fff;
+    background: #111;
+    padding: 8px 16px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background 0.15s;
+  }
+  .partner-cta:hover { background: #333; }
+  .partner-cta svg { width: 13px; height: 13px; }
+
+  /* Become a partner section */
+  .become-partner {
+    margin-top: 56px;
+    background: linear-gradient(135deg, #1e1b4b 0%, #111827 100%);
+    border-radius: 16px;
+    padding: 40px 36px;
+    color: #fff;
+  }
+  .become-partner h2 {
+    font-size: 24px;
+    font-weight: 800;
+    margin: 0 0 10px;
+    color: #fff;
+  }
+  .become-partner p {
+    font-size: 15px;
+    color: rgba(255,255,255,0.72);
+    margin: 0 0 24px;
+    line-height: 1.6;
+    max-width: 480px;
+  }
+  .become-partner-criteria {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 16px;
+    margin-bottom: 28px;
+  }
+  .criteria-item {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+  }
+  .criteria-icon {
+    font-size: 18px;
+    line-height: 1;
+    flex-shrink: 0;
+    margin-top: 2px;
+  }
+  .criteria-text {
+    font-size: 13px;
+    color: rgba(255,255,255,0.75);
+    line-height: 1.5;
+  }
+  .criteria-text strong {
+    display: block;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 2px;
+  }
+  .cta-contact {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #111;
+    background: #fff;
+    padding: 10px 22px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: opacity 0.15s;
+  }
+  .cta-contact:hover { opacity: 0.88; }
+
+  @media (max-width: 600px) {
+    .partners-header h1 { font-size: 28px; }
+    .partner-card { flex-direction: column; gap: 14px; }
+    .become-partner { padding: 28px 20px; }
+  }
+</style>
+
+<!-- Schema: ItemList of partners -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Gingiris Growth Tools Partners",
+  "url": "https://gingiris.github.io/growth-tools/partnership/",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Alignify",
+      "url": "https://alignify.co",
+      "description": "SEO guides, AI tools directory, and growth marketing strategies for AI and SaaS companies."
+    }
+  ]
+}
+</script>
+
+<div class="partners-page">
+
+  <!-- Breadcrumb -->
+  <nav class="breadcrumb-nav" aria-label="Breadcrumb">
+    <a href="/growth-tools/">Home</a>
+    <span>/</span>
+    <span>Partners</span>
+  </nav>
+
+  <!-- Header -->
+  <header class="partners-header">
+    <h1>Partners</h1>
+    <p>Trusted collaborators in SEO, AI tools, and startup growth. These are tools and creators I've personally used or worked with.</p>
+    <div class="transparency-note">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="M12 8v4M12 16h.01"/></svg>
+      Outbound links on this page use <code>rel="nofollow sponsored"</code> for full transparency.
+    </div>
+  </header>
+
+  <hr class="section-divider">
+
+  <!-- Featured partners -->
+  <div class="section-label">Featured Partners</div>
+
+  <!-- Alignify -->
+  <div class="partner-card featured">
+    <div class="partner-logo">
+      <img src="https://alignify.co/favicon.ico" alt="Alignify logo"
+           onerror="this.style.display='none';this.parentElement.textContent='📈'">
+    </div>
+    <div class="partner-body">
+      <div class="partner-meta">
+        <span class="featured-badge">Featured</span>
+        <span class="partner-category">SEO · AI Tools · Growth</span>
+      </div>
+      <h2 class="partner-name">Alignify</h2>
+      <p class="partner-desc">
+        SEO guides, curated AI tools directory, and growth marketing strategies — built by Kostja for AI and SaaS companies looking to scale organic traffic. Practical, data-driven resources covering everything from link building to AI-assisted content.
+      </p>
+      <div class="partner-tags">
+        <span class="tag">SEO</span>
+        <span class="tag">AI Tools Directory</span>
+        <span class="tag">Growth Marketing</span>
+        <span class="tag">SaaS</span>
+      </div>
+      <a href="https://alignify.co" rel="nofollow sponsored" target="_blank" class="partner-cta">
+        Visit Alignify
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+      </a>
+    </div>
+  </div>
+
+  <!-- Become a partner -->
+  <div class="become-partner">
+    <h2>Become a Partner</h2>
+    <p>I partner with tools, creators, and platforms that help startups grow globally. Quality over quantity — I only list resources I'd genuinely recommend.</p>
+
+    <div class="become-partner-criteria">
+      <div class="criteria-item">
+        <div class="criteria-icon">🛠</div>
+        <div class="criteria-text">
+          <strong>Useful tools</strong>
+          Growth, SEO, developer marketing, or go-to-market tools
+        </div>
+      </div>
+      <div class="criteria-item">
+        <div class="criteria-icon">✍️</div>
+        <div class="criteria-text">
+          <strong>Quality content</strong>
+          Blogs, newsletters, or playbooks for startup founders
+        </div>
+      </div>
+      <div class="criteria-item">
+        <div class="criteria-icon">🌍</div>
+        <div class="criteria-text">
+          <strong>Global focus</strong>
+          Especially international / go-global oriented
+        </div>
+      </div>
+    </div>
+
+    <a href="https://twitter.com/Iris_carrot" rel="nofollow" target="_blank" class="cta-contact">
+      Get in touch →
+    </a>
+  </div>
+
+</div>
