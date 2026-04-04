@@ -2,6 +2,43 @@
 layout: default
 ---
 
+<!-- BlogPosting Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": {{ page.title | jsonify }},
+  "description": {{ page.description | strip_html | truncate: 160 | jsonify }},
+  "url": "{{ page.canonical_url | default: page.url | absolute_url }}",
+  "datePublished": "{{ page.date | date: '%Y-%m-%dT00:00:00+08:00' }}",
+  "dateModified": "{{ page.last_modified_at | default: page.date | date: '%Y-%m-%dT00:00:00+08:00' }}",
+  "author": {
+    "@type": "Person",
+    "name": "Iris",
+    "url": "https://gingiris.com",
+    "sameAs": [
+      "https://twitter.com/Iris_carrot",
+      "https://github.com/Gingiris"
+    ]
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Gingiris",
+    "url": "https://gingiris.github.io/growth-tools/",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://gingiris.github.io/growth-tools/assets/images/logo.png"
+    }
+  },
+  {% if page.image %}"image": {{ page.image | jsonify }},{% endif %}
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ page.canonical_url | default: page.url | absolute_url }}"
+  },
+  "keywords": {% if page.tags %}{{ page.tags | join: ', ' | jsonify }}{% else %}"startup, growth, marketing"{% endif %}
+}
+</script>
+
 <!-- BreadcrumbList Schema -->
 <script type="application/ld+json">
 {
