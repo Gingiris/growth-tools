@@ -558,14 +558,63 @@
 
         .tool-link:hover { color: var(--accent-hover); }
         
-        /* Stats Banner */
+        /* ── Dark mode ── */
+        [data-theme="dark"] {
+            --bg: #111110;
+            --surface: #1c1c1a;
+            --surface-hover: #242422;
+            --border: #2a2a27;
+            --border-hover: #3a3a36;
+            --text: #f0ede8;
+            --text-secondary: #9b9890;
+            --text-muted: #6b6860;
+            --green-light: rgba(143,186,122,0.12);
+            --accent-bg: rgba(90,144,96,0.15);
+            --price-free-bg: rgba(90,144,96,0.15);
+            --price-freemium-bg: rgba(90,154,181,0.15);
+            --price-paid-bg: rgba(192,106,26,0.15);
+            --shadow-sm: 0 1px 3px rgba(0,0,0,0.3);
+            --shadow-md: 0 4px 12px rgba(0,0,0,0.35);
+        }
+
+        [data-theme="dark"] .header {
+            background: rgba(17,17,16,0.92);
+        }
+
+        [data-theme="dark"] .search-box input {
+            color: var(--text);
+        }
+
+        /* Dark mode toggle button */
+        .theme-toggle {
+            width: 34px;
+            height: 34px;
+            border-radius: 8px;
+            border: 1px solid var(--border);
+            background: transparent;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 16px;
+            transition: background 0.15s, border-color 0.15s;
+            flex-shrink: 0;
+            font-family: inherit;
+        }
+
+        .theme-toggle:hover {
+            background: var(--surface-hover);
+            border-color: var(--border-hover);
+        }
+
         /* Stats banner */
         .stats-banner {
-            background: linear-gradient(135deg, #0f0c29, #1a1a2e, #16213e);
+            background: linear-gradient(135deg, #2d4a30 0%, #1e3a3a 60%, #1a3048 100%);
             border-radius: 14px;
             padding: 28px 28px 20px;
             margin-bottom: 24px;
             color: #fff;
+            border: 1px solid rgba(143,186,122,0.2);
         }
 
         .stats-top {
@@ -750,6 +799,7 @@
                 <a href="https://github.com/Gingiris/gingiris-launch">📚 Playbooks</a>
                 <a href="https://gingiris.gumroad.com">💎 Pro</a>
             </nav>
+            <button class="theme-toggle" id="themeToggle" title="Toggle dark mode" aria-label="Toggle dark mode">🌙</button>
         </div>
     </header>
     
@@ -848,7 +898,26 @@
     </footer>
     
     <script>
-        // Tools Data
+        // ── Dark mode ──────────────────────────────────────────────────
+        const themeToggle = document.getElementById('themeToggle');
+        const root = document.documentElement;
+
+        function setTheme(theme) {
+            root.setAttribute('data-theme', theme);
+            localStorage.setItem('theme', theme);
+            themeToggle.textContent = theme === 'dark' ? '☀️' : '🌙';
+        }
+
+        // Init: respect saved preference or system preference
+        const saved = localStorage.getItem('theme');
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        setTheme(saved || (prefersDark ? 'dark' : 'light'));
+
+        themeToggle.addEventListener('click', () => {
+            setTheme(root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark');
+        });
+
+        // ── Tools Data ─────────────────────────────────────────────────
         const tools = [
             // 社媒监听 & 分析
             { name: "Toolify Social Listening", desc: "AI 社媒监听，追踪产品相关讨论", category: "社媒监听", price: "freemium", url: "https://www.toolify.ai/social-listening", icon: "📡" },
