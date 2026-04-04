@@ -253,10 +253,63 @@ canonical_url: https://gingiris.github.io/growth-tools/partnership/
   }
   .cta-contact:hover { opacity: 0.88; }
 
+  /* ── Stats banner (shared with index) ──────────────────────────── */
+  .stats-banner {
+    background: linear-gradient(135deg, #1a3020 0%, #2d4a30 55%, #243d28 100%);
+    border-radius: 14px;
+    padding: 24px 28px 18px;
+    margin-bottom: 32px;
+    color: #fff;
+    border: 1px solid rgba(143,186,122,0.25);
+    box-shadow: 0 4px 24px rgba(45,74,48,0.18);
+  }
+  .stats-top {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 16px;
+    flex-wrap: wrap;
+    margin-bottom: 18px;
+  }
+  .stats-author { display: flex; align-items: center; gap: 12px; }
+  .stats-avatar {
+    width: 40px; height: 40px; border-radius: 50%;
+    background: linear-gradient(135deg, #8fba7a, #a8ccd8);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 18px; flex-shrink: 0;
+  }
+  .stats-author-info { line-height: 1.4; }
+  .stats-author-name { font-size: 14px; font-weight: 700; color: #fff; }
+  .stats-author-bio { font-size: 12px; color: rgba(255,255,255,0.55); }
+  .stats-numbers { display: flex; gap: 20px; flex-wrap: wrap; }
+  .stat-item { text-align: center; }
+  .stat-value { font-size: 20px; font-weight: 800; color: #fff; line-height: 1; display: block; }
+  .stat-label { font-size: 11px; color: rgba(255,255,255,0.5); margin-top: 3px; display: block; }
+  .stats-repos {
+    border-top: 1px solid rgba(255,255,255,0.1);
+    padding-top: 14px;
+    display: flex; gap: 8px; flex-wrap: wrap; align-items: center;
+  }
+  .stats-repos-label {
+    font-size: 11px; color: rgba(255,255,255,0.4); font-weight: 600;
+    letter-spacing: 0.5px; text-transform: uppercase; margin-right: 4px;
+  }
+  .repo-link {
+    display: inline-flex; align-items: center; gap: 5px;
+    font-size: 12px; font-weight: 600; color: rgba(255,255,255,0.85);
+    background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.12);
+    padding: 4px 11px; border-radius: 20px; text-decoration: none;
+    transition: background 0.15s;
+  }
+  .repo-link:hover { background: rgba(255,255,255,0.16); color: #fff; }
+  .repo-link svg { width: 12px; height: 12px; opacity: 0.7; }
+
   @media (max-width: 600px) {
     .partners-header h1 { font-size: 28px; }
     .partner-card { flex-direction: column; gap: 14px; }
     .become-partner { padding: 28px 20px; }
+    .stats-top { flex-direction: column; }
+    .stats-numbers { gap: 14px; }
   }
 </style>
 
@@ -287,6 +340,55 @@ canonical_url: https://gingiris.github.io/growth-tools/partnership/
     <span>/</span>
     <span>Partners</span>
   </nav>
+
+  <!-- Stats Banner -->
+  <div class="stats-banner">
+    <div class="stats-top">
+      <div class="stats-author">
+        <div class="stats-avatar">🌱</div>
+        <div class="stats-author-info">
+          <div class="stats-author-name">Iris · Gingiris</div>
+          <div class="stats-author-bio">Former AFFiNE COO · Open source growth consultant</div>
+        </div>
+      </div>
+      <div class="stats-numbers">
+        <div class="stat-item">
+          <span class="stat-value">60k</span>
+          <span class="stat-label">GitHub Stars</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-value">30x</span>
+          <span class="stat-label">PH #1</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-value">200+</span>
+          <span class="stat-label">Countries</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-value">100+</span>
+          <span class="stat-label">Tools</span>
+        </div>
+      </div>
+    </div>
+    <div class="stats-repos">
+      <span class="stats-repos-label">Free Playbooks</span>
+      <a href="https://github.com/Gingiris/gingiris-launch" target="_blank" class="repo-link">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+        🚀 Launch Playbook
+      </a>
+      <a href="https://github.com/Gingiris/gingiris-opensource" target="_blank" class="repo-link">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+        ⭐ OSS Growth
+      </a>
+      <a href="https://github.com/Gingiris/gingiris-b2b-growth" target="_blank" class="repo-link">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+        💼 B2B Growth
+      </a>
+      <a href="https://gingiris.github.io/growth-tools/blog/" class="repo-link">
+        📝 Blog
+      </a>
+    </div>
+  </div>
 
   <!-- Header -->
   <header class="partners-header">
@@ -360,7 +462,7 @@ canonical_url: https://gingiris.github.io/growth-tools/partnership/
       </div>
     </div>
 
-    <a href="https://twitter.com/Iris_carrot" rel="nofollow" target="_blank" class="cta-contact">
+    <a href="https://x.com/WeiYipei" rel="nofollow" target="_blank" class="cta-contact">
       Get in touch →
     </a>
   </div>
