@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,7 +12,11 @@
     <meta name="author" content="Gingiris">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://gingiris.github.io/growth-tools/en/">
-    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
     <!-- Open Graph -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://gingiris.github.io/growth-tools/">
@@ -42,27 +46,46 @@
     
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        
+
         :root {
-            --bg: #0f0f0f;
-            --surface: #1a1a1a;
-            --surface-hover: #222;
-            --border: #2a2a2a;
-            --text: #fff;
-            --text-secondary: #888;
-            --accent: #6366f1;
-            --accent-hover: #818cf8;
-            --green: #22c55e;
+            --bg: #f8f7f4;
+            --surface: #ffffff;
+            --surface-hover: #f3f2ef;
+            --border: #e8e6e1;
+            --border-hover: #c8c5be;
+            --text: #1a1a1a;
+            --text-secondary: #6b6860;
+            --text-muted: #9b9890;
+            --accent: #5a9060;
+            --accent-hover: #4a7a50;
+            --green: #5a9060;
             --blue: #3b82f6;
             --orange: #f97316;
-            --pink: #ec4899;
+            --pink: #8fba7a;
+            --shadow-sm: 0 1px 3px rgba(0,0,0,0.06);
+            --shadow-md: 0 4px 12px rgba(0,0,0,0.07);
         }
-        
+
+        [data-theme="dark"] {
+            --bg: #111110;
+            --surface: #1c1c1a;
+            --surface-hover: #242422;
+            --border: #2a2a27;
+            --border-hover: #3a3a36;
+            --text: #f0ede8;
+            --text-secondary: #9b9890;
+            --text-muted: #6b6860;
+            --shadow-sm: 0 1px 3px rgba(0,0,0,0.3);
+            --shadow-md: 0 4px 12px rgba(0,0,0,0.35);
+        }
+
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
             background: var(--bg);
             color: var(--text);
             line-height: 1.5;
+            -webkit-font-smoothing: antialiased;
+            transition: background 0.2s, color 0.2s;
         }
         
         a { color: inherit; text-decoration: none; }
@@ -72,46 +95,76 @@
             position: sticky;
             top: 0;
             z-index: 100;
-            background: rgba(15, 15, 15, 0.9);
-            backdrop-filter: blur(10px);
+            background: rgba(248,247,244,0.92);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
             border-bottom: 1px solid var(--border);
-            padding: 12px 24px;
+            padding: 0 24px;
+            height: 56px;
+            transition: background 0.2s, border-color 0.2s;
         }
-        
+
+        [data-theme="dark"] .header {
+            background: rgba(17,17,16,0.92);
+        }
+
         .header-inner {
             max-width: 1400px;
             margin: 0 auto;
             display: flex;
             align-items: center;
-            gap: 24px;
+            gap: 16px;
+            height: 100%;
         }
-        
+
         .logo {
-            font-size: 20px;
-            font-weight: 700;
             display: flex;
             align-items: center;
             gap: 8px;
-            white-space: nowrap;
+            text-decoration: none;
+            flex-shrink: 0;
+            color: inherit;
         }
-        
-        .logo span { color: var(--accent); }
+
+        .logo-img { height: 26px; width: auto; }
+
+        .logo-divider {
+            width: 1px; height: 14px;
+            background: var(--border-hover);
+        }
+
+        .logo-sub {
+            font-size: 13px; font-weight: 600;
+            color: var(--text-secondary); letter-spacing: -0.1px;
+        }
+
+        .theme-toggle {
+            width: 32px; height: 32px; border-radius: 7px;
+            border: 1px solid var(--border); background: transparent;
+            cursor: pointer; display: flex; align-items: center;
+            justify-content: center; font-size: 15px;
+            transition: background 0.15s, border-color 0.15s;
+            flex-shrink: 0; font-family: inherit;
+        }
+
+        .theme-toggle:hover { background: var(--surface-hover); border-color: var(--border-hover); }
         
         .lang-switch {
             background: var(--surface-hover);
             border: 1px solid var(--border);
             border-radius: 6px;
-            padding: 6px 12px;
-            color: var(--text);
+            padding: 5px 10px;
+            color: var(--text-secondary);
             font-size: 13px;
+            font-weight: 500;
             cursor: pointer;
             text-decoration: none;
-            transition: all 0.2s;
+            transition: all 0.15s;
         }
-        
+
         .lang-switch:hover {
-            background: var(--accent);
-            color: white;
+            border-color: var(--accent);
+            color: var(--text);
         }
         
         /* Search */
@@ -147,26 +200,28 @@
         
         .header-links {
             display: flex;
-            gap: 16px;
-            font-size: 14px;
+            gap: 2px;
+            font-size: 13px;
+            font-weight: 500;
         }
-        
+
         .header-links a {
             color: var(--text-secondary);
-            transition: color 0.2s;
+            padding: 5px 10px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: color 0.15s, background 0.15s;
         }
-        
-        .header-links a:hover { color: var(--text); }
+
+        .header-links a:hover { color: var(--text); background: var(--surface-hover); }
         .header-links .submit-btn {
             background: var(--accent);
             color: #fff !important;
-            padding: 6px 12px;
+            padding: 5px 12px;
             border-radius: 6px;
-            font-weight: 500;
+            font-weight: 600;
         }
-        .header-links .submit-btn:hover {
-            background: #2563eb;
-        }
+        .header-links .submit-btn:hover { background: var(--accent-hover); }
         
         /* Main Layout */
         .main {
@@ -365,50 +420,56 @@
         
         /* Stats Banner */
         .stats-banner {
-            background: linear-gradient(135deg, rgba(99, 102, 241, 0.1), rgba(236, 72, 153, 0.1));
-            border: 1px solid var(--border);
-            border-radius: 12px;
-            padding: 20px 24px;
+            background: linear-gradient(135deg, #1a3020 0%, #2d4a30 55%, #243d28 100%);
+            border: 1px solid rgba(143,186,122,0.25);
+            border-radius: 14px;
+            padding: 22px 24px;
             margin-bottom: 24px;
             display: flex;
             align-items: center;
             justify-content: space-between;
             flex-wrap: wrap;
             gap: 16px;
+            box-shadow: 0 4px 24px rgba(45,74,48,0.18);
+            color: #fff;
         }
         
         .stats-text {
             font-size: 14px;
-            color: var(--text-secondary);
+            color: rgba(255,255,255,0.75);
         }
-        
-        .stats-text strong { color: var(--text); }
-        
+
+        .stats-text strong { color: #fff; font-weight: 700; }
+
         .stats-badges {
             display: flex;
-            gap: 12px;
+            gap: 10px;
+            flex-wrap: wrap;
         }
-        
+
         .badge {
             display: flex;
             align-items: center;
             gap: 6px;
-            padding: 6px 12px;
-            background: var(--surface);
+            padding: 5px 12px;
+            background: rgba(255,255,255,0.1);
+            border: 1px solid rgba(255,255,255,0.15);
             border-radius: 20px;
             font-size: 13px;
+            color: rgba(255,255,255,0.9);
         }
         
         /* Footer */
         .footer {
             border-top: 1px solid var(--border);
-            padding: 24px;
+            padding: 20px 24px;
             text-align: center;
-            color: var(--text-secondary);
-            font-size: 14px;
+            color: var(--text-muted);
+            font-size: 13px;
         }
-        
-        .footer a { color: var(--accent); }
+
+        .footer a { color: var(--text-secondary); font-weight: 500; text-decoration: none; }
+        .footer a:hover { color: var(--accent); }
         
         /* Mobile */
         @media (max-width: 768px) {
@@ -432,18 +493,24 @@
     <!-- Header -->
     <header class="header">
         <div class="header-inner">
-            <div class="logo">🚀 <span>Growth</span>Tools</div>
-            <a href="/growth-tools/en/" class="lang-switch">English</a>
+            <a href="/growth-tools/" class="logo">
+                <img src="https://gingiris.com/brand/logo-primary.webp"
+                     onerror="this.onerror=null;this.style.display='none'"
+                     alt="Gingiris" class="logo-img">
+                <span class="logo-divider"></span>
+                <span class="logo-sub">Growth Tools</span>
+            </a>
+            <a href="/growth-tools/" class="lang-switch">中文</a>
             <div class="search-box">
                 <input type="text" id="searchInput" placeholder="Search tools... (e.g. KOL, Reddit, SEO)">
             </div>
             <nav class="header-links">
-                <a href="https://github.com/Gingiris/growth-tools/issues/new?template=submit-tool.yml" class="submit-btn">➕ Submit Tool</a>
                 <a href="/growth-tools/blog/">📝 Blog</a>
-                <a href="https://github.com/Gingiris/growth-tools">⭐ GitHub</a>
-                <a href="https://github.com/Gingiris/gingiris-launch">📚 Playbooks</a>
-                <a href="https://gingiris.gumroad.com">💎 Pro</a>
+                <a href="/growth-tools/partnership/">🤝 Partners</a>
+                <a href="https://github.com/Gingiris">⭐ GitHub</a>
+                <a href="https://github.com/Gingiris/growth-tools/issues/new?template=submit-tool.yml" class="submit-btn">➕ Submit Tool</a>
             </nav>
+            <button class="theme-toggle" id="themeToggle" title="Toggle dark mode" aria-label="Toggle dark mode">🌙</button>
         </div>
     </header>
     
@@ -713,6 +780,21 @@
         // Init
         renderCategories();
         renderTools();
+
+        // Dark mode
+        var toggle = document.getElementById('themeToggle');
+        var root   = document.documentElement;
+        function setTheme(t) {
+            root.setAttribute('data-theme', t);
+            localStorage.setItem('theme', t);
+            toggle.textContent = t === 'dark' ? '☀️' : '🌙';
+        }
+        var saved = localStorage.getItem('theme');
+        var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        setTheme(saved || (prefersDark ? 'dark' : 'light'));
+        toggle.addEventListener('click', function () {
+            setTheme(root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark');
+        });
     </script>
 </body>
 </html>
