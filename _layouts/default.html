@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: 'zh-CN' }}">
+<html lang="{{ page.lang | default: 'zh-CN' }}" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +8,7 @@
     <meta name="author" content="{{ page.author | default: site.author }}">
     <meta name="google-site-verification" content="k4XyIH1GtMfoPNDhBRKaVE98gYFE9bk_HtH430A3QJE">
     {% if page.canonical_url %}<link rel="canonical" href="{{ page.canonical_url }}">{% else %}<link rel="canonical" href="{{ page.url | absolute_url }}">{% endif %}
-    
+
     <!-- Open Graph -->
     <meta property="og:title" content="{{ page.title }}">
     <meta property="og:description" content="{{ page.description | default: site.description }}">
@@ -22,9 +22,9 @@
     <meta name="twitter:description" content="{{ page.description | default: site.description }}">
     <meta name="twitter:creator" content="@Iris_carrot">
     {% if page.image %}<meta name="twitter:image" content="{{ page.image }}">{% endif %}
-    
+
     {% seo %}
-    
+
     <!-- Article Schema (GEO/SEO) -->
     <script type="application/ld+json">
     {
@@ -48,74 +48,289 @@
       "mainEntityOfPage": "{{ page.canonical_url | default: page.url | absolute_url }}"
     }
     </script>
-    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        /* ── Gingiris Design System ── */
         :root {
-            --bg: #0f0f0f;
-            --surface: #1a1a1a;
-            --border: #2a2a2a;
-            --text: #fff;
-            --text-secondary: #888;
-            --accent: #6366f1;
+            --bg: #f8f7f4;
+            --surface: #ffffff;
+            --surface-hover: #f3f2ef;
+            --border: #e8e6e1;
+            --border-hover: #c8c5be;
+            --text: #1a1a1a;
+            --text-secondary: #6b6860;
+            --text-muted: #9b9890;
+            --accent: #5a9060;
+            --accent-hover: #4a7a50;
+            --accent-bg: #eef6eb;
+            --green-light: #eef6eb;
+            --green-mid: #8fba7a;
+            --blue-light: #eaf4f8;
+            --blue-mid: #a8ccd8;
+            --shadow-sm: 0 1px 3px rgba(0,0,0,0.06), 0 1px 2px rgba(0,0,0,0.04);
+            --shadow-md: 0 4px 12px rgba(0,0,0,0.07), 0 2px 4px rgba(0,0,0,0.04);
         }
+
+        [data-theme="dark"] {
+            --bg: #111110;
+            --surface: #1c1c1a;
+            --surface-hover: #242422;
+            --border: #2a2a27;
+            --border-hover: #3a3a36;
+            --text: #f0ede8;
+            --text-secondary: #9b9890;
+            --text-muted: #6b6860;
+            --green-light: rgba(143,186,122,0.12);
+            --accent-bg: rgba(90,144,96,0.15);
+            --shadow-sm: 0 1px 3px rgba(0,0,0,0.3);
+            --shadow-md: 0 4px 12px rgba(0,0,0,0.35);
+        }
+
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
             background: var(--bg);
             color: var(--text);
             line-height: 1.7;
+            -webkit-font-smoothing: antialiased;
+            transition: background 0.2s, color 0.2s;
         }
+
         a { color: var(--accent); text-decoration: none; }
         a:hover { text-decoration: underline; }
-        
+
+        /* ── Header ── */
         .header {
-            background: var(--surface);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: rgba(248,247,244,0.92);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
             border-bottom: 1px solid var(--border);
-            padding: 16px 24px;
+            padding: 0 24px;
+            height: 56px;
+            transition: background 0.2s, border-color 0.2s;
         }
+
+        [data-theme="dark"] .header {
+            background: rgba(17,17,16,0.92);
+        }
+
         .header-inner {
-            max-width: 800px;
+            max-width: 860px;
             margin: 0 auto;
             display: flex;
             justify-content: space-between;
             align-items: center;
+            height: 100%;
+            gap: 16px;
         }
-        .logo { font-weight: 700; font-size: 18px; color: var(--text); }
-        .logo span { color: var(--accent); }
-        .nav { display: flex; gap: 20px; font-size: 14px; }
-        .nav a { color: var(--text-secondary); }
-        .nav a:hover { color: var(--text); text-decoration: none; }
-        
-        .content { max-width: 800px; margin: 0 auto; padding: 48px 24px; }
-        
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            text-decoration: none;
+            flex-shrink: 0;
+        }
+
+        .logo-img {
+            height: 26px;
+            width: auto;
+        }
+
+        .logo-divider {
+            width: 1px;
+            height: 14px;
+            background: var(--border-hover);
+        }
+
+        .logo-sub {
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--text-secondary);
+            letter-spacing: -0.1px;
+        }
+
+        .nav {
+            display: flex;
+            align-items: center;
+            gap: 2px;
+            font-size: 13px;
+            font-weight: 500;
+        }
+
+        .nav a {
+            color: var(--text-secondary);
+            padding: 5px 10px;
+            border-radius: 6px;
+            transition: color 0.15s, background 0.15s;
+            text-decoration: none;
+        }
+
+        .nav a:hover {
+            color: var(--text);
+            background: var(--surface-hover);
+            text-decoration: none;
+        }
+
+        /* Dark mode toggle */
+        .theme-toggle {
+            width: 32px;
+            height: 32px;
+            border-radius: 7px;
+            border: 1px solid var(--border);
+            background: transparent;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 15px;
+            transition: background 0.15s, border-color 0.15s;
+            flex-shrink: 0;
+            font-family: inherit;
+        }
+
+        .theme-toggle:hover {
+            background: var(--surface-hover);
+            border-color: var(--border-hover);
+        }
+
+        /* ── Content ── */
+        .content {
+            max-width: 860px;
+            margin: 0 auto;
+            padding: 48px 24px 80px;
+        }
+
+        /* ── Footer ── */
         .footer {
             border-top: 1px solid var(--border);
-            padding: 24px;
+            padding: 20px 24px;
             text-align: center;
+            color: var(--text-muted);
+            font-size: 13px;
+        }
+
+        .footer a {
             color: var(--text-secondary);
-            font-size: 14px;
+            font-weight: 500;
+            text-decoration: none;
+            transition: color 0.15s;
+        }
+
+        .footer a:hover {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        /* ── Post layout prose styles ── */
+        .post article h1 { font-size: 2rem; font-weight: 800; line-height: 1.25; margin-bottom: 24px; letter-spacing: -0.5px; color: var(--text); }
+        .post article h2 { font-size: 1.35rem; font-weight: 700; margin: 40px 0 14px; color: var(--text); letter-spacing: -0.2px; }
+        .post article h3 { font-size: 1.1rem; font-weight: 650; margin: 28px 0 10px; color: var(--text); }
+        .post article p  { margin-bottom: 18px; color: var(--text-secondary); font-size: 15.5px; }
+        .post article ul, .post article ol { margin: 0 0 18px 22px; color: var(--text-secondary); font-size: 15.5px; }
+        .post article li { margin-bottom: 6px; }
+        .post article blockquote {
+            border-left: 3px solid var(--green-mid);
+            padding: 12px 18px;
+            margin: 24px 0;
+            background: var(--green-light);
+            border-radius: 0 8px 8px 0;
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+        .post article code {
+            background: var(--surface-hover);
+            border: 1px solid var(--border);
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 13.5px;
+            color: var(--accent);
+            font-family: 'JetBrains Mono', monospace;
+        }
+        .post article pre {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            padding: 18px 20px;
+            overflow-x: auto;
+            margin: 20px 0;
+            box-shadow: var(--shadow-sm);
+        }
+        .post article pre code {
+            background: none;
+            border: none;
+            padding: 0;
+            color: var(--text);
+        }
+        .post article a { color: var(--accent); font-weight: 500; }
+        .post article img { max-width: 100%; border-radius: 10px; margin: 20px 0; box-shadow: var(--shadow-md); }
+        .post article table { width: 100%; border-collapse: collapse; margin: 20px 0; font-size: 14px; }
+        .post article th { background: var(--surface-hover); padding: 10px 14px; text-align: left; font-weight: 650; border-bottom: 2px solid var(--border); color: var(--text); }
+        .post article td { padding: 10px 14px; border-bottom: 1px solid var(--border); color: var(--text-secondary); }
+        .post article tr:hover td { background: var(--surface-hover); }
+        .post article hr { border: none; border-top: 1px solid var(--border); margin: 36px 0; }
+        .post article strong { color: var(--text); font-weight: 650; }
+
+        @media (max-width: 640px) {
+            .nav a:not(:last-child) { display: none; }
+            .content { padding: 32px 16px 60px; }
         }
     </style>
 </head>
 <body>
     <header class="header">
         <div class="header-inner">
-            <a href="{{ site.baseurl }}/" class="logo">🚀 <span>Growth</span>Tools</a>
+            <a href="{{ site.baseurl }}/" class="logo">
+                <img src="https://gingiris.com/brand/logo-primary.webp"
+                     onerror="this.onerror=null;this.style.display='none'"
+                     alt="Gingiris" class="logo-img">
+                <span class="logo-divider"></span>
+                <span class="logo-sub">Growth Tools</span>
+            </a>
             <nav class="nav">
-                <a href="{{ site.baseurl }}/">工具库</a>
-                <a href="{{ site.baseurl }}/blog/">Blog</a>
-                <a href="https://gingiris.com">Gingiris</a>
-                <a href="https://github.com/Gingiris">GitHub</a>
+                <a href="{{ site.baseurl }}/">🛠 工具库</a>
+                <a href="{{ site.baseurl }}/blog/">📝 Blog</a>
+                <a href="{{ site.baseurl }}/partnership/">🤝 Partners</a>
+                <a href="https://github.com/Gingiris">⭐ GitHub</a>
             </nav>
+            <button class="theme-toggle" id="themeToggle" title="Toggle dark mode" aria-label="Toggle dark mode">🌙</button>
         </div>
     </header>
-    
+
     <main class="content">
         {{ content }}
     </main>
-    
+
     <footer class="footer">
-        <p>© {{ 'now' | date: "%Y" }} <a href="https://gingiris.com">Gingiris</a> · Built by <a href="https://twitter.com/Iris_carrot">@Iris</a></p>
+        <p>© {{ 'now' | date: "%Y" }} <a href="https://gingiris.com">Gingiris</a> · Built by <a href="https://twitter.com/Iris_carrot">@Iris</a> · <a href="{{ site.baseurl }}/partnership/">Partners</a></p>
     </footer>
+
+    <script>
+        // Dark mode — shared across all pages
+        var toggle = document.getElementById('themeToggle');
+        var root   = document.documentElement;
+
+        function setTheme(t) {
+            root.setAttribute('data-theme', t);
+            localStorage.setItem('theme', t);
+            toggle.textContent = t === 'dark' ? '☀️' : '🌙';
+        }
+
+        var saved = localStorage.getItem('theme');
+        var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        setTheme(saved || (prefersDark ? 'dark' : 'light'));
+
+        toggle.addEventListener('click', function () {
+            setTheme(root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark');
+        });
+    </script>
 </body>
 </html>
