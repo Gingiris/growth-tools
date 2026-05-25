@@ -1,8 +1,8 @@
 # Site settings
 title: Growth Tools Blog
 description: 出海增长实战经验、工具测评、SEO/GEO 策略分享 by Gingiris
-url: "https://gingiris.github.io"
-baseurl: "/growth-tools"
+url: "https://VERCEL_DOMAIN_PLACEHOLDER"
+baseurl: ""
 author:
   name: Iris Wei
   email: iris.wei@gingiris.com
@@ -43,6 +43,16 @@ defaults:
 # Exclude
 exclude:
   - README.md
+  - README_en.md
   - LICENSE
   - Gemfile
   - Gemfile.lock
+  - vercel.json
+  - CLAUDE_CODE_TASKS.md
+  - add_related_posts.py
+  - add_related_posts.sh
+  - p4.py
+  - publish_devto.py
+  - publish_devto2.py
+  - publish_devto3.py
+  - vendor
