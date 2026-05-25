@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "100+ Growth Tools for Startups Going Global (2026 Edition)"
-date: 2026-05-11 13:19:00 +0800
+date: 2026-05-25 11:07:00 +0800
 canonical_url: https://gingiris.github.io/growth-tools/blog/2026/03/30/100-growth-tools-for-startups-going-global-2026-edition/
 image: "https://gingiris.github.io/growth-tools/assets/images/blog-growth-hacking.jpg"
 description: "100+ curated growth tools for startups going global in 2026. Social listening, KOL outreach, X DM automation, API stack, Reddit growth, SEO — all verified from real launches."
@@ -169,6 +169,30 @@ Monday morning sweep over coffee in Kunshan — five tools that hit PH and HN in
 | HubSpot customer organic decline | −27% YoY | HubSpot internal data |
 
 
+## 🆕 Picked Up This Week (May 25, 2026)
+
+Late-night sweep before the Monday meeting in Kunshan — five tools that hit PH and HN over the past seven days and still load this morning. Theme this week: AI agents are eating the org chart (PMs, demo-makers, QA engineers) while the IDE/coding-agent space keeps fragmenting. If you're a founder shipping global, the takeaway is mostly defensive — pick one in each role before your competitor does.
+
+| Tool | Category | Why it's interesting |
+|------|----------|---------------------|
+| [Emdash](https://emdash.sh/) | Developer Tools / AI Agents | Open-source desktop app for running multiple coding agents in parallel — centralized session monitoring, auto-PR generation, git worktree isolation. Took #3 Product of the Day on May 20. Useful if you've already maxed out a single Claude/Codex session and want to fan out across a sprint backlog |
+| [Cleo](https://trycleo.ai/) | Product Management | "AI Product Manager for lean teams" — runs standups, follow-ups, and decision logs while founders ship. Launched May 22 on PH (#2). One-founder teams take note: the PM hire you keep deferring just got automated to ~$0/mo for the first month |
+| [Files.md](https://files.md/) | Knowledge Management | Open-source Obsidian alternative — markdown-first, local files, no vendor lock-in. 721 points on HN over the weekend, currently the highest-voted Show HN of the past 7 days. Worth a look if you're tired of Obsidian's sync pricing or want a self-hostable team wiki |
+| [Nugget AI](https://nggt.ai/) | User Research / PMF | Turns raw customer interviews into auto-generated PRDs with real customer quotes attached — closes the loop between "we did 30 calls" and "engineering knows what to build". Launched May 22 (PH #5). Particularly useful pre-PMF when interview throughput >> spec throughput |
+| [Slideshot](https://slideshot.ai/) | Demo / Marketing | AI agent that records and polishes product walkthroughs — no manual editing, no Loom-then-iMovie loop. Hit PH #5 on May 21. Pairs naturally with a Product Hunt launch where you need a 30-second demo gif and a 90-second hero video by Tuesday |
+
+**Key Stats:**
+
+| Metric | Value | Source |
+|--------|-------|--------|
+| Files.md HN score | 721 points, 6 days | news.ycombinator.com/show |
+| Emdash PH rank | #3 Product of the Day (May 20) | producthunt.com/leaderboard/daily/2026/5/20 |
+| Cleo PH rank | #2 Product of the Day (May 22) | producthunt.com/leaderboard/daily/2026/5/22 |
+| Forge guardrails accuracy lift | 53% → 99% on 8B models | Show HN (May 20, 681 points) |
+
+(Forge — the guardrails framework that lifted 8B model accuracy from 53% to 99% on agentic tasks — didn't make the table because it's more infra than tool, but worth bookmarking if you self-host small models for cost reasons.)
+
+
 ## 📚 Full List + Resources
 
 Full tool database on GitHub (updated weekly):
@@ -190,7 +214,7 @@ Plus companion playbooks:
 
 ---
 
-*This list updates weekly. Last updated: May 11, 2026.*
+*This list updates weekly. Last updated: May 25, 2026.*
 
 *Built by [Iris](https://twitter.com/WeiYipei) - Ex-AFFiNE COO, 30x Product Hunt #1 winner*
 
