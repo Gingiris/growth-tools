@@ -261,6 +261,7 @@ If this resource saves you time or helps you grow — a GitHub Star ⭐ helps ot
 | **Keywords Everywhere** | 关键词搜索量查询插件 | $1.25/mo+ | [Chrome 插件](https://chromewebstore.google.com/detail/keywords-everywhere-keywo/hbapdpeemoojbophdfndmlgdhppljgmp) |
 | **Semrush** | 全面 SEO 分析平台 | $119/mo+ | [semrush.com](https://www.semrush.com/) |
 | **Google Search Console** | 排名追踪（免费，必装）| Free | [search.google.com/search-console](https://search.google.com/search-console) |
+| **Corank** | 跨主流 AI 搜索引擎审计品牌可见性与引用来源 | Free | [corank.ai](https://corank.ai) |
 
 ---
 
