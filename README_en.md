@@ -39,6 +39,7 @@
 | **Toolify Social Listening** | AI social listening, track product mentions | Freemium | [toolify.ai](https://www.toolify.ai/social-listening) |
 | **Vizzylabs** | Viral content analysis, social trends | Free | [vizzylabs](https://app.vizzylabs.ai/trending) |
 | **Tweet Binder** | Twitter analytics and conversion tracking | Paid | [tweetbinder](https://www.tweetbinder.com/) |
+| **Xquik** | X/Twitter API for tweet search, profile tweets, follower export, monitors, and webhooks | Paid | [xquik.com](https://xquik.com) |
 | **PH Deck** | Daily Product Hunt featured products tracker | Free | [phdeck](https://www.phdeck.com/) |
 
 ---

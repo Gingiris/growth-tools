@@ -200,6 +200,7 @@ If this resource saves you time or helps you grow — a GitHub Star ⭐ helps ot
 | **Toolify Social Listening** | AI 社媒监听，追踪产品相关讨论 | Freemium | [toolify.ai/social-listening](https://www.toolify.ai/social-listening) |
 | **Vizzylabs** | 爆款内容分析，了解社媒趋势 | Free | [app.vizzylabs.ai/trending](https://app.vizzylabs.ai/trending) |
 | **Tweet Binder** | Twitter 转化率监控工具 | Paid | [tweetbinder.com](https://www.tweetbinder.com/) |
+| **Xquik** | X/Twitter API：推文搜索、用户推文、粉丝导出、监控和 Webhooks | Paid | [xquik.com](https://xquik.com) |
 | **PH Deck** | 每日 Product Hunt Featured 追踪 | Free | [phdeck.com](https://www.phdeck.com/) |
 
 ---
