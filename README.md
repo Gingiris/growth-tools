@@ -258,6 +258,7 @@ If this resource saves you time or helps you grow — a GitHub Star ⭐ helps ot
 |:-----|:------------|:--------|:-----|
 | **DataForSEO** | 关键词数据 API，最适合批量研究 | Pay-per-use | [dataforseo.com](https://dataforseo.com/) |
 | **AITDK** | AI SEO 插件，关键词分析 | Free | [aitdk.com](https://aitdk.com/) |
+| **YiceKit SEO 标题长度检查器** | 浏览器内检查中英文标题长度并预览搜索摘要，无需登录 | Free | [yicekit.com](https://yicekit.com/tools/seo-title-checker/) |
 | **Keywords Everywhere** | 关键词搜索量查询插件 | $1.25/mo+ | [Chrome 插件](https://chromewebstore.google.com/detail/keywords-everywhere-keywo/hbapdpeemoojbophdfndmlgdhppljgmp) |
 | **Semrush** | 全面 SEO 分析平台 | $119/mo+ | [semrush.com](https://www.semrush.com/) |
 | **Google Search Console** | 排名追踪（免费，必装）| Free | [search.google.com/search-console](https://search.google.com/search-console) |
