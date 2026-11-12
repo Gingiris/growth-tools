@@ -128,6 +128,7 @@
 |:-----|:------------|:--------|:-----|
 | **Similarweb** | Traffic & audience insights | Freemium | [similarweb.com](https://www.similarweb.com/) |
 | **Gummysearch** | Reddit audience research | Freemium | [gummysearch.com](https://www.gummysearch.com/) |
+| **KissMyPost** | Reddit audience research & subreddit finder | Freemium | [kissmypost.com](https://kissmypost.com/) |
 | **Communities** | Discover online communities | Free | [communities.gov](https://www.communities.gov/) |
 
 ---
